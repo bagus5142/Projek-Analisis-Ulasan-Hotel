@@ -1,0 +1,2862 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Analisis Hotel</title>
+
+<style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #fafafa; }
+    h1 { font-size: 22px; margin-bottom: 6px; }
+    p { color: #555; margin-top: 0; }
+
+    .controls {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin: 15px 0;
+    }
+
+    select, input {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        background: white;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
+        gap: 14px;
+    }
+
+    .card {
+        background: white;
+        padding: 12px;
+        border-radius: 16px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .title {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .meta {
+        font-size: 12px;
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+    .imgs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid #eee;
+    }
+
+    .empty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px dashed #ccc;
+        background: #fcfcfc;
+        color: #666;
+        font-size: 13px;
+        padding: 10px;
+        min-height: 220px;
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>Dashboard Sentimen & Peta Masalah Hotel</h1>
+<p>Filter berdasarkan tipe, kelas bintang, dan cari nama hotel. Tiap hotel memiliki 2 visualisasi.</p>
+
+<div class="controls">
+    <select id="filterTipe">
+        <option value="all">Semua Tipe</option>
+        <option value="BUMN">BUMN</option>
+        <option value="KOMPETITOR">KOMPETITOR</option>
+    </select>
+
+    <select id="filterKelas">
+        <option value="all">Semua Bintang</option>
+        <option value="Bintang3">Bintang 3</option>
+        <option value="Bintang4">Bintang 4</option>
+        <option value="Bintang5">Bintang 5</option>
+    </select>
+
+    <input type="text" id="searchBox" placeholder="Cari nama hotel...">
+</div>
+
+<div class="grid" id="grid">
+
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="banaran9resorthotel">
+        <div class="title">Banaran9Resorthotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Banaran9Resorthotel__sentimen.png" alt="Banaran9Resorthotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Banaran9Resorthotel__masalah.png" alt="Banaran9Resorthotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="brotherssolo">
+        <div class="title">Brotherssolo</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Brotherssolo__sentimen.png" alt="Brotherssolo sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Brotherssolo__masalah.png" alt="Brotherssolo masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="codiabanjarmasin">
+        <div class="title">Codiabanjarmasin</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Codiabanjarmasin__sentimen.png" alt="Codiabanjarmasin sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Codiabanjarmasin__masalah.png" alt="Codiabanjarmasin masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="cordiabanjarmasin">
+        <div class="title">Cordiabanjarmasin</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Cordiabanjarmasin__sentimen.png" alt="Cordiabanjarmasin sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Cordiabanjarmasin__masalah.png" alt="Cordiabanjarmasin masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="hakahotelsemarang">
+        <div class="title">Hakahotelsemarang</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Hakahotelsemarang__sentimen.png" alt="Hakahotelsemarang sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Hakahotelsemarang__masalah.png" alt="Hakahotelsemarang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="harperjakartamtharyono">
+        <div class="title">Harperjakartamtharyono</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Harperjakartamtharyono__sentimen.png" alt="Harperjakartamtharyono sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Harperjakartamtharyono__masalah.png" alt="Harperjakartamtharyono masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="hotelgrandsurabaya">
+        <div class="title">Hotelgrandsurabaya</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Hotelgrandsurabaya__sentimen.png" alt="Hotelgrandsurabaya sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Hotelgrandsurabaya__masalah.png" alt="Hotelgrandsurabaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="hotelrattaninn">
+        <div class="title">Hotelrattaninn</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Hotelrattaninn__sentimen.png" alt="Hotelrattaninn sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Hotelrattaninn__masalah.png" alt="Hotelrattaninn masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="innabaliheritagehotel">
+        <div class="title">Innabaliheritagehotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Innabaliheritagehotel__sentimen.png" alt="Innabaliheritagehotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Innabaliheritagehotel__masalah.png" alt="Innabaliheritagehotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="innasindhubeachhotel">
+        <div class="title">Innasindhubeachhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Innasindhubeachhotel__sentimen.png" alt="Innasindhubeachhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Innasindhubeachhotel__masalah.png" alt="Innasindhubeachhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="innatreteshotel">
+        <div class="title">Innatreteshotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Innatreteshotel__sentimen.png" alt="Innatreteshotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Innatreteshotel__masalah.png" alt="Innatreteshotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khasgresikhotel">
+        <div class="title">Khasgresikhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khasgresikhotel__sentimen.png" alt="Khasgresikhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khasgresikhotel__masalah.png" alt="Khasgresikhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khasmakassarhotel (1)">
+        <div class="title">Khasmakassarhotel (1)</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khasmakassarhotel (1)__sentimen.png" alt="Khasmakassarhotel (1) sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khasmakassarhotel (1)__masalah.png" alt="Khasmakassarhotel (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khasmalioborohotel (1)">
+        <div class="title">Khasmalioborohotel (1)</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khasmalioborohotel (1)__sentimen.png" alt="Khasmalioborohotel (1) sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khasmalioborohotel (1)__masalah.png" alt="Khasmalioborohotel (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khasombilinhotel">
+        <div class="title">Khasombilinhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khasombilinhotel__sentimen.png" alt="Khasombilinhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khasombilinhotel__masalah.png" alt="Khasombilinhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khaspaluhotel">
+        <div class="title">Khaspaluhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khaspaluhotel__sentimen.png" alt="Khaspaluhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khaspaluhotel__masalah.png" alt="Khaspaluhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khaspekalonganhotel">
+        <div class="title">Khaspekalonganhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khaspekalonganhotel__sentimen.png" alt="Khaspekalonganhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khaspekalonganhotel__masalah.png" alt="Khaspekalonganhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khaspekanbaruriauhotel">
+        <div class="title">Khaspekanbaruriauhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khaspekanbaruriauhotel__sentimen.png" alt="Khaspekanbaruriauhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khaspekanbaruriauhotel__masalah.png" alt="Khaspekanbaruriauhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khasprapat">
+        <div class="title">Khasprapat</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khasprapat__sentimen.png" alt="Khasprapat sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khasprapat__masalah.png" alt="Khasprapat masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khassemaranghotel">
+        <div class="title">Khassemaranghotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khassemaranghotel__sentimen.png" alt="Khassemaranghotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khassemaranghotel__masalah.png" alt="Khassemaranghotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khassurabayahotel">
+        <div class="title">Khassurabayahotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khassurabayahotel__sentimen.png" alt="Khassurabayahotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khassurabayahotel__masalah.png" alt="Khassurabayahotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khastegalhotel">
+        <div class="title">Khastegalhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khastegalhotel__sentimen.png" alt="Khastegalhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khastegalhotel__masalah.png" alt="Khastegalhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="khastuguhotel (1)">
+        <div class="title">Khastuguhotel (1)</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Khastuguhotel (1)__sentimen.png" alt="Khastuguhotel (1) sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Khastuguhotel (1)__masalah.png" alt="Khastuguhotel (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="kyriadhotelairporttanggerang">
+        <div class="title">Kyriadhotelairporttanggerang</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Kyriadhotelairporttanggerang__sentimen.png" alt="Kyriadhotelairporttanggerang sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Kyriadhotelairporttanggerang__masalah.png" alt="Kyriadhotelairporttanggerang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="lafayettehotel">
+        <div class="title">Lafayettehotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Lafayettehotel__sentimen.png" alt="Lafayettehotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Lafayettehotel__masalah.png" alt="Lafayettehotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="lppgardenhoteljogjakarta">
+        <div class="title">Lppgardenhoteljogjakarta</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Lppgardenhoteljogjakarta__sentimen.png" alt="Lppgardenhoteljogjakarta sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Lppgardenhoteljogjakarta__masalah.png" alt="Lppgardenhoteljogjakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="palmparksurabaya">
+        <div class="title">Palmparksurabaya</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Palmparksurabaya__sentimen.png" alt="Palmparksurabaya sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Palmparksurabaya__masalah.png" alt="Palmparksurabaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="parkhotel">
+        <div class="title">Parkhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Parkhotel__sentimen.png" alt="Parkhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Parkhotel__masalah.png" alt="Parkhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="patraanerhotel">
+        <div class="title">Patraanerhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Patraanerhotel__sentimen.png" alt="Patraanerhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Patraanerhotel__masalah.png" alt="Patraanerhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="patrabandunghotel">
+        <div class="title">Patrabandunghotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Patrabandunghotel__sentimen.png" alt="Patrabandunghotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Patrabandunghotel__masalah.png" alt="Patrabandunghotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="patradumaihotel">
+        <div class="title">Patradumaihotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Patradumaihotel__sentimen.png" alt="Patradumaihotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Patradumaihotel__masalah.png" alt="Patradumaihotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="patrajakarta">
+        <div class="title">Patrajakarta</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Patrajakarta__sentimen.png" alt="Patrajakarta sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Patrajakarta__masalah.png" alt="Patrajakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="patramalioborohotel">
+        <div class="title">Patramalioborohotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Patramalioborohotel__sentimen.png" alt="Patramalioborohotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Patramalioborohotel__masalah.png" alt="Patramalioborohotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="patraparapathotel">
+        <div class="title">Patraparapathotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Patraparapathotel__sentimen.png" alt="Patraparapathotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Patraparapathotel__masalah.png" alt="Patraparapathotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="rollashotel&resort">
+        <div class="title">Rollashotel&Resort</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Rollashotel&Resort__sentimen.png" alt="Rollashotel&Resort sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Rollashotel&Resort__masalah.png" alt="Rollashotel&Resort masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="themanohara">
+        <div class="title">Themanohara</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Themanohara__sentimen.png" alt="Themanohara sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Themanohara__masalah.png" alt="Themanohara masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="thepatrabaliresort&villlaa">
+        <div class="title">Thepatrabaliresort&Villlaa</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Thepatrabaliresort&Villlaa__sentimen.png" alt="Thepatrabaliresort&Villlaa sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Thepatrabaliresort&Villlaa__masalah.png" alt="Thepatrabaliresort&Villlaa masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="thesilkart+designhotel">
+        <div class="title">Thesilkart+Designhotel</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Thesilkart+Designhotel__sentimen.png" alt="Thesilkart+Designhotel sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Thesilkart+Designhotel__masalah.png" alt="Thesilkart+Designhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang3"
+         data-hotel="up-peaksemarang">
+        <div class="title">Up-Peaksemarang</div>
+        <div class="meta">BUMN • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang3_Up-Peaksemarang__sentimen.png" alt="Up-Peaksemarang sentimen">
+            <img src="PerHotel/BUMN_Bintang3_Up-Peaksemarang__masalah.png" alt="Up-Peaksemarang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="anarahotelairports">
+        <div class="title">Anarahotelairports</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Anarahotelairports__sentimen.png" alt="Anarahotelairports sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Anarahotelairports__masalah.png" alt="Anarahotelairports masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="astonpriority">
+        <div class="title">Astonpriority</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Astonpriority__sentimen.png" alt="Astonpriority sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Astonpriority__masalah.png" alt="Astonpriority masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="goldentulipjineng">
+        <div class="title">Goldentulipjineng</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Goldentulipjineng__sentimen.png" alt="Goldentulipjineng sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Goldentulipjineng__masalah.png" alt="Goldentulipjineng masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="grandhikaiskandarsyahjakarta">
+        <div class="title">Grandhikaiskandarsyahjakarta</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Grandhikaiskandarsyahjakarta__sentimen.png" alt="Grandhikaiskandarsyahjakarta sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Grandhikaiskandarsyahjakarta__masalah.png" alt="Grandhikaiskandarsyahjakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="grandinnamedan">
+        <div class="title">Grandinnamedan</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Grandinnamedan__sentimen.png" alt="Grandinnamedan sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Grandinnamedan__masalah.png" alt="Grandinnamedan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="grandinnasamudrabeach">
+        <div class="title">Grandinnasamudrabeach</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Grandinnasamudrabeach__sentimen.png" alt="Grandinnasamudrabeach sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Grandinnasamudrabeach__masalah.png" alt="Grandinnasamudrabeach masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="grandinnatunjungan">
+        <div class="title">Grandinnatunjungan</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Grandinnatunjungan__sentimen.png" alt="Grandinnatunjungan sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Grandinnatunjungan__masalah.png" alt="Grandinnatunjungan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="horisonsemarang">
+        <div class="title">Horisonsemarang</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Horisonsemarang__sentimen.png" alt="Horisonsemarang sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Horisonsemarang__masalah.png" alt="Horisonsemarang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="jakartaairporthotelt2">
+        <div class="title">Jakartaairporthotelt2</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Jakartaairporthotelt2__sentimen.png" alt="Jakartaairporthotelt2 sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Jakartaairporthotelt2__masalah.png" alt="Jakartaairporthotelt2 masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="jatiluhurvalley&resort">
+        <div class="title">Jatiluhurvalley&Resort</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Jatiluhurvalley&Resort__sentimen.png" alt="Jatiluhurvalley&Resort sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Jatiluhurvalley&Resort__masalah.png" alt="Jatiluhurvalley&Resort masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="mercurebandungnexasupratman">
+        <div class="title">Mercurebandungnexasupratman</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Mercurebandungnexasupratman__sentimen.png" alt="Mercurebandungnexasupratman sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Mercurebandungnexasupratman__masalah.png" alt="Mercurebandungnexasupratman masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="mercuremakassarnexapettarani">
+        <div class="title">Mercuremakassarnexapettarani</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Mercuremakassarnexapettarani__sentimen.png" alt="Mercuremakassarnexapettarani sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Mercuremakassarnexapettarani__masalah.png" alt="Mercuremakassarnexapettarani masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="novotelbaliairports">
+        <div class="title">Novotelbaliairports</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Novotelbaliairports__sentimen.png" alt="Novotelbaliairports sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Novotelbaliairports__masalah.png" alt="Novotelbaliairports masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="patracirebonhotel&convention">
+        <div class="title">Patracirebonhotel&Convention</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Patracirebonhotel&Convention__sentimen.png" alt="Patracirebonhotel&Convention sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Patracirebonhotel&Convention__masalah.png" alt="Patracirebonhotel&Convention masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="patrasemaranghotel&convention">
+        <div class="title">Patrasemaranghotel&Convention</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Patrasemaranghotel&Convention__sentimen.png" alt="Patrasemaranghotel&Convention sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Patrasemaranghotel&Convention__masalah.png" alt="Patrasemaranghotel&Convention masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="sariaterkamboti">
+        <div class="title">Sariaterkamboti</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Sariaterkamboti__sentimen.png" alt="Sariaterkamboti sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Sariaterkamboti__masalah.png" alt="Sariaterkamboti masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="sheratonbandara">
+        <div class="title">Sheratonbandara</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Sheratonbandara__sentimen.png" alt="Sheratonbandara sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Sheratonbandara__masalah.png" alt="Sheratonbandara masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="swissbelbalikpapan">
+        <div class="title">Swissbelbalikpapan</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Swissbelbalikpapan__sentimen.png" alt="Swissbelbalikpapan sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Swissbelbalikpapan__masalah.png" alt="Swissbelbalikpapan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="truntumcihampelas">
+        <div class="title">Truntumcihampelas</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Truntumcihampelas__sentimen.png" alt="Truntumcihampelas sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Truntumcihampelas__masalah.png" alt="Truntumcihampelas masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="truntumkuta">
+        <div class="title">Truntumkuta</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Truntumkuta__sentimen.png" alt="Truntumkuta sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Truntumkuta__masalah.png" alt="Truntumkuta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="truntumpadang">
+        <div class="title">Truntumpadang</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Truntumpadang__sentimen.png" alt="Truntumpadang sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Truntumpadang__masalah.png" alt="Truntumpadang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="truntumsanur">
+        <div class="title">Truntumsanur</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Truntumsanur__sentimen.png" alt="Truntumsanur sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Truntumsanur__masalah.png" alt="Truntumsanur masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="vasakahoteljakarta">
+        <div class="title">Vasakahoteljakarta</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Vasakahoteljakarta__sentimen.png" alt="Vasakahoteljakarta sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Vasakahoteljakarta__masalah.png" alt="Vasakahoteljakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang4"
+         data-hotel="vasakamaisonbandung">
+        <div class="title">Vasakamaisonbandung</div>
+        <div class="meta">BUMN • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang4_Vasakamaisonbandung__sentimen.png" alt="Vasakamaisonbandung sentimen">
+            <img src="PerHotel/BUMN_Bintang4_Vasakamaisonbandung__masalah.png" alt="Vasakamaisonbandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="balibeachcollectionheritage">
+        <div class="title">Balibeachcollectionheritage</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Balibeachcollectionheritage__sentimen.png" alt="Balibeachcollectionheritage sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Balibeachcollectionheritage__masalah.png" alt="Balibeachcollectionheritage masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="balibeachhotel&themeruresort">
+        <div class="title">Balibeachhotel&Themeruresort</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Balibeachhotel&Themeruresort__sentimen.png" alt="Balibeachhotel&Themeruresort sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Balibeachhotel&Themeruresort__masalah.png" alt="Balibeachhotel&Themeruresort masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="brothersbabarsariyogyakarta">
+        <div class="title">Brothersbabarsariyogyakarta</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Brothersbabarsariyogyakarta__sentimen.png" alt="Brothersbabarsariyogyakarta sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Brothersbabarsariyogyakarta__masalah.png" alt="Brothersbabarsariyogyakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="bwpremierebandung">
+        <div class="title">Bwpremierebandung</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Bwpremierebandung__sentimen.png" alt="Bwpremierebandung sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Bwpremierebandung__masalah.png" alt="Bwpremierebandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="cordiabanjarmasin">
+        <div class="title">Cordiabanjarmasin</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Cordiabanjarmasin__sentimen.png" alt="Cordiabanjarmasin sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Cordiabanjarmasin__masalah.png" alt="Cordiabanjarmasin masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="grandanarajakartat3">
+        <div class="title">Grandanarajakartat3</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Grandanarajakartat3__sentimen.png" alt="Grandanarajakartat3 sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Grandanarajakartat3__masalah.png" alt="Grandanarajakartat3 masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="jivvabali">
+        <div class="title">Jivvabali</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Jivvabali__sentimen.png" alt="Jivvabali sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Jivvabali__masalah.png" alt="Jivvabali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="merumattasenggigilombok">
+        <div class="title">Merumattasenggigilombok</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Merumattasenggigilombok__sentimen.png" alt="Merumattasenggigilombok sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Merumattasenggigilombok__masalah.png" alt="Merumattasenggigilombok masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="meruorahlabuanbajo">
+        <div class="title">Meruorahlabuanbajo</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Meruorahlabuanbajo__sentimen.png" alt="Meruorahlabuanbajo sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Meruorahlabuanbajo__masalah.png" alt="Meruorahlabuanbajo masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="merusakanusadua">
+        <div class="title">Merusakanusadua</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Merusakanusadua__sentimen.png" alt="Merusakanusadua sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Merusakanusadua__masalah.png" alt="Merusakanusadua masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="pramasanurbeach">
+        <div class="title">Pramasanurbeach</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Pramasanurbeach__sentimen.png" alt="Pramasanurbeach sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Pramasanurbeach__masalah.png" alt="Pramasanurbeach masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="pullmanmandalika">
+        <div class="title">Pullmanmandalika</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Pullmanmandalika__sentimen.png" alt="Pullmanmandalika sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Pullmanmandalika__masalah.png" alt="Pullmanmandalika masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="royalkrakataucilegon">
+        <div class="title">Royalkrakataucilegon</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Royalkrakataucilegon__sentimen.png" alt="Royalkrakataucilegon sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Royalkrakataucilegon__masalah.png" alt="Royalkrakataucilegon masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="thepatrabaliresort&villas">
+        <div class="title">Thepatrabaliresort&Villas</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Thepatrabaliresort&Villas__sentimen.png" alt="Thepatrabaliresort&Villas sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Thepatrabaliresort&Villas__masalah.png" alt="Thepatrabaliresort&Villas masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="wyndamtamansari">
+        <div class="title">Wyndamtamansari</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Wyndamtamansari__sentimen.png" alt="Wyndamtamansari sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Wyndamtamansari__masalah.png" alt="Wyndamtamansari masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="BUMN"
+         data-kelas="Bintang5"
+         data-hotel="yuliagorontalo">
+        <div class="title">Yuliagorontalo</div>
+        <div class="meta">BUMN • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/BUMN_Bintang5_Yuliagorontalo__sentimen.png" alt="Yuliagorontalo sentimen">
+            <img src="PerHotel/BUMN_Bintang5_Yuliagorontalo__masalah.png" alt="Yuliagorontalo masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="aloftbalikuta">
+        <div class="title">Aloftbalikuta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Aloftbalikuta__sentimen.png" alt="Aloftbalikuta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Aloftbalikuta__masalah.png" alt="Aloftbalikuta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="aloftjakartawahidhasyim">
+        <div class="title">Aloftjakartawahidhasyim</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Aloftjakartawahidhasyim__sentimen.png" alt="Aloftjakartawahidhasyim sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Aloftjakartawahidhasyim__masalah.png" alt="Aloftjakartawahidhasyim masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="aloftseminyakbali">
+        <div class="title">Aloftseminyakbali</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Aloftseminyakbali__sentimen.png" alt="Aloftseminyakbali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Aloftseminyakbali__masalah.png" alt="Aloftseminyakbali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="aloftsouthjakarta">
+        <div class="title">Aloftsouthjakarta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Aloftsouthjakarta__sentimen.png" alt="Aloftsouthjakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Aloftsouthjakarta__masalah.png" alt="Aloftsouthjakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="bestwesternsenayan-jakarta">
+        <div class="title">Bestwesternsenayan-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Bestwesternsenayan-Jakarta__sentimen.png" alt="Bestwesternsenayan-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Bestwesternsenayan-Jakarta__masalah.png" alt="Bestwesternsenayan-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="bwkemayoranhotel&convention-jakarta">
+        <div class="title">Bwkemayoranhotel&Convention-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Bwkemayoranhotel&Convention-Jakarta__sentimen.png" alt="Bwkemayoranhotel&Convention-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Bwkemayoranhotel&Convention-Jakarta__masalah.png" alt="Bwkemayoranhotel&Convention-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="fairfiledbymarriotbalikutasunsetroad">
+        <div class="title">Fairfiledbymarriotbalikutasunsetroad</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotbalikutasunsetroad__sentimen.png" alt="Fairfiledbymarriotbalikutasunsetroad sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotbalikutasunsetroad__masalah.png" alt="Fairfiledbymarriotbalikutasunsetroad masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="fairfiledbymarriotbalilegian">
+        <div class="title">Fairfiledbymarriotbalilegian</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotbalilegian__sentimen.png" alt="Fairfiledbymarriotbalilegian sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotbalilegian__masalah.png" alt="Fairfiledbymarriotbalilegian masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="fairfiledbymarriotbekasi">
+        <div class="title">Fairfiledbymarriotbekasi</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotbekasi__sentimen.png" alt="Fairfiledbymarriotbekasi sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotbekasi__masalah.png" alt="Fairfiledbymarriotbekasi masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="fairfiledbymarriotbelitung">
+        <div class="title">Fairfiledbymarriotbelitung</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotbelitung__sentimen.png" alt="Fairfiledbymarriotbelitung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotbelitung__masalah.png" alt="Fairfiledbymarriotbelitung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="fairfiledbymarriotjakartasoekarnosoekarno-hattaairport">
+        <div class="title">Fairfiledbymarriotjakartasoekarnosoekarno-Hattaairport</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotjakartasoekarnosoekarno-Hattaairport__sentimen.png" alt="Fairfiledbymarriotjakartasoekarnosoekarno-Hattaairport sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotjakartasoekarnosoekarno-Hattaairport__masalah.png" alt="Fairfiledbymarriotjakartasoekarnosoekarno-Hattaairport masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="fairfiledbymarriotsouthkutabali">
+        <div class="title">Fairfiledbymarriotsouthkutabali</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotsouthkutabali__sentimen.png" alt="Fairfiledbymarriotsouthkutabali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotsouthkutabali__masalah.png" alt="Fairfiledbymarriotsouthkutabali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="fairfiledbymarriotsurabaya">
+        <div class="title">Fairfiledbymarriotsurabaya</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotsurabaya__sentimen.png" alt="Fairfiledbymarriotsurabaya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Fairfiledbymarriotsurabaya__masalah.png" alt="Fairfiledbymarriotsurabaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="harperkuta-bali">
+        <div class="title">Harperkuta-Bali</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harperkuta-Bali__sentimen.png" alt="Harperkuta-Bali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harperkuta-Bali__masalah.png" alt="Harperkuta-Bali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="harpermangkubumi-yogyakarta (1)">
+        <div class="title">Harpermangkubumi-Yogyakarta (1)</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harpermangkubumi-Yogyakarta (1)__sentimen.png" alt="Harpermangkubumi-Yogyakarta (1) sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harpermangkubumi-Yogyakarta (1)__masalah.png" alt="Harpermangkubumi-Yogyakarta (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="harrishotel&conventionskelapagading-jakarta">
+        <div class="title">Harrishotel&Conventionskelapagading-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harrishotel&Conventionskelapagading-Jakarta__sentimen.png" alt="Harrishotel&Conventionskelapagading-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harrishotel&Conventionskelapagading-Jakarta__masalah.png" alt="Harrishotel&Conventionskelapagading-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="harrissuitesfxsudirman-jakarta">
+        <div class="title">Harrissuitesfxsudirman-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harrissuitesfxsudirman-Jakarta__sentimen.png" alt="Harrissuitesfxsudirman-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harrissuitesfxsudirman-Jakarta__masalah.png" alt="Harrissuitesfxsudirman-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="harrissuitespurimansion-jakarta">
+        <div class="title">Harrissuitespurimansion-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harrissuitespurimansion-Jakarta__sentimen.png" alt="Harrissuitespurimansion-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Harrissuitespurimansion-Jakarta__masalah.png" alt="Harrissuitespurimansion-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpress&suitesbanjarmasin">
+        <div class="title">Holidayinnexpress&Suitesbanjarmasin</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpress&Suitesbanjarmasin__sentimen.png" alt="Holidayinnexpress&Suitesbanjarmasin sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpress&Suitesbanjarmasin__masalah.png" alt="Holidayinnexpress&Suitesbanjarmasin masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpressbandungbraga">
+        <div class="title">Holidayinnexpressbandungbraga</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressbandungbraga__sentimen.png" alt="Holidayinnexpressbandungbraga sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressbandungbraga__masalah.png" alt="Holidayinnexpressbandungbraga masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpressbarunabali">
+        <div class="title">Holidayinnexpressbarunabali</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressbarunabali__sentimen.png" alt="Holidayinnexpressbarunabali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressbarunabali__masalah.png" alt="Holidayinnexpressbarunabali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpressexpressbalisunsetroad">
+        <div class="title">Holidayinnexpressexpressbalisunsetroad</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressexpressbalisunsetroad__sentimen.png" alt="Holidayinnexpressexpressbalisunsetroad sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressexpressbalisunsetroad__masalah.png" alt="Holidayinnexpressexpressbalisunsetroad masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpressjakartainternationalexpo">
+        <div class="title">Holidayinnexpressjakartainternationalexpo</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressjakartainternationalexpo__sentimen.png" alt="Holidayinnexpressjakartainternationalexpo sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressjakartainternationalexpo__masalah.png" alt="Holidayinnexpressjakartainternationalexpo masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpressjakartapluitcitygate">
+        <div class="title">Holidayinnexpressjakartapluitcitygate</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressjakartapluitcitygate__sentimen.png" alt="Holidayinnexpressjakartapluitcitygate sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressjakartapluitcitygate__masalah.png" alt="Holidayinnexpressjakartapluitcitygate masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpressjakartawahidhasyim">
+        <div class="title">Holidayinnexpressjakartawahidhasyim</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressjakartawahidhasyim__sentimen.png" alt="Holidayinnexpressjakartawahidhasyim sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpressjakartawahidhasyim__masalah.png" alt="Holidayinnexpressjakartawahidhasyim masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpresssemarangsimpanglima">
+        <div class="title">Holidayinnexpresssemarangsimpanglima</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpresssemarangsimpanglima__sentimen.png" alt="Holidayinnexpresssemarangsimpanglima sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpresssemarangsimpanglima__masalah.png" alt="Holidayinnexpresssemarangsimpanglima masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="holidayinnexpresssurabayacenterpoint">
+        <div class="title">Holidayinnexpresssurabayacenterpoint</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpresssurabayacenterpoint__sentimen.png" alt="Holidayinnexpresssurabayacenterpoint sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Holidayinnexpresssurabayacenterpoint__masalah.png" alt="Holidayinnexpresssurabayacenterpoint masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafamcilacap">
+        <div class="title">Hoteldafamcilacap</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamcilacap__sentimen.png" alt="Hoteldafamcilacap sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamcilacap__masalah.png" alt="Hoteldafamcilacap masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafamenkedelithamrin-jakarta">
+        <div class="title">Hoteldafamenkedelithamrin-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamenkedelithamrin-Jakarta__sentimen.png" alt="Hoteldafamenkedelithamrin-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamenkedelithamrin-Jakarta__masalah.png" alt="Hoteldafamenkedelithamrin-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafamfortunajember">
+        <div class="title">Hoteldafamfortunajember</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamfortunajember__sentimen.png" alt="Hoteldafamfortunajember sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamfortunajember__masalah.png" alt="Hoteldafamfortunajember masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafamfortunaseturan-yogyakarta">
+        <div class="title">Hoteldafamfortunaseturan-Yogyakarta</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamfortunaseturan-Yogyakarta__sentimen.png" alt="Hoteldafamfortunaseturan-Yogyakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamfortunaseturan-Yogyakarta__masalah.png" alt="Hoteldafamfortunaseturan-Yogyakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafamlinggau-lubuklinggau">
+        <div class="title">Hoteldafamlinggau-Lubuklinggau</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamlinggau-Lubuklinggau__sentimen.png" alt="Hoteldafamlinggau-Lubuklinggau sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamlinggau-Lubuklinggau__masalah.png" alt="Hoteldafamlinggau-Lubuklinggau masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafampacificcaesar-surabaya">
+        <div class="title">Hoteldafampacificcaesar-Surabaya</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafampacificcaesar-Surabaya__sentimen.png" alt="Hoteldafampacificcaesar-Surabaya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafampacificcaesar-Surabaya__masalah.png" alt="Hoteldafampacificcaesar-Surabaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafampekalongan">
+        <div class="title">Hoteldafampekalongan</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafampekalongan__sentimen.png" alt="Hoteldafampekalongan sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafampekalongan__masalah.png" alt="Hoteldafampekalongan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafampekanbaru">
+        <div class="title">Hoteldafampekanbaru</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafampekanbaru__sentimen.png" alt="Hoteldafampekanbaru sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafampekanbaru__masalah.png" alt="Hoteldafampekanbaru masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafamriobandung">
+        <div class="title">Hoteldafamriobandung</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamriobandung__sentimen.png" alt="Hoteldafamriobandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamriobandung__masalah.png" alt="Hoteldafamriobandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafamsavvoya-seminyak,bali">
+        <div class="title">Hoteldafamsavvoya-Seminyak,Bali</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamsavvoya-Seminyak,Bali__sentimen.png" alt="Hoteldafamsavvoya-Seminyak,Bali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamsavvoya-Seminyak,Bali__masalah.png" alt="Hoteldafamsavvoya-Seminyak,Bali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="hoteldafamsemarang">
+        <div class="title">Hoteldafamsemarang</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamsemarang__sentimen.png" alt="Hoteldafamsemarang sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Hoteldafamsemarang__masalah.png" alt="Hoteldafamsemarang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylebalilegian">
+        <div class="title">Ibisstylebalilegian</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylebalilegian__sentimen.png" alt="Ibisstylebalilegian sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylebalilegian__masalah.png" alt="Ibisstylebalilegian masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylejakartatanahabang (1)">
+        <div class="title">Ibisstylejakartatanahabang (1)</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylejakartatanahabang (1)__sentimen.png" alt="Ibisstylejakartatanahabang (1) sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylejakartatanahabang (1)__masalah.png" alt="Ibisstylejakartatanahabang (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesbalidenpasar">
+        <div class="title">Ibisstylesbalidenpasar</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbalidenpasar__sentimen.png" alt="Ibisstylesbalidenpasar sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbalidenpasar__masalah.png" alt="Ibisstylesbalidenpasar masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesbatamnagoya">
+        <div class="title">Ibisstylesbatamnagoya</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbatamnagoya__sentimen.png" alt="Ibisstylesbatamnagoya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbatamnagoya__masalah.png" alt="Ibisstylesbatamnagoya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesbekasijatibening">
+        <div class="title">Ibisstylesbekasijatibening</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbekasijatibening__sentimen.png" alt="Ibisstylesbekasijatibening sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbekasijatibening__masalah.png" alt="Ibisstylesbekasijatibening masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesbogorpajajaran">
+        <div class="title">Ibisstylesbogorpajajaran</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbogorpajajaran__sentimen.png" alt="Ibisstylesbogorpajajaran sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbogorpajajaran__masalah.png" alt="Ibisstylesbogorpajajaran masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesbogorraya">
+        <div class="title">Ibisstylesbogorraya</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbogorraya__sentimen.png" alt="Ibisstylesbogorraya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesbogorraya__masalah.png" alt="Ibisstylesbogorraya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylescikarang">
+        <div class="title">Ibisstylescikarang</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylescikarang__sentimen.png" alt="Ibisstylescikarang sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylescikarang__masalah.png" alt="Ibisstylescikarang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesjakartaairport">
+        <div class="title">Ibisstylesjakartaairport</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesjakartaairport__sentimen.png" alt="Ibisstylesjakartaairport sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesjakartaairport__masalah.png" alt="Ibisstylesjakartaairport masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesjakartamanggaduasquare">
+        <div class="title">Ibisstylesjakartamanggaduasquare</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesjakartamanggaduasquare__sentimen.png" alt="Ibisstylesjakartamanggaduasquare sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesjakartamanggaduasquare__masalah.png" alt="Ibisstylesjakartamanggaduasquare masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesjakartasimatupang">
+        <div class="title">Ibisstylesjakartasimatupang</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesjakartasimatupang__sentimen.png" alt="Ibisstylesjakartasimatupang sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesjakartasimatupang__masalah.png" alt="Ibisstylesjakartasimatupang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesjakartasunter">
+        <div class="title">Ibisstylesjakartasunter</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesjakartasunter__sentimen.png" alt="Ibisstylesjakartasunter sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesjakartasunter__masalah.png" alt="Ibisstylesjakartasunter masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesmalang">
+        <div class="title">Ibisstylesmalang</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesmalang__sentimen.png" alt="Ibisstylesmalang sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesmalang__masalah.png" alt="Ibisstylesmalang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesmedanpattimura">
+        <div class="title">Ibisstylesmedanpattimura</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesmedanpattimura__sentimen.png" alt="Ibisstylesmedanpattimura sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesmedanpattimura__masalah.png" alt="Ibisstylesmedanpattimura masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylessemarangsimpanglima">
+        <div class="title">Ibisstylessemarangsimpanglima</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylessemarangsimpanglima__sentimen.png" alt="Ibisstylessemarangsimpanglima sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylessemarangsimpanglima__masalah.png" alt="Ibisstylessemarangsimpanglima masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="ibisstylesyogyakarta (1)">
+        <div class="title">Ibisstylesyogyakarta (1)</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesyogyakarta (1)__sentimen.png" alt="Ibisstylesyogyakarta (1) sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Ibisstylesyogyakarta (1)__masalah.png" alt="Ibisstylesyogyakarta (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="questhotelbalikpapan">
+        <div class="title">Questhotelbalikpapan</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Questhotelbalikpapan__sentimen.png" alt="Questhotelbalikpapan sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Questhotelbalikpapan__masalah.png" alt="Questhotelbalikpapan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang3"
+         data-hotel="questhotelsemarang">
+        <div class="title">Questhotelsemarang</div>
+        <div class="meta">KOMPETITOR • Bintang3</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Questhotelsemarang__sentimen.png" alt="Questhotelsemarang sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang3_Questhotelsemarang__masalah.png" alt="Questhotelsemarang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="alhambrahotel&convetion,bwsignaturecollectionbybestwestern-tasikmalaya">
+        <div class="title">Alhambrahotel&Convetion,Bwsignaturecollectionbybestwestern-Tasikmalaya</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Alhambrahotel&Convetion,Bwsignaturecollectionbybestwestern-Tasikmalaya__sentimen.png" alt="Alhambrahotel&Convetion,Bwsignaturecollectionbybestwestern-Tasikmalaya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Alhambrahotel&Convetion,Bwsignaturecollectionbybestwestern-Tasikmalaya__masalah.png" alt="Alhambrahotel&Convetion,Bwsignaturecollectionbybestwestern-Tasikmalaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="astonbogorhotel&resort">
+        <div class="title">Astonbogorhotel&Resort</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Astonbogorhotel&Resort__sentimen.png" alt="Astonbogorhotel&Resort sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Astonbogorhotel&Resort__masalah.png" alt="Astonbogorhotel&Resort masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="astoncirebonhotel&conventioncenter">
+        <div class="title">Astoncirebonhotel&Conventioncenter</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Astoncirebonhotel&Conventioncenter__sentimen.png" alt="Astoncirebonhotel&Conventioncenter sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Astoncirebonhotel&Conventioncenter__masalah.png" alt="Astoncirebonhotel&Conventioncenter masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="astontropicanahotel-bandung">
+        <div class="title">Astontropicanahotel-Bandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Astontropicanahotel-Bandung__sentimen.png" alt="Astontropicanahotel-Bandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Astontropicanahotel-Bandung__masalah.png" alt="Astontropicanahotel-Bandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="bestwesternbatanggaring-palangkaraya">
+        <div class="title">Bestwesternbatanggaring-Palangkaraya</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternbatanggaring-Palangkaraya__sentimen.png" alt="Bestwesternbatanggaring-Palangkaraya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternbatanggaring-Palangkaraya__masalah.png" alt="Bestwesternbatanggaring-Palangkaraya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="bestwesternkamalajimbaran-bali">
+        <div class="title">Bestwesternkamalajimbaran-Bali</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternkamalajimbaran-Bali__sentimen.png" alt="Bestwesternkamalajimbaran-Bali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternkamalajimbaran-Bali__masalah.png" alt="Bestwesternkamalajimbaran-Bali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="bestwesternmanggaduahotel&residence-jakarta">
+        <div class="title">Bestwesternmanggaduahotel&Residence-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternmanggaduahotel&Residence-Jakarta__sentimen.png" alt="Bestwesternmanggaduahotel&Residence-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternmanggaduahotel&Residence-Jakarta__masalah.png" alt="Bestwesternmanggaduahotel&Residence-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="bestwesternpapiliohotel-surabaya">
+        <div class="title">Bestwesternpapiliohotel-Surabaya</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternpapiliohotel-Surabaya__sentimen.png" alt="Bestwesternpapiliohotel-Surabaya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternpapiliohotel-Surabaya__masalah.png" alt="Bestwesternpapiliohotel-Surabaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="bestwesternpremierlagrandehotel-bandung">
+        <div class="title">Bestwesternpremierlagrandehotel-Bandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternpremierlagrandehotel-Bandung__sentimen.png" alt="Bestwesternpremierlagrandehotel-Bandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternpremierlagrandehotel-Bandung__masalah.png" alt="Bestwesternpremierlagrandehotel-Bandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="bestwesternresortkuta-bali">
+        <div class="title">Bestwesternresortkuta-Bali</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternresortkuta-Bali__sentimen.png" alt="Bestwesternresortkuta-Bali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Bestwesternresortkuta-Bali__masalah.png" alt="Bestwesternresortkuta-Bali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="courtyardbalinusaduaresort">
+        <div class="title">Courtyardbalinusaduaresort</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Courtyardbalinusaduaresort__sentimen.png" alt="Courtyardbalinusaduaresort sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Courtyardbalinusaduaresort__masalah.png" alt="Courtyardbalinusaduaresort masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="courtyardbaliseminyakresort">
+        <div class="title">Courtyardbaliseminyakresort</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Courtyardbaliseminyakresort__sentimen.png" alt="Courtyardbaliseminyakresort sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Courtyardbaliseminyakresort__masalah.png" alt="Courtyardbaliseminyakresort masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="courtyardbandungdago">
+        <div class="title">Courtyardbandungdago</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Courtyardbandungdago__sentimen.png" alt="Courtyardbandungdago sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Courtyardbandungdago__masalah.png" alt="Courtyardbandungdago masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="crowneplazabandung">
+        <div class="title">Crowneplazabandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Crowneplazabandung__sentimen.png" alt="Crowneplazabandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Crowneplazabandung__masalah.png" alt="Crowneplazabandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="crowneplazalabuanbajo">
+        <div class="title">Crowneplazalabuanbajo</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Crowneplazalabuanbajo__sentimen.png" alt="Crowneplazalabuanbajo sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Crowneplazalabuanbajo__masalah.png" alt="Crowneplazalabuanbajo masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonbali,seminyak">
+        <div class="title">Fourpointsbysheratonbali,Seminyak</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbali,Seminyak__sentimen.png" alt="Fourpointsbysheratonbali,Seminyak sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbali,Seminyak__masalah.png" alt="Fourpointsbysheratonbali,Seminyak masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonbali,ungasan">
+        <div class="title">Fourpointsbysheratonbali,Ungasan</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbali,Ungasan__sentimen.png" alt="Fourpointsbysheratonbali,Ungasan sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbali,Ungasan__masalah.png" alt="Fourpointsbysheratonbali,Ungasan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonbalikpapan">
+        <div class="title">Fourpointsbysheratonbalikpapan</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbalikpapan__sentimen.png" alt="Fourpointsbysheratonbalikpapan sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbalikpapan__masalah.png" alt="Fourpointsbysheratonbalikpapan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonbandung">
+        <div class="title">Fourpointsbysheratonbandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbandung__sentimen.png" alt="Fourpointsbysheratonbandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbandung__masalah.png" alt="Fourpointsbysheratonbandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonbatam">
+        <div class="title">Fourpointsbysheratonbatam</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbatam__sentimen.png" alt="Fourpointsbysheratonbatam sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbatam__masalah.png" alt="Fourpointsbysheratonbatam masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonbekasi">
+        <div class="title">Fourpointsbysheratonbekasi</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbekasi__sentimen.png" alt="Fourpointsbysheratonbekasi sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbekasi__masalah.png" alt="Fourpointsbysheratonbekasi masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonbintan">
+        <div class="title">Fourpointsbysheratonbintan</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbintan__sentimen.png" alt="Fourpointsbysheratonbintan sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonbintan__masalah.png" alt="Fourpointsbysheratonbintan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonjakarta">
+        <div class="title">Fourpointsbysheratonjakarta</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonjakarta__sentimen.png" alt="Fourpointsbysheratonjakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonjakarta__masalah.png" alt="Fourpointsbysheratonjakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonmakassar">
+        <div class="title">Fourpointsbysheratonmakassar</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonmakassar__sentimen.png" alt="Fourpointsbysheratonmakassar sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonmakassar__masalah.png" alt="Fourpointsbysheratonmakassar masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonmanado">
+        <div class="title">Fourpointsbysheratonmanado</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonmanado__sentimen.png" alt="Fourpointsbysheratonmanado sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonmanado__masalah.png" alt="Fourpointsbysheratonmanado masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonmedan">
+        <div class="title">Fourpointsbysheratonmedan</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonmedan__sentimen.png" alt="Fourpointsbysheratonmedan sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonmedan__masalah.png" alt="Fourpointsbysheratonmedan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonpontianak">
+        <div class="title">Fourpointsbysheratonpontianak</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonpontianak__sentimen.png" alt="Fourpointsbysheratonpontianak sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonpontianak__masalah.png" alt="Fourpointsbysheratonpontianak masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonsurabaya">
+        <div class="title">Fourpointsbysheratonsurabaya</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonsurabaya__sentimen.png" alt="Fourpointsbysheratonsurabaya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonsurabaya__masalah.png" alt="Fourpointsbysheratonsurabaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="fourpointsbysheratonsurabaya,pakuwonindah">
+        <div class="title">Fourpointsbysheratonsurabaya,Pakuwonindah</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonsurabaya,Pakuwonindah__sentimen.png" alt="Fourpointsbysheratonsurabaya,Pakuwonindah sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Fourpointsbysheratonsurabaya,Pakuwonindah__masalah.png" alt="Fourpointsbysheratonsurabaya,Pakuwonindah masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="foxharrishotelcitycenter-bandung">
+        <div class="title">Foxharrishotelcitycenter-Bandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Foxharrishotelcitycenter-Bandung__sentimen.png" alt="Foxharrishotelcitycenter-Bandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Foxharrishotelcitycenter-Bandung__masalah.png" alt="Foxharrishotelcitycenter-Bandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="foxharrislitehotel-jakarta">
+        <div class="title">Foxharrislitehotel-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Foxharrislitehotel-Jakarta__sentimen.png" alt="Foxharrislitehotel-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Foxharrislitehotel-Jakarta__masalah.png" alt="Foxharrislitehotel-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="granddafambraga-bandung">
+        <div class="title">Granddafambraga-Bandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Granddafambraga-Bandung__sentimen.png" alt="Granddafambraga-Bandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Granddafambraga-Bandung__masalah.png" alt="Granddafambraga-Bandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="granddafamsignatureinternationalairportyogyakarta">
+        <div class="title">Granddafamsignatureinternationalairportyogyakarta</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Granddafamsignatureinternationalairportyogyakarta__sentimen.png" alt="Granddafamsignatureinternationalairportyogyakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Granddafamsignatureinternationalairportyogyakarta__masalah.png" alt="Granddafamsignatureinternationalairportyogyakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="granddafamsurabaya">
+        <div class="title">Granddafamsurabaya</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Granddafamsurabaya__sentimen.png" alt="Granddafamsurabaya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Granddafamsurabaya__masalah.png" alt="Granddafamsurabaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="grandmercurebandung">
+        <div class="title">Grandmercurebandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Grandmercurebandung__sentimen.png" alt="Grandmercurebandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Grandmercurebandung__masalah.png" alt="Grandmercurebandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="harrishotel&conventionfestivalcitylinkbandung">
+        <div class="title">Harrishotel&Conventionfestivalcitylinkbandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Harrishotel&Conventionfestivalcitylinkbandung__sentimen.png" alt="Harrishotel&Conventionfestivalcitylinkbandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Harrishotel&Conventionfestivalcitylinkbandung__masalah.png" alt="Harrishotel&Conventionfestivalcitylinkbandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="harrisvertuhotelharmoni-jakarta">
+        <div class="title">Harrisvertuhotelharmoni-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Harrisvertuhotelharmoni-Jakarta__sentimen.png" alt="Harrisvertuhotelharmoni-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Harrisvertuhotelharmoni-Jakarta__masalah.png" alt="Harrisvertuhotelharmoni-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="holidayinnbalisanur">
+        <div class="title">Holidayinnbalisanur</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinnbalisanur__sentimen.png" alt="Holidayinnbalisanur sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinnbalisanur__masalah.png" alt="Holidayinnbalisanur masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="holidayinnbandungpasteur">
+        <div class="title">Holidayinnbandungpasteur</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinnbandungpasteur__sentimen.png" alt="Holidayinnbandungpasteur sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinnbandungpasteur__masalah.png" alt="Holidayinnbandungpasteur masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="holidayinncikarangjababeka">
+        <div class="title">Holidayinncikarangjababeka</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinncikarangjababeka__sentimen.png" alt="Holidayinncikarangjababeka sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinncikarangjababeka__masalah.png" alt="Holidayinncikarangjababeka masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="holidayinnresortbatam">
+        <div class="title">Holidayinnresortbatam</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinnresortbatam__sentimen.png" alt="Holidayinnresortbatam sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinnresortbatam__masalah.png" alt="Holidayinnresortbatam masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="holidayinnresortbintanlagoibeach">
+        <div class="title">Holidayinnresortbintanlagoibeach</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinnresortbintanlagoibeach__sentimen.png" alt="Holidayinnresortbintanlagoibeach sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Holidayinnresortbintanlagoibeach__masalah.png" alt="Holidayinnresortbintanlagoibeach masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="hotelindigobaliseminyakbeach">
+        <div class="title">Hotelindigobaliseminyakbeach</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Hotelindigobaliseminyakbeach__sentimen.png" alt="Hotelindigobaliseminyakbeach sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Hotelindigobaliseminyakbeach__masalah.png" alt="Hotelindigobaliseminyakbeach masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="hotelindigobandungdagopakar">
+        <div class="title">Hotelindigobandungdagopakar</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Hotelindigobandungdagopakar__sentimen.png" alt="Hotelindigobandungdagopakar sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Hotelindigobandungdagopakar__masalah.png" alt="Hotelindigobandungdagopakar masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="maisonaurelia-sanur,bali">
+        <div class="title">Maisonaurelia-Sanur,Bali</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Maisonaurelia-Sanur,Bali__sentimen.png" alt="Maisonaurelia-Sanur,Bali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Maisonaurelia-Sanur,Bali__masalah.png" alt="Maisonaurelia-Sanur,Bali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercurebandungcitycentre">
+        <div class="title">Mercurebandungcitycentre</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurebandungcitycentre__sentimen.png" alt="Mercurebandungcitycentre sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurebandungcitycentre__masalah.png" alt="Mercurebandungcitycentre masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercureberau">
+        <div class="title">Mercureberau</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercureberau__sentimen.png" alt="Mercureberau sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercureberau__masalah.png" alt="Mercureberau masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercurejakartacikini">
+        <div class="title">Mercurejakartacikini</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurejakartacikini__sentimen.png" alt="Mercurejakartacikini sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurejakartacikini__masalah.png" alt="Mercurejakartacikini masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercurejakartasabang">
+        <div class="title">Mercurejakartasabang</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurejakartasabang__sentimen.png" alt="Mercurejakartasabang sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurejakartasabang__masalah.png" alt="Mercurejakartasabang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercurejakartasimatupang">
+        <div class="title">Mercurejakartasimatupang</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurejakartasimatupang__sentimen.png" alt="Mercurejakartasimatupang sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurejakartasimatupang__masalah.png" alt="Mercurejakartasimatupang masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercuremadiun">
+        <div class="title">Mercuremadiun</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercuremadiun__sentimen.png" alt="Mercuremadiun sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercuremadiun__masalah.png" alt="Mercuremadiun masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercurepangkalanbun">
+        <div class="title">Mercurepangkalanbun</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurepangkalanbun__sentimen.png" alt="Mercurepangkalanbun sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurepangkalanbun__masalah.png" alt="Mercurepangkalanbun masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercurepontianakcitycentre">
+        <div class="title">Mercurepontianakcitycentre</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurepontianakcitycentre__sentimen.png" alt="Mercurepontianakcitycentre sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercurepontianakcitycentre__masalah.png" alt="Mercurepontianakcitycentre masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="mercuresamarinda">
+        <div class="title">Mercuresamarinda</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercuresamarinda__sentimen.png" alt="Mercuresamarinda sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Mercuresamarinda__masalah.png" alt="Mercuresamarinda masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="novotelbangka-hotel&conventioncentre">
+        <div class="title">Novotelbangka-Hotel&Conventioncentre</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelbangka-Hotel&Conventioncentre__sentimen.png" alt="Novotelbangka-Hotel&Conventioncentre sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelbangka-Hotel&Conventioncentre__masalah.png" alt="Novotelbangka-Hotel&Conventioncentre masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="novotelbanjarmasinairport">
+        <div class="title">Novotelbanjarmasinairport</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelbanjarmasinairport__sentimen.png" alt="Novotelbanjarmasinairport sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelbanjarmasinairport__masalah.png" alt="Novotelbanjarmasinairport masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="novoteljakartacikini">
+        <div class="title">Novoteljakartacikini</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novoteljakartacikini__sentimen.png" alt="Novoteljakartacikini sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novoteljakartacikini__masalah.png" alt="Novoteljakartacikini masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="novoteljakartamanggaduasquare">
+        <div class="title">Novoteljakartamanggaduasquare</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novoteljakartamanggaduasquare__sentimen.png" alt="Novoteljakartamanggaduasquare sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novoteljakartamanggaduasquare__masalah.png" alt="Novoteljakartamanggaduasquare masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="novotelpontianakconventioncentre">
+        <div class="title">Novotelpontianakconventioncentre</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelpontianakconventioncentre__sentimen.png" alt="Novotelpontianakconventioncentre sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelpontianakconventioncentre__masalah.png" alt="Novotelpontianakconventioncentre masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="novotelsolo">
+        <div class="title">Novotelsolo</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelsolo__sentimen.png" alt="Novotelsolo sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelsolo__masalah.png" alt="Novotelsolo masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="novotelsuitesyogyakartamaliioboro">
+        <div class="title">Novotelsuitesyogyakartamaliioboro</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelsuitesyogyakartamaliioboro__sentimen.png" alt="Novotelsuitesyogyakartamaliioboro sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Novotelsuitesyogyakartamaliioboro__masalah.png" alt="Novotelsuitesyogyakartamaliioboro masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="tamarind-nusalembonganbali">
+        <div class="title">Tamarind-Nusalembonganbali</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Tamarind-Nusalembonganbali__sentimen.png" alt="Tamarind-Nusalembonganbali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Tamarind-Nusalembonganbali__masalah.png" alt="Tamarind-Nusalembonganbali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="thealana">
+        <div class="title">Thealana</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Thealana__sentimen.png" alt="Thealana sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Thealana__masalah.png" alt="Thealana masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="vocobaliseminyak">
+        <div class="title">Vocobaliseminyak</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Vocobaliseminyak__sentimen.png" alt="Vocobaliseminyak sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Vocobaliseminyak__masalah.png" alt="Vocobaliseminyak masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="yellohotelharmoni-jakarta">
+        <div class="title">Yellohotelharmoni-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Yellohotelharmoni-Jakarta__sentimen.png" alt="Yellohotelharmoni-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Yellohotelharmoni-Jakarta__masalah.png" alt="Yellohotelharmoni-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang4"
+         data-hotel="yellohotelpaskal-bandung">
+        <div class="title">Yellohotelpaskal-Bandung</div>
+        <div class="meta">KOMPETITOR • Bintang4</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Yellohotelpaskal-Bandung__sentimen.png" alt="Yellohotelpaskal-Bandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang4_Yellohotelpaskal-Bandung__masalah.png" alt="Yellohotelpaskal-Bandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="batammarriothotelhabourbay">
+        <div class="title">Batammarriothotelhabourbay</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Batammarriothotelhabourbay__sentimen.png" alt="Batammarriothotelhabourbay sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Batammarriothotelhabourbay__masalah.png" alt="Batammarriothotelhabourbay masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="bestwesternpremierpanbil-batam">
+        <div class="title">Bestwesternpremierpanbil-Batam</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Bestwesternpremierpanbil-Batam__sentimen.png" alt="Bestwesternpremierpanbil-Batam sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Bestwesternpremierpanbil-Batam__masalah.png" alt="Bestwesternpremierpanbil-Batam masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="grandastoncityhall-medan">
+        <div class="title">Grandastoncityhall-Medan</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Grandastoncityhall-Medan__sentimen.png" alt="Grandastoncityhall-Medan sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Grandastoncityhall-Medan__masalah.png" alt="Grandastoncityhall-Medan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="intercontinentalbaliresort-bali">
+        <div class="title">Intercontinentalbaliresort-Bali</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentalbaliresort-Bali__sentimen.png" alt="Intercontinentalbaliresort-Bali sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentalbaliresort-Bali__masalah.png" alt="Intercontinentalbaliresort-Bali masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="intercontinentalbalisanurresort-bali (1)">
+        <div class="title">Intercontinentalbalisanurresort-Bali (1)</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentalbalisanurresort-Bali (1)__sentimen.png" alt="Intercontinentalbalisanurresort-Bali (1) sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentalbalisanurresort-Bali (1)__masalah.png" alt="Intercontinentalbalisanurresort-Bali (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="intercontinentaldagopakar-bandung">
+        <div class="title">Intercontinentaldagopakar-Bandung</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentaldagopakar-Bandung__sentimen.png" alt="Intercontinentaldagopakar-Bandung sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentaldagopakar-Bandung__masalah.png" alt="Intercontinentaldagopakar-Bandung masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="intercontinentaljakartapondokindah-jakarta">
+        <div class="title">Intercontinentaljakartapondokindah-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentaljakartapondokindah-Jakarta__sentimen.png" alt="Intercontinentaljakartapondokindah-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentaljakartapondokindah-Jakarta__masalah.png" alt="Intercontinentaljakartapondokindah-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="intercontinentalresidencejakartapondokindah-jakarta">
+        <div class="title">Intercontinentalresidencejakartapondokindah-Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentalresidencejakartapondokindah-Jakarta__sentimen.png" alt="Intercontinentalresidencejakartapondokindah-Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Intercontinentalresidencejakartapondokindah-Jakarta__masalah.png" alt="Intercontinentalresidencejakartapondokindah-Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="jwmarriothoteljakarta">
+        <div class="title">Jwmarriothoteljakarta</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Jwmarriothoteljakarta__sentimen.png" alt="Jwmarriothoteljakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Jwmarriothoteljakarta__masalah.png" alt="Jwmarriothoteljakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="jwmarriothotelsurabaya">
+        <div class="title">Jwmarriothotelsurabaya</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Jwmarriothotelsurabaya__sentimen.png" alt="Jwmarriothotelsurabaya sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Jwmarriothotelsurabaya__masalah.png" alt="Jwmarriothotelsurabaya masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="jwmarriotmedan">
+        <div class="title">Jwmarriotmedan</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Jwmarriotmedan__sentimen.png" alt="Jwmarriotmedan sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Jwmarriotmedan__masalah.png" alt="Jwmarriotmedan masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="movenpickhoteljakartacitycentre">
+        <div class="title">Movenpickhoteljakartacitycentre</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Movenpickhoteljakartacitycentre__sentimen.png" alt="Movenpickhoteljakartacitycentre sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Movenpickhoteljakartacitycentre__masalah.png" alt="Movenpickhoteljakartacitycentre masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="pullmanbalilegianbeach (1)">
+        <div class="title">Pullmanbalilegianbeach (1)</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanbalilegianbeach (1)__sentimen.png" alt="Pullmanbalilegianbeach (1) sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanbalilegianbeach (1)__masalah.png" alt="Pullmanbalilegianbeach (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="pullmanbandunggrandcentral">
+        <div class="title">Pullmanbandunggrandcentral</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanbandunggrandcentral__sentimen.png" alt="Pullmanbandunggrandcentral sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanbandunggrandcentral__masalah.png" alt="Pullmanbandunggrandcentral masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="pullmanjakartacentralpark">
+        <div class="title">Pullmanjakartacentralpark</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanjakartacentralpark__sentimen.png" alt="Pullmanjakartacentralpark sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanjakartacentralpark__masalah.png" alt="Pullmanjakartacentralpark masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="pullmanjakartaindonesiathamrincbd">
+        <div class="title">Pullmanjakartaindonesiathamrincbd</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanjakartaindonesiathamrincbd__sentimen.png" alt="Pullmanjakartaindonesiathamrincbd sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanjakartaindonesiathamrincbd__masalah.png" alt="Pullmanjakartaindonesiathamrincbd masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="pullmanlombokmerujanimandalikabeachresort">
+        <div class="title">Pullmanlombokmerujanimandalikabeachresort</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanlombokmerujanimandalikabeachresort__sentimen.png" alt="Pullmanlombokmerujanimandalikabeachresort sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Pullmanlombokmerujanimandalikabeachresort__masalah.png" alt="Pullmanlombokmerujanimandalikabeachresort masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="rafflesjakarta">
+        <div class="title">Rafflesjakarta</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Rafflesjakarta__sentimen.png" alt="Rafflesjakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Rafflesjakarta__masalah.png" alt="Rafflesjakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="rafflessbali (1)">
+        <div class="title">Rafflessbali (1)</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Rafflessbali (1)__sentimen.png" alt="Rafflessbali (1) sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Rafflessbali (1)__masalah.png" alt="Rafflessbali (1) masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="sheratongrandjakartagandariacityhotel">
+        <div class="title">Sheratongrandjakartagandariacityhotel</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Sheratongrandjakartagandariacityhotel__sentimen.png" alt="Sheratongrandjakartagandariacityhotel sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Sheratongrandjakartagandariacityhotel__masalah.png" alt="Sheratongrandjakartagandariacityhotel masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="sofitelbalinusaduabeachresort">
+        <div class="title">Sofitelbalinusaduabeachresort</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Sofitelbalinusaduabeachresort__sentimen.png" alt="Sofitelbalinusaduabeachresort sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Sofitelbalinusaduabeachresort__masalah.png" alt="Sofitelbalinusaduabeachresort masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="swissoteljakartapikavenue">
+        <div class="title">Swissoteljakartapikavenue</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Swissoteljakartapikavenue__sentimen.png" alt="Swissoteljakartapikavenue sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Swissoteljakartapikavenue__masalah.png" alt="Swissoteljakartapikavenue masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="thehermitageatributeportfoliohotel,jakarta">
+        <div class="title">Thehermitageatributeportfoliohotel,Jakarta</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Thehermitageatributeportfoliohotel,Jakarta__sentimen.png" alt="Thehermitageatributeportfoliohotel,Jakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Thehermitageatributeportfoliohotel,Jakarta__masalah.png" alt="Thehermitageatributeportfoliohotel,Jakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="thest.regisjakarta">
+        <div class="title">Thest.Regisjakarta</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Thest.Regisjakarta__sentimen.png" alt="Thest.Regisjakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Thest.Regisjakarta__masalah.png" alt="Thest.Regisjakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="thewestinjakarta">
+        <div class="title">Thewestinjakarta</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Thewestinjakarta__sentimen.png" alt="Thewestinjakarta sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Thewestinjakarta__masalah.png" alt="Thewestinjakarta masalah">
+        </div>
+    </div>
+    
+    <div class="card"
+         data-tipe="KOMPETITOR"
+         data-kelas="Bintang5"
+         data-hotel="westinbatam">
+        <div class="title">Westinbatam</div>
+        <div class="meta">KOMPETITOR • Bintang5</div>
+        <div class="imgs">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Westinbatam__sentimen.png" alt="Westinbatam sentimen">
+            <img src="PerHotel/KOMPETITOR_Bintang5_Westinbatam__masalah.png" alt="Westinbatam masalah">
+        </div>
+    </div>
+    
+</div>
+
+<script>
+const filterTipe = document.getElementById("filterTipe");
+const filterKelas = document.getElementById("filterKelas");
+const searchBox = document.getElementById("searchBox");
+const cards = document.querySelectorAll(".card");
+
+function applyFilters() {
+    const tipeVal = filterTipe.value;
+    const kelasVal = filterKelas.value;
+    const q = searchBox.value.toLowerCase();
+
+    cards.forEach(card => {
+        const tipe = card.getAttribute("data-tipe");
+        const kelas = card.getAttribute("data-kelas");
+        const hotel = card.getAttribute("data-hotel");
+
+        const okTipe = (tipeVal === "all") || (tipe === tipeVal);
+        const okKelas = (kelasVal === "all") || (kelas === kelasVal);
+        const okSearch = hotel.includes(q);
+
+        card.style.display = (okTipe && okKelas && okSearch) ? "block" : "none";
+    });
+}
+
+filterTipe.addEventListener("change", applyFilters);
+filterKelas.addEventListener("change", applyFilters);
+searchBox.addEventListener("input", applyFilters);
+</script>
+
+</body>
+</html>
