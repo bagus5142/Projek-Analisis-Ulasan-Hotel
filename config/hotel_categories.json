@@ -1,0 +1,39 @@
+{
+  "bumn_hotels": {
+    "exact_matches": [
+      "Hotel Patra Jasa",
+      "Patra Comfort Hotel",
+      "Hotel Indonesia Kempinski",
+      "Hotel Borobudur Jakarta",
+      "Hotel Mandarin Oriental Jakarta"
+    ],
+    "partial_matches": [
+      "patra",
+      "garuda",
+      "aerowisata",
+      "indonesia tourism",
+      "mandarin oriental",
+      "kempinski",
+      "borobudur"
+    ],
+    "excluded_keywords": [
+      "patra street",
+      "patra view"
+    ]
+  },
+  "non_bumn_competitors": [
+    "Marriott",
+    "Hilton",
+    "Shangri-La",
+    "Raffles",
+    "Grand Hyatt",
+    "JW Marriott",
+    "Ritz-Carlton"
+  ],
+  "categorization_rules": {
+    "priority": "exact_match",
+    "case_sensitive": false,
+    "fallback_to_partial": true,
+    "confidence_threshold": 0.8
+  }
+}
