@@ -1,0 +1,2260 @@
+Nama_Hotel,Top_Positif_Phrase,Bobot_Pos,Top_Negatif_Phrase,Bobot_Neg
+Banaran 9 Resort,kebun kopi,0.8139,tidak terawat,-1.7513
+Banaran 9 Resort,perkebunan kopi,0.6569,kurang terawat,-1.7351
+Banaran 9 Resort,rawa pening,0.6046,kurang bagus,-1.3404
+Banaran 9 Resort,bersama keluarga,0.5339,kurang perawatan,-1.0135
+Banaran 9 Resort,tempat nyaman,0.4947,kamarnya kotor,-0.9706
+Banaran 9 Resort,sky view,0.4601,view bagus,-0.767
+Banaran 9 Resort,tempatnya bagus,0.4574,menu sarapan,-0.7483
+Banaran 9 Resort,pemandangan indah,0.4489,ga nyala,-0.7322
+Banaran 9 Resort,pemandangannya bagus,0.419,jalan kaki,-0.7259
+Banaran 9 Resort,tempat bagus,0.3827,banyak kecoa,-0.7162
+Brothers Solo,nyaman bersih,1.1625,kurang ramah,-1.4016
+Brothers Solo,pelayanan ramah,1.1582,ga diganti,-1.2262
+Brothers Solo,solo baru,1.1442,tidak enak,-1.1083
+Brothers Solo,harga terjangkau,1.0707,bermasalah fasilitas tidak,-1.0385
+Brothers Solo,lokasi strategis,1.059,kurang memuaskan,-0.9952
+Brothers Solo,solo raya,0.8288,berisik suara,-0.9808
+Brothers Solo,hair dryer,0.8259,kurang nyaman,-0.9774
+Brothers Solo,kamarnya bersih,0.8105,bawah kasur,-0.9248
+Brothers Solo,banyak pilihan,0.8036,kurang bagus,-0.8906
+Brothers Solo,kota solo,0.8027,tamu lain,-0.8723
+Codia Banjarmasin,bersih nyaman,0.4411,jika anda,-0.9494
+Codia Banjarmasin,pelayanan bagus,0.3693,air panas tidak,-0.8016
+Codia Banjarmasin,pelayanan ramah,0.3625,panas tidak,-0.8016
+Codia Banjarmasin,tidak perlu,0.3618,anda ingin,-0.7853
+Codia Banjarmasin,cocok buat,0.3349,ampun dah,-0.6855
+Codia Banjarmasin,flight pagi,0.3067,ramah pelayanan,-0.6836
+Codia Banjarmasin,terganggu suara,0.2983,air deras,-0.6708
+Codia Banjarmasin,terletak bandara,0.2924,air panas,-0.6037
+Codia Banjarmasin,air mineral,0.278,semuanya baikbaik,-0.5991
+Codia Banjarmasin,ramah bersih,0.264,menginap disini,-0.5243
+Cordia Banjarmasin,pelayanan bagus,0.3813,bandara pagi,-1.1746
+Cordia Banjarmasin,bersih nyaman,0.3451,buruk sekaliii,-1.1189
+Cordia Banjarmasin,ramah bersih,0.2893,jauh menuju kamarnya,-1.0988
+Cordia Banjarmasin,tidak perlu,0.2836,jauh menuju,-1.0988
+Cordia Banjarmasin,cocok buat,0.2545,ramah pelayanan,-1.0369
+Cordia Banjarmasin,bersih rapi,0.2486,panas tidak,-0.7586
+Cordia Banjarmasin,flight pagi,0.2433,air panas tidak,-0.7586
+Cordia Banjarmasin,area bandara,0.2266,smart tv,-0.6984
+Cordia Banjarmasin,enak sih,0.2226,dua staf,-0.6877
+Cordia Banjarmasin,menunggu penerbangan,0.196,hanya dua staf,-0.6877
+HAKA Hotel Semarang,lokasi strategis,1.8177,tidak kedap,-1.1453
+HAKA Hotel Semarang,pelayanan ramah,1.563,pelayanan buruk,-1.1327
+HAKA Hotel Semarang,makanannya enak,1.4431,tidak ramah,-1.06
+HAKA Hotel Semarang,simpang lima,1.3332,pertama kali,-1.0501
+HAKA Hotel Semarang,tengah kota,1.1998,terdengar suara,-1.0485
+HAKA Hotel Semarang,makanan enak,1.1009,kurang bersih,-1.0392
+HAKA Hotel Semarang,nyaman bersih,1.0669,tidak dibersihkan,-0.9975
+HAKA Hotel Semarang,pusat kota,1.0405,queen size,-0.9811
+HAKA Hotel Semarang,tempatnya nyaman,0.9904,tdk sesuai,-0.9603
+HAKA Hotel Semarang,hotelnya bagus,0.9845,tempat sampah,-0.9567
+Harper Jakarta MT Haryono,mas ezii,1.6861,bau rokok,-1.1205
+Harper Jakarta MT Haryono,lokasi strategis,1.5953,ac mati,-1.0668
+Harper Jakarta MT Haryono,makanan enak,1.5771,kurang nyaman,-1.053
+Harper Jakarta MT Haryono,pelayanan baik,1.4905,aja ga,-1.053
+Harper Jakarta MT Haryono,nyaman bersih,1.418,handuk tidak,-1.0365
+Harper Jakarta MT Haryono,pelayanan ramah,1.4174,suite room,-1.0353
+Harper Jakarta MT Haryono,kak andin,1.3564,kolam renang,-0.9875
+Harper Jakarta MT Haryono,mba andin,1.3387,harus membayar,-0.9491
+Harper Jakarta MT Haryono,terima kasih,1.3318,jadi tidak,-0.9478
+Harper Jakarta MT Haryono,makanannya enak,1.2952,room service,-0.9434
+Hotel Grand Surabaya,harga terjangkau,1.3866,mandi kotor,-1.3407
+Hotel Grand Surabaya,kamarnya bersih,1.1174,kurang ramah,-1.226
+Hotel Grand Surabaya,tengah kota,1.0581,bau rokok,-1.2213
+Hotel Grand Surabaya,kota surabaya,1.0524,tidak memuaskan,-1.1463
+Hotel Grand Surabaya,lokasi strategis,0.9494,tidak sesuai,-1.0798
+Hotel Grand Surabaya,pelayanan ramah,0.9014,pelayanan kurang,-1.0775
+Hotel Grand Surabaya,harga murah,0.8943,ga enak,-1.0678
+Hotel Grand Surabaya,fasilitas lengkap,0.8887,breakfast kurang,-1.0217
+Hotel Grand Surabaya,dekat pusat,0.8562,gak sesuai,-1.0188
+Hotel Grand Surabaya,makanan kurang,0.8533,kurang bersih,-0.9994
+Hotel Rattan Inn,rattan inn,1.4632,kurang enak,-1.3606
+Hotel Rattan Inn,pelayanan ramah,1.1482,tidak ramah,-1.2387
+Hotel Rattan Inn,kolam renang,1.0531,kurang ramah,-1.2213
+Hotel Rattan Inn,menginap disini,0.988,tidak enak,-1.1288
+Hotel Rattan Inn,hotelnya nyaman,0.9871,tidak seperti,-1.0354
+Hotel Rattan Inn,enak enak,0.9238,banjar indah,-1.007
+Hotel Rattan Inn,pelayanannya bagus,0.8186,baju renang,-1.0047
+Hotel Rattan Inn,fasilitas lengkap,0.7226,kota nyaman,-0.9177
+Hotel Rattan Inn,disini nyaman,0.7193,terlalu jauh,-0.9042
+Hotel Rattan Inn,mba ira,0.717,aja ga,-0.8675
+Inna Bali Heritage Hotel,kota denpasar,1.1035,service kurang,-1.2169
+Inna Bali Heritage Hotel,pusat kota,0.9219,tidak enak,-1.1875
+Inna Bali Heritage Hotel,lokasi strategis,0.7385,sdh lama,-1.1728
+Inna Bali Heritage Hotel,tempat nyaman,0.6703,bener heritage,-1.1375
+Inna Bali Heritage Hotel,nyaman bersih,0.5927,kurang terawat,-1.0881
+Inna Bali Heritage Hotel,tempatnya bagus,0.5802,tidak nyaman,-1.0446
+Inna Bali Heritage Hotel,ditengah kota,0.5717,fasilitas kurang,-1.0436
+Inna Bali Heritage Hotel,kolam renang,0.5298,acnya berisik,-1.0163
+Inna Bali Heritage Hotel,suasana nyaman,0.5108,banyak nyamuk,-0.9955
+Inna Bali Heritage Hotel,tempat bagus,0.5088,tidak pernah,-0.9456
+Inna Sindhu Beach Hotel,tempat bagus,1.0,kurang memuaskan,-1.8152
+Inna Sindhu Beach Hotel,lokasi bagus,0.8257,segala sesuatunya,-1.2047
+Inna Sindhu Beach Hotel,pinggir pantai,0.7812,sarapannya buruk,-1.1953
+Inna Sindhu Beach Hotel,pantai sanur,0.711,beberapa malam,-1.1807
+Inna Sindhu Beach Hotel,stafnya ramah,0.6969,tidak istimewa,-1.0955
+Inna Sindhu Beach Hotel,pagi hari,0.6873,pantainya bagus,-1.0335
+Inna Sindhu Beach Hotel,tempat nyaman,0.6765,sarapannya tidak,-0.9886
+Inna Sindhu Beach Hotel,pantai indah,0.6524,air panas,-0.9699
+Inna Sindhu Beach Hotel,tepat pantai,0.6353,liburan anda,-0.9381
+Inna Sindhu Beach Hotel,langsung pantai,0.6018,sama tidak,-0.919
+Inna Tretes Hotel,view gunung,1.0637,pelayanan kurang,-1.3868
+Inna Tretes Hotel,spot foto,0.9637,tidak nyaman,-1.3001
+Inna Tretes Hotel,makanan enak,0.8926,tidak ramah,-1.202
+Inna Tretes Hotel,makanannya enak,0.8916,tdk ramah,-1.2016
+Inna Tretes Hotel,goa jepang,0.882,pelayanan buruk,-1.1247
+Inna Tretes Hotel,pelayanan ramah,0.8662,tidak terawat,-1.1093
+Inna Tretes Hotel,cocok buat,0.8218,lama bgt,-1.0799
+Inna Tretes Hotel,viewnya bagus,0.8216,tidak sesuai,-1.0655
+Inna Tretes Hotel,bersih nyaman,0.7828,suka kolam,-1.0273
+Inna Tretes Hotel,lokasi strategis,0.7786,tau kalau,-0.9875
+KHAS Malioboro Hotel,lokasi strategis,1.4477,ac bocor,-1.6124
+KHAS Malioboro Hotel,pelayanan ramah,1.4231,pelayanan kurang,-1.4071
+KHAS Malioboro Hotel,dekat malioboro,1.104,tidak sesuai,-1.3292
+KHAS Malioboro Hotel,jalan malioboro,1.0732,kurang enak,-1.2268
+KHAS Malioboro Hotel,parkir luas,0.8653,kurang luas,-1.1389
+KHAS Malioboro Hotel,nyaman bersih,0.8601,abu abu,-1.1059
+KHAS Malioboro Hotel,khas malioboro,0.8128,lewat aplikasi,-1.0948
+KHAS Malioboro Hotel,jalan kaki,0.7809,membuka pintu,-1.019
+KHAS Malioboro Hotel,tempatnya nyaman,0.7747,pengalaman buruk,-0.9885
+KHAS Malioboro Hotel,cuma kurang,0.7676,secara umum,-0.9835
+KHAS Gresik Hotel,kota gresik,1.3643,tidak ramah,-1.7687
+KHAS Gresik Hotel,nyaman bersih,1.0279,gak sesuai,-1.6437
+KHAS Gresik Hotel,bagus bersih,0.787,tidak nyaman,-1.5425
+KHAS Gresik Hotel,pusat kota,0.7801,kurang menyenangkan,-1.4893
+KHAS Gresik Hotel,pelayanan baik,0.7658,pelayanan kurang,-1.353
+KHAS Gresik Hotel,tempatnya nyaman,0.7634,sama tidak,-1.1346
+KHAS Gresik Hotel,alat sholat,0.727,kurang maksimal,-1.0153
+KHAS Gresik Hotel,pelayanan bagus,0.7142,baik lagi,-0.9872
+KHAS Gresik Hotel,al quran,0.6939,terlalu mahal,-0.9721
+KHAS Gresik Hotel,tempat strategis,0.6868,parkirnya sempit,-0.9464
+KHAS Makassar Hotel,pelayanan bagus,1.0581,hotelnya gak,-1.707
+KHAS Makassar Hotel,kota makassar,0.9627,kurang ramah,-1.2172
+KHAS Makassar Hotel,nyaman bersih,0.9582,ketika pengunjung,-1.2081
+KHAS Makassar Hotel,bersih nyaman,0.9544,sarung bantal,-1.2053
+KHAS Makassar Hotel,pelayanan ramah,0.9178,pelayanan kurang,-1.1919
+KHAS Makassar Hotel,lokasi strategis,0.8975,ga ganti,-1.1529
+KHAS Makassar Hotel,al quran,0.8617,pelayanannya pun,-1.094
+KHAS Makassar Hotel,tengah kota,0.8476,valet jg krn,-1.0456
+KHAS Makassar Hotel,harga murah,0.8154,bagus hanya,-1.0269
+KHAS Makassar Hotel,tempatnya nyaman,0.7899,kurang bagus,-0.9844
+KHAS Ombilin Hotel,kota sawahlunto,0.8934,air panas,-1.3588
+KHAS Ombilin Hotel,tengah kota,0.6288,kota tua,-1.2537
+KHAS Ombilin Hotel,khas ombilin,0.5879,mandinya kotor,-1.0762
+KHAS Ombilin Hotel,sawah lunto,0.5475,tempat bersejarah,-0.7144
+KHAS Ombilin Hotel,bersih nyaman,0.5126,kurang terawat,-0.5449
+KHAS Ombilin Hotel,lokasi strategis,0.4769,bersih wangi,-0.4461
+KHAS Ombilin Hotel,pelayanan bagus,0.4669,stafnya ramah,-0.4334
+KHAS Ombilin Hotel,makanannya enak,0.438,nginap disini,-0.4297
+KHAS Ombilin Hotel,makanan enak,0.4276,hotelnya bagus,-0.4083
+KHAS Ombilin Hotel,terima kasih,0.4253,bangunan tua,-0.3784
+KHAS Palu Hotel,mas ade,0.2466,mengeluarkan suara,-1.2838
+KHAS Palu Hotel,dekat bandara,0.2418,kali menginap,-0.8291
+KHAS Palu Hotel,kamarnya bersih,0.197,pengalaman menginap,-0.3895
+KHAS Palu Hotel,pelayanan baik,0.1542,lokasinya strategis,-0.3734
+KHAS Palu Hotel,pelayanan bagus,0.1357,berfungsi baik,-0.3675
+KHAS Palu Hotel,hotelnya bagus,0.1346,nyaman tempat,-0.3589
+KHAS Palu Hotel,bagus harga,0.1345,air panasnya,-0.3442
+KHAS Palu Hotel,perjalanan bisnis,0.134,tempat tidur,-0.3185
+KHAS Palu Hotel,khas palu,0.1203,atas pelayanannya,0.0368
+KHAS Palu Hotel,pelayanan ramah,0.1188,mas ade atas,0.0368
+KHAS Pekalongan Hotel,pelayanan ramah,1.4606,kurang nyaman,-1.574
+KHAS Pekalongan Hotel,kota pekalongan,1.2821,tidak nyaman,-1.3111
+KHAS Pekalongan Hotel,bersih nyaman,1.2151,ac panas,-1.2316
+KHAS Pekalongan Hotel,kolam renang,1.1968,kurang luas,-1.1689
+KHAS Pekalongan Hotel,lokasi strategis,1.1509,tidak boleh,-1.0114
+KHAS Pekalongan Hotel,parkir luas,1.0921,menginap tiap,-1.0039
+KHAS Pekalongan Hotel,dekat alun,0.9977,tidak sesuai,-0.9832
+KHAS Pekalongan Hotel,tengah kota,0.9334,bau rokok,-0.961
+KHAS Pekalongan Hotel,nyaman bersih,0.9156,keganggu bgt,-0.9112
+KHAS Pekalongan Hotel,pusat kota,0.8782,mandi bau,-0.8262
+KHAS Pekanbaru Riau Hotel,kota pekanbaru,1.2893,parkir sempit,-1.8973
+KHAS Pekanbaru Riau Hotel,tengah kota,1.2746,tidak ramah,-1.4286
+KHAS Pekanbaru Riau Hotel,bersih nyaman,1.1548,kurang memuaskan,-1.2389
+KHAS Pekanbaru Riau Hotel,sarapannya enak,1.0409,sarapan kurang,-1.2047
+KHAS Pekanbaru Riau Hotel,lokasi strategis,0.9859,makanannya kurang,-1.1614
+KHAS Pekanbaru Riau Hotel,tempat nyaman,0.9643,kurang terawat,-1.1388
+KHAS Pekanbaru Riau Hotel,pelayanan bagus,0.9034,menu makanan,-1.1247
+KHAS Pekanbaru Riau Hotel,pusat kota,0.9009,bau apek,-1.0238
+KHAS Pekanbaru Riau Hotel,makanan enak,0.8807,hp hilang,-1.0181
+KHAS Pekanbaru Riau Hotel,pelayanan ramah,0.88,byk rusak,-0.9959
+KHAS Prapat,langsung danau,1.0072,tidak sesuai,-1.3984
+KHAS Prapat,danau toba,1.0048,pelayanan buruk,-1.3844
+KHAS Prapat,banyak spot,0.9782,pelayanannya buruk,-1.2892
+KHAS Prapat,nyaman bersih,0.9412,terlalu mahal,-1.2641
+KHAS Prapat,bersih nyaman,0.9158,kurang enak,-1.173
+KHAS Prapat,khas parapat,0.8945,pelayanan kurang,-1.0271
+KHAS Prapat,lokasi strategis,0.8646,kedai teras,-1.0188
+KHAS Prapat,pemandangan danau,0.7998,harga kamarnya,-1.0138
+KHAS Prapat,makanan enak,0.7112,tidak memuaskan,-1.0083
+KHAS Prapat,bagus bersih,0.6847,cuma air,-0.9951
+KHAS Semarang Hotel,lokasi strategis,1.1425,pelayanan buruk,-2.012
+KHAS Semarang Hotel,pelayanan ramah,1.0466,kurang luas,-1.5945
+KHAS Semarang Hotel,staff ramah,0.9784,kurang menarik,-1.5524
+KHAS Semarang Hotel,makanan enak,0.8899,makanannya kurang,-1.4859
+KHAS Semarang Hotel,bersih nyaman,0.835,sampai jam,-1.3543
+KHAS Semarang Hotel,khas semarang,0.8138,terlalu kecil,-1.3517
+KHAS Semarang Hotel,parkir luas,0.7779,hari pertama,-1.2575
+KHAS Semarang Hotel,tengah kota,0.7183,menghargai tamu,-1.2466
+KHAS Semarang Hotel,stafnya ramah,0.7008,seperti makan,-1.236
+KHAS Semarang Hotel,kesini lagi,0.6446,kurang bersih,-1.2132
+KHAS Surabaya Hotel,sunan ampel,1.2667,kurang ramah,-1.7362
+KHAS Surabaya Hotel,bersih nyaman,1.2258,tidak ramah,-1.4778
+KHAS Surabaya Hotel,parkir luas,0.9227,pelayanan kurang,-1.2709
+KHAS Surabaya Hotel,lokasi strategis,0.8554,tidak sesuai,-1.2368
+KHAS Surabaya Hotel,khas surabaya,0.8106,tidak menyenangkan,-1.236
+KHAS Surabaya Hotel,wisata religi,0.7977,bets bnget,-1.2169
+KHAS Surabaya Hotel,pelayanan ramah,0.7449,bersarang dalamnya,-1.2169
+KHAS Surabaya Hotel,pelayanan bagus,0.7428,wktu acara,-1.2169
+KHAS Surabaya Hotel,makanan enak,0.7393,kurang bersih,-1.1586
+KHAS Surabaya Hotel,harga terjangkau,0.7158,menu makanan,-1.1344
+KHAS Tegal Hotel,kota tegal,1.3963,kurang bersih,-1.7771
+KHAS Tegal Hotel,kolam renang,1.126,terlalu sempit,-1.5549
+KHAS Tegal Hotel,pelayanan bagus,1.0838,twin bed,-1.3153
+KHAS Tegal Hotel,menu sarapan,1.0777,kurang enak,-1.2611
+KHAS Tegal Hotel,bersih nyaman,1.0542,tidak dibuatkan,-1.2279
+KHAS Tegal Hotel,nyaman bersih,1.0405,bagus fasilitas,-1.2103
+KHAS Tegal Hotel,lokasi strategis,0.9937,mati lampu,-1.2055
+KHAS Tegal Hotel,staff ramah,0.8639,kurang oke,-1.1285
+KHAS Tegal Hotel,pusat kota,0.8407,depan diperbaiki,-1.0241
+KHAS Tegal Hotel,terima kasih,0.7968,jadi kurang,-0.9778
+KHAS Tugu Hotel,lokasi strategis,1.7272,ac bocor,-1.6283
+KHAS Tugu Hotel,makanan enak,1.2675,pelayanan buruk,-1.5585
+KHAS Tugu Hotel,tugu jogja,1.2157,kamarnya kecil,-1.5408
+KHAS Tugu Hotel,makanannya enak,1.1593,kurang ramah,-1.5076
+KHAS Tugu Hotel,tempat strategis,0.9929,kurang rapi,-1.3187
+KHAS Tugu Hotel,pusat kota,0.972,harga mahal,-1.2698
+KHAS Tugu Hotel,salah satu,0.9255,ditingkatkan lagi,-1.267
+KHAS Tugu Hotel,pelayanan ramah,0.8948,terlalu kecil,-1.2088
+KHAS Tugu Hotel,tempatnya nyaman,0.8755,kurang enak,-1.1824
+KHAS Tugu Hotel,kamarnya bersih,0.866,kurang nyaman,-1.1617
+Kyriad Hotel Airport Tanggerang,pelayanan baik,1.1328,ac bocor,-1.2587
+Kyriad Hotel Airport Tanggerang,nyaman bersih,1.0051,kurang bagus,-1.2196
+Kyriad Hotel Airport Tanggerang,pelayanan bagus,0.991,terburuk pernah,-1.1777
+Kyriad Hotel Airport Tanggerang,deket bandara,0.9587,mandi kotor,-1.1637
+Kyriad Hotel Airport Tanggerang,bersih nyaman,0.9571,tidak direkomendasikan,-1.1241
+Kyriad Hotel Airport Tanggerang,makanan enak,0.9451,wifi tidak,-1.0609
+Kyriad Hotel Airport Tanggerang,mbak desy,0.9179,kurang enak,-1.0463
+Kyriad Hotel Airport Tanggerang,stafnya ramah,0.8784,pelayanan kurang,-1.0009
+Kyriad Hotel Airport Tanggerang,tempat nyaman,0.8635,fasilitas kurang,-0.9913
+Kyriad Hotel Airport Tanggerang,harga terjangkau,0.8529,kurang nyaman,-0.9713
+Lafayette Hotel,staff ramah,0.9486,kurang enak,-1.8199
+Lafayette Hotel,makanan enak,0.8606,harus menunggu,-1.5034
+Lafayette Hotel,kolam renangnya,0.8421,tidak ramah,-1.4625
+Lafayette Hotel,spot foto,0.8145,seperti tidak,-1.2705
+Lafayette Hotel,gunung merapi,0.7799,pengalaman terburuk,-1.2534
+Lafayette Hotel,nuansa eropa,0.7747,kurang ramah,-1.2438
+Lafayette Hotel,salah satu,0.737,kurang baik,-1.1328
+Lafayette Hotel,kesini lagi,0.7333,ga dingin,-1.0987
+Lafayette Hotel,pelayanan baik,0.7312,service staff,-1.0884
+Lafayette Hotel,terima kasih,0.7175,staf resepsionis,-1.0408
+LPP Garden Hotel Jogjakarta,tempat nyaman,1.2588,banyak nyamuk,-1.3323
+LPP Garden Hotel Jogjakarta,pelayanan ramah,1.1872,mandi ga,-1.2616
+LPP Garden Hotel Jogjakarta,harga terjangkau,1.1617,pelayanan kurang,-1.2063
+LPP Garden Hotel Jogjakarta,tempatnya nyaman,1.0107,bau rokok,-1.1749
+LPP Garden Hotel Jogjakarta,cocok buat,0.9244,hanya menggunakan,-1.11
+LPP Garden Hotel Jogjakarta,parkir luas,0.8893,masih dibersihkan,-1.1065
+LPP Garden Hotel Jogjakarta,tempatnya enak,0.8699,pelayanan buruk,-1.1048
+LPP Garden Hotel Jogjakarta,tengah kota,0.8281,bangunan lama,-1.0543
+LPP Garden Hotel Jogjakarta,nginep disini,0.8057,akhirnya harus,-1.0427
+LPP Garden Hotel Jogjakarta,kamarnya nyaman,0.7927,berkesan jorok,-1.0043
+Palm Park Surabaya,bersih nyaman,0.9004,terlalu mahal,-1.3118
+Palm Park Surabaya,kaza mall,0.8504,pintu mandi,-1.2252
+Palm Park Surabaya,harga terjangkau,0.8237,gedung parkir,-1.111
+Palm Park Surabaya,tempatnya nyaman,0.747,bangunan baru,-1.0813
+Palm Park Surabaya,nyaman bersih,0.7268,kurang dingin,-1.0305
+Palm Park Surabaya,pasar tradisional,0.7022,nyaman hanya,-0.916
+Palm Park Surabaya,bagus bersih,0.6834,kecoa kecil,-0.9083
+Palm Park Surabaya,pelayanan bagus,0.6798,parkir jauh,-0.8931
+Palm Park Surabaya,tempatnya bagus,0.6329,mandi air,-0.887
+Palm Park Surabaya,harga murah,0.6121,lobby lokasi,-0.8567
+Park Hotel,terima kasih,1.3592,kurang nyaman,-1.5431
+Park Hotel,makanan enak,1.2209,kurang enak,-1.4847
+Park Hotel,bersih nyaman,1.0598,kamarnya kecil,-1.2973
+Park Hotel,bandara halim,0.8602,kurang ramah,-1.2708
+Park Hotel,pelayanan bagus,0.8464,tidak tersedia,-0.9656
+Park Hotel,hotelnya bagus,0.7832,kurang suka,-0.9631
+Park Hotel,jakarta timur,0.7746,ac gak,-0.9469
+Park Hotel,mas akmal,0.7565,makanan kurang,-0.8847
+Park Hotel,fasilitas lengkap,0.7318,asap rokok,-0.8833
+Park Hotel,nyaman bersih,0.7304,kurang memuaskan,-0.8824
+Patra Aner Hotel,langsung pantai,1.2556,tidak terawat,-1.5599
+Patra Aner Hotel,view pantai,1.1569,banyak semut,-1.4577
+Patra Aner Hotel,bagus bersih,1.0492,pelayanan buruk,-1.3759
+Patra Aner Hotel,bersama keluarga,1.0301,banyak serangga,-1.1918
+Patra Aner Hotel,dekat pantai,1.0208,extra bed,-1.1694
+Patra Aner Hotel,tempatnya bagus,1.0148,kurang nyaman,-1.1373
+Patra Aner Hotel,pasir putih,0.9425,mandi kotor,-1.0449
+Patra Aner Hotel,tempatnya nyaman,0.9127,saluran air,-1.0026
+Patra Aner Hotel,pelayanan ramah,0.8709,tidak sarapan,-0.9694
+Patra Aner Hotel,nyaman bersih,0.7789,makanannya kurang,-0.9537
+Patra Bandung Hotel,makanan enak,0.9282,sholat jumat,-1.3385
+Patra Bandung Hotel,kota bandung,0.8907,tidak sesuai,-1.0236
+Patra Bandung Hotel,nyaman bersih,0.8536,kamarnya kecil,-1.0122
+Patra Bandung Hotel,bersih nyaman,0.775,bagus hanya,-0.9555
+Patra Bandung Hotel,makanannya enak,0.764,gedung terkesan kuno,-0.8692
+Patra Bandung Hotel,staff ramah,0.7083,gedung terkesan,-0.8692
+Patra Bandung Hotel,lokasinya strategis,0.6494,hanya kenyamanannya kurang,-0.8075
+Patra Bandung Hotel,kolam air,0.607,hanya kenyamanannya,-0.8075
+Patra Bandung Hotel,air hangat,0.601,dibandingkan lainnyarasa masakannya,-0.8042
+Patra Bandung Hotel,sarapan enak,0.5838,dibandingkan lainnyarasa,-0.8042
+Patra Dumai Hotel,bersih nyaman,0.5732,nasi putih,-1.2051
+Patra Dumai Hotel,pelayanan baik,0.5069,tempat parkir,-0.7988
+Patra Dumai Hotel,pelayanan bagus,0.5036,bagus kebersihannya,-0.7068
+Patra Dumai Hotel,bagus bersih,0.4886,kali nginap,-0.7022
+Patra Dumai Hotel,kota dumai,0.4456,panas tidak,-0.6883
+Patra Dumai Hotel,patra dumai,0.437,air panas,-0.6864
+Patra Dumai Hotel,makanan enak,0.4296,pihak patra,-0.6113
+Patra Dumai Hotel,air purifier,0.4123,liburan bersama,-0.6
+Patra Dumai Hotel,pelayanan ramah,0.4042,pertama kali,-0.5977
+Patra Dumai Hotel,nyaman bersih,0.3905,play ground,-0.5838
+Patra Jakarta,makanannya enak,0.755,kedap suara,-1.3433
+Patra Jakarta,tempat nyaman,0.6979,tidak seperti,-1.1401
+Patra Jakarta,lokasi strategis,0.6541,pelayanan kurang,-1.1281
+Patra Jakarta,tempat menginap,0.6222,tidak terlalu,-1.0084
+Patra Jakarta,rumah sakit,0.4373,patra jasa,-0.8197
+Patra Jakarta,terima kasih,0.4157,bank mandiri,-0.6634
+Patra Jakarta,tempat bagus,0.4068,tenis lapangan,-0.6477
+Patra Jakarta,bagus bersih,0.4014,banyak nyamuk,-0.618
+Patra Jakarta,tempatnya nyaman,0.3968,cari makan,-0.5904
+Patra Jakarta,hotelnya bagus,0.3755,menginap sini,-0.5793
+Patra Malioboro Hotel,lokasi strategis,1.0033,pelayanan buruk,-1.4435
+Patra Malioboro Hotel,dekat malioboro,0.891,kurang baik,-1.2907
+Patra Malioboro Hotel,jalan kaki,0.7984,tidak menyenangkan,-1.1887
+Patra Malioboro Hotel,kolam renang,0.6799,namun tidak,-1.1554
+Patra Malioboro Hotel,hotelnya bagus,0.6213,mau keluar,-1.1476
+Patra Malioboro Hotel,staff ramah,0.5457,denda rokok,-1.0024
+Patra Malioboro Hotel,patra malioboro,0.5228,tempat parkir,-0.7891
+Patra Malioboro Hotel,sarapan enak,0.4852,jadi kurang nyaman,-0.7772
+Patra Malioboro Hotel,air purifier,0.4843,extra bed,-0.7732
+Patra Malioboro Hotel,makanan enak,0.4656,mau pinjam,-0.7728
+Patra Parapat Hotel,pemandangan indah,1.2436,air panas,-1.1307
+Patra Parapat Hotel,tempat nyaman,0.8401,bawa ank,-1.1274
+Patra Parapat Hotel,danau toba,0.7434,kurang perawatan,-1.0975
+Patra Parapat Hotel,view danau,0.6317,bagus tetapi,-1.0831
+Patra Parapat Hotel,liburan keluarga,0.6061,tengah malam,-1.0558
+Patra Parapat Hotel,pemandangannya indah,0.5688,transportasi umum,-1.0312
+Patra Parapat Hotel,bagus nyaman,0.5362,secara keseluruhan,-0.967
+Patra Parapat Hotel,makanannya enak,0.5241,jalan masuk,-0.9385
+Patra Parapat Hotel,nyaman asri,0.5222,apa lg,-0.9096
+Patra Parapat Hotel,bagus pemandangan,0.5025,kurang baik,-0.9014
+Rollas Hotel&Resort,perkebunan teh,0.9782,kurang terawat,-1.7625
+Rollas Hotel&Resort,tempatnya nyaman,0.731,pelayanan buruk,-1.4078
+Rollas Hotel&Resort,kebun teh,0.6915,mana gak,-0.9645
+Rollas Hotel&Resort,tiket masuk,0.6304,redup lampu,-0.961
+Rollas Hotel&Resort,bersama keluarga,0.6304,bangunan lama,-0.8784
+Rollas Hotel&Resort,pabrik teh,0.526,kurang enak,-0.8604
+Rollas Hotel&Resort,pemandangan indah,0.5089,kotor berdebu,-0.8269
+Rollas Hotel&Resort,tenang nyaman,0.4872,kurang bersih,-0.7881
+Rollas Hotel&Resort,tempat bagus,0.4728,kebersihan kurang,-0.7794
+Rollas Hotel&Resort,bukit kuneer,0.4664,bagus tp,-0.772
+The Manohara,pelayanan ramah,1.2699,kurang ramah,-1.6712
+The Manohara,makanannya enak,1.16,tidak nyaman,-1.6259
+The Manohara,hotelnya bagus,0.9459,orang lain,-1.3868
+The Manohara,kak nera,0.8604,basi masih,-1.2562
+The Manohara,kolam renang,0.8242,tidak tahu,-1.2444
+The Manohara,staff ramah,0.7818,jalan kaki,-1.2058
+The Manohara,makanan enak,0.7809,ramah bersih,-1.1629
+The Manohara,kota jogja,0.7556,tidak ramah,-1.1628
+The Manohara,bersih wangi,0.7459,parkiran depan,-1.1093
+The Manohara,lokasi strategis,0.7272,kamarnya kurang,-1.0835
+The Patra Bali Resort&Villlaa,pelayanan ramah,0.8192,kurang ramah,-1.7567
+The Patra Bali Resort&Villlaa,pinggir pantai,0.8012,mereka tidak,-1.7165
+The Patra Bali Resort&Villlaa,tempat nyaman,0.6747,tidak ramah,-1.2939
+The Patra Bali Resort&Villlaa,tempatnya bagus,0.6623,menginap sini,-1.2708
+The Patra Bali Resort&Villlaa,dekat bandara,0.6602,kurang terawat,-1.2457
+The Patra Bali Resort&Villlaa,ngurah rai,0.6498,pengalaman buruk,-1.1969
+The Patra Bali Resort&Villlaa,view pantai,0.589,tidak berfungsi,-1.1588
+The Patra Bali Resort&Villlaa,luas nyaman,0.5712,kurang bagus,-1.1404
+The Patra Bali Resort&Villlaa,deket bandara,0.5659,berusia tahun,-1.0642
+The Patra Bali Resort&Villlaa,bersama keluarga,0.5627,harga tidak,-1.005
+The Silk Art+Design Hotel,tempat bagus,0.9121,tidak tidur,-1.0269
+The Silk Art+Design Hotel,tempat menginap,0.7682,puntung rokok,-1.0017
+The Silk Art+Design Hotel,harga terjangkau,0.7423,jangan pernah,-0.9985
+The Silk Art+Design Hotel,kecil nyaman,0.6536,bagus masih,-0.9533
+The Silk Art+Design Hotel,pelayanan ramah,0.627,harga vs,-0.9398
+The Silk Art+Design Hotel,tempat nyaman,0.6227,kurang terawat,-0.9139
+The Silk Art+Design Hotel,tempat makan,0.6209,pencahayaan kurang,-0.9054
+The Silk Art+Design Hotel,banyak spot,0.6204,gagang pintu,-0.895
+The Silk Art+Design Hotel,pohon pinus,0.5677,pintu ga,-0.8526
+The Silk Art+Design Hotel,live music,0.5333,kurang bersih,-0.8459
+Up-Peak Semarang,lokasi strategis,1.8177,tidak kedap,-1.1453
+Up-Peak Semarang,pelayanan ramah,1.563,pelayanan buruk,-1.1327
+Up-Peak Semarang,makanannya enak,1.4431,tidak ramah,-1.06
+Up-Peak Semarang,simpang lima,1.3332,pertama kali,-1.0501
+Up-Peak Semarang,tengah kota,1.1998,terdengar suara,-1.0485
+Up-Peak Semarang,makanan enak,1.1009,kurang bersih,-1.0392
+Up-Peak Semarang,nyaman bersih,1.0669,tidak dibersihkan,-0.9975
+Up-Peak Semarang,pusat kota,1.0405,queen size,-0.9811
+Up-Peak Semarang,tempatnya nyaman,0.9904,tdk sesuai,-0.9603
+Up-Peak Semarang,hotelnya bagus,0.9845,tempat sampah,-0.9567
+Anara Hotel Airports,lokasi strategis,0.9337,ga diangkat,-1.5051
+Anara Hotel Airports,tempat nyaman,0.7354,tidak dapat,-1.2001
+Anara Hotel Airports,bersih nyaman,0.7282,telpon susah,-1.1672
+Anara Hotel Airports,nyaman bersih,0.702,terlalu banyak,-1.1579
+Anara Hotel Airports,tinggal jalan,0.6999,jadi tidak,-1.1485
+Anara Hotel Airports,terletak terminal,0.6725,hanya orang,-1.0993
+Anara Hotel Airports,ruangan bersih,0.651,tidak istimewa,-1.0915
+Anara Hotel Airports,bersih bagus,0.6397,baik beberapa,-1.0886
+Anara Hotel Airports,pelayanan baik,0.6364,tidak mungkin,-1.0641
+Anara Hotel Airports,makanannya enak,0.6251,bau rokok,-0.9847
+Aston Priority,pelayanan ramah,1.4318,kurang ramah,-1.5648
+Aston Priority,makanannya enak,1.2492,jam baru,-1.2236
+Aston Priority,pelayanan bagus,1.2296,mereka tidak,-1.0464
+Aston Priority,kamarnya nyaman,1.2284,tidak sesuai,-0.9908
+Aston Priority,menginap disini,1.2247,pelayanan buruk,-0.9725
+Aston Priority,makanan enak,1.2178,parkir tidak,-0.9478
+Aston Priority,mbak siska,1.2018,tamu datang,-0.9417
+Aston Priority,nyaman bersih,1.1939,tempat parkir,-0.8842
+Aston Priority,staff ramah,1.1537,lama padahal,-0.8631
+Aston Priority,pelayanan baik,1.152,junior suite,-0.8266
+Golden Tulip Jineng,lokasi strategis,1.5495,kebersihan kurang,-1.1623
+Golden Tulip Jineng,staf ramah,1.2214,dua kali,-1.1367
+Golden Tulip Jineng,kolam renang,0.9647,tidak tidur,-1.1077
+Golden Tulip Jineng,makanan enak,0.8159,tidak bekerja,-1.0448
+Golden Tulip Jineng,kamarnya luas,0.7864,ruangan tidak,-0.975
+Golden Tulip Jineng,bersih nyaman,0.7541,tidak pernah,-0.9595
+Golden Tulip Jineng,dekat bandara,0.743,tidak ramah,-0.957
+Golden Tulip Jineng,terima kasih,0.7143,pengalaman buruk,-0.9244
+Golden Tulip Jineng,nyaman bersih,0.6945,tidak sopan,-0.9197
+Golden Tulip Jineng,bagus staf,0.6729,staf tidak,-0.9105
+Grandhika Iskandarsyah Jakarta,lokasi strategis,1.5147,tidak nyaman,-1.1392
+Grandhika Iskandarsyah Jakarta,terima kasih,1.4759,parkirnya sempit,-1.1174
+Grandhika Iskandarsyah Jakarta,makanannya enak,1.076,parkir luar,-1.0976
+Grandhika Iskandarsyah Jakarta,staff ramah,1.0022,pelayanan buruk,-1.076
+Grandhika Iskandarsyah Jakarta,jakarta selatan,0.9505,pelayanan kurang,-1.0025
+Grandhika Iskandarsyah Jakarta,pelayanannya ramah,0.9481,tdk sesuai,-0.9767
+Grandhika Iskandarsyah Jakarta,fasilitas lengkap,0.9474,banyak mobil,-0.9665
+Grandhika Iskandarsyah Jakarta,bersih nyaman,0.9423,tempat parkir,-0.9605
+Grandhika Iskandarsyah Jakarta,menu sarapan,0.9184,makanan menu,-0.9582
+Grandhika Iskandarsyah Jakarta,grandhika iskandarsyah,0.9156,tidak ramah,-0.9398
+Grand Inna Medan,pusat kota,1.3809,tidak sesuai,-2.0174
+Grand Inna Medan,kota medan,0.9845,tidak terawat,-1.5537
+Grand Inna Medan,tengah kota,0.9754,kurang memuaskan,-1.3168
+Grand Inna Medan,bersih nyaman,0.9671,terlalu tua,-1.3032
+Grand Inna Medan,makanan enak,0.9138,terlalu banyak,-1.2912
+Grand Inna Medan,staf ramah,0.9022,udah tua,-1.2546
+Grand Inna Medan,menu sarapan,0.8892,tidak ramah,-1.1809
+Grand Inna Medan,kolam renangnya,0.8884,kurang bagus,-1.1797
+Grand Inna Medan,makanannya enak,0.8829,kurang nyaman,-1.1585
+Grand Inna Medan,tempat bagus,0.8824,bau pesing,-1.1476
+Grand Inna Samudra Beach,pinggir pantai,1.2195,sikat gigi,-1.4194
+Grand Inna Samudra Beach,private beach,0.8721,sabun shampo,-1.118
+Grand Inna Samudra Beach,pelayanan baik,0.8164,ac berisik,-1.0892
+Grand Inna Samudra Beach,menginap disini,0.8164,cleaning service,-1.08
+Grand Inna Samudra Beach,dekat pantai,0.7907,tidak sesuai,-1.0693
+Grand Inna Samudra Beach,salah satu,0.7644,tdk terawat,-1.0365
+Grand Inna Samudra Beach,pantai pribadi,0.744,mandi kotor,-1.035
+Grand Inna Samudra Beach,tempat bagus,0.7408,pelayanan kurang,-1.0292
+Grand Inna Samudra Beach,terima kasih,0.7138,pelayanan buruk,-1.0264
+Grand Inna Samudra Beach,langsung laut,0.7051,ac rusak,-0.9919
+Grand Inna Tunjungan,makanan enak,1.1512,wifi lemot,-1.5236
+Grand Inna Tunjungan,staff ramah,1.0923,tidak ramah,-1.3989
+Grand Inna Tunjungan,pusat kota,1.0194,kurang ramah,-1.3445
+Grand Inna Tunjungan,kota surabaya,0.9851,jika anda,-1.2735
+Grand Inna Tunjungan,lokasi strategis,0.9706,kurang terawat,-1.2136
+Grand Inna Tunjungan,nyaman bersih,0.9539,fasilitas kurang,-1.2072
+Grand Inna Tunjungan,parkir luas,0.9067,baru kali,-1.1576
+Grand Inna Tunjungan,staf ramah,0.8677,ga sesuai,-1.1338
+Grand Inna Tunjungan,pelayanan ramah,0.8143,mereka hanya,-1.0122
+Grand Inna Tunjungan,lokasinya strategis,0.8072,beberapa bagian,-1.0042
+Horison Semarang,kota lama,1.5895,mandi rusak,-1.3193
+Horison Semarang,pelayanan ramah,1.4101,tidak bagus,-1.1961
+Horison Semarang,pelayanannya ramah,1.1343,air bau,-1.0567
+Horison Semarang,pelayanan baik,1.0663,kurang bersih,-1.0562
+Horison Semarang,lokasi strategis,1.0561,ngga enak,-1.0363
+Horison Semarang,tempat strategis,1.0293,mandi kotor,-1.0245
+Horison Semarang,hotelnya bagus,1.0119,sarapan tidak,-0.9995
+Horison Semarang,kamarnya nyaman,0.9846,terburuk pernah,-0.992
+Horison Semarang,pelayanan oke,0.9613,selimut kotor,-0.9768
+Horison Semarang,dekat kota,0.9,tidak profesional,-0.946
+Jakarta Airport Hotel T2,dekat bandara,1.0156,tidak bekerja,-1.1764
+Jakarta Airport Hotel T2,tempat bagus,0.9695,terminal tua,-1.143
+Jakarta Airport Hotel T2,staf ramah,0.9336,jalan jauh,-1.0964
+Jakarta Airport Hotel T2,soekarno hatta,0.9232,kurang bagus,-1.0275
+Jakarta Airport Hotel T2,lokasi strategis,0.9028,pelayanannya buruk,-1.0228
+Jakarta Airport Hotel T2,ramah membantu,0.8705,terburuk pernah,-1.0205
+Jakarta Airport Hotel T2,pemandangan bagus,0.8171,besar suka,-1.0006
+Jakarta Airport Hotel T2,bagus nyaman,0.8068,tidak dianjurkan,-0.9709
+Jakarta Airport Hotel T2,bersih nyaman,0.781,bagus namun,-0.9
+Jakarta Airport Hotel T2,landasan pacu,0.7412,terlalu lama,-0.8679
+Jatiluhur Valley&Resort,tempat bagus,1.1126,harus bayar,-1.5076
+Jatiluhur Valley&Resort,waduk jatiluhur,0.7727,tidak terawat,-1.3457
+Jatiluhur Valley&Resort,tempatnya nyaman,0.674,kurang nyaman,-1.3035
+Jatiluhur Valley&Resort,bersama keluarga,0.6498,sedikit kurang,-1.2426
+Jatiluhur Valley&Resort,makanan enak,0.6349,air panas,-1.1947
+Jatiluhur Valley&Resort,pelayanan ramah,0.6025,lg renovasi,-1.1285
+Jatiluhur Valley&Resort,fasilitas lengkap,0.5741,kurang baik,-1.092
+Jatiluhur Valley&Resort,anak sampai,0.5722,jam masih,-0.9723
+Jatiluhur Valley&Resort,bagus bersih,0.5607,kasih bintang,-0.9673
+Jatiluhur Valley&Resort,pemandangan indah,0.5397,bagus cuma,-0.9596
+Mercure Bandung Nexa Supratman,chef yana,1.3962,tempat parkir,-1.2591
+Mercure Bandung Nexa Supratman,terima kasih,1.3824,kurang ramah,-1.2077
+Mercure Bandung Nexa Supratman,lokasi strategis,1.1063,jadi kurang,-1.1107
+Mercure Bandung Nexa Supratman,makanannya enak,1.0834,tamu lain,-0.9748
+Mercure Bandung Nexa Supratman,mas rio,1.0614,selama hari,-0.8618
+Mercure Bandung Nexa Supratman,pelayanan ramah,1.0417,habis tidak,-0.8609
+Mercure Bandung Nexa Supratman,pelayanan baik,1.0181,kurang oke,-0.8485
+Mercure Bandung Nexa Supratman,pusat kota,0.9756,parkir kecil,-0.8347
+Mercure Bandung Nexa Supratman,pak yana,0.9756,standar bintang,-0.8251
+Mercure Bandung Nexa Supratman,makanan enak,0.891,daripada bintang,-0.8225
+Mercure Makassar Nexa Pettarani,mba arafah,1.3399,tidak nyaman,-1.3632
+Mercure Makassar Nexa Pettarani,makanan enak,1.2008,mereka tidak,-1.3234
+Mercure Makassar Nexa Pettarani,kamarnya bersih,1.0916,pintu geser,-1.0957
+Mercure Makassar Nexa Pettarani,lokasi strategis,1.0396,tidak rekomendasi,-1.0216
+Mercure Makassar Nexa Pettarani,terima kasih,1.0294,sama tidak,-0.9533
+Mercure Makassar Nexa Pettarani,staff ramah,0.9741,satu kunci,-0.9447
+Mercure Makassar Nexa Pettarani,hotelnya bagus,0.9564,kmr mandi,-0.9383
+Mercure Makassar Nexa Pettarani,kamarnya nyaman,0.9402,tidak enak,-0.9117
+Mercure Makassar Nexa Pettarani,pelayanan bagus,0.9021,buat istirahat,-0.888
+Mercure Makassar Nexa Pettarani,mba arafahh,0.8994,lain kali,-0.8846
+Novotel Bali Airports,terima kasih,1.2324,pukul pagi,-1.1619
+Novotel Bali Airports,dekat bandara,1.1732,memiliki banyak,-1.1525
+Novotel Bali Airports,tempat bagus,1.0369,tidak berfungsi,-1.077
+Novotel Bali Airports,sri wiyani,1.0191,pelayanan buruk,-1.0495
+Novotel Bali Airports,lokasi bagus,0.9702,tidak baik,-0.939
+Novotel Bali Airports,staf ramah,0.9549,buruk tidak,-0.9309
+Novotel Bali Airports,bersih nyaman,0.9475,tidak nyaman,-0.9279
+Novotel Bali Airports,kolam renang,0.9066,kecuali jika,-0.892
+Novotel Bali Airports,larut malam,0.8212,semua ulasan,-0.8887
+Novotel Bali Airports,bagus staf,0.8125,sulit menemukan,-0.8482
+Patra Cirebon Hotel&Convention,kota cirebon,1.0731,tidak ramah,-1.578
+Patra Cirebon Hotel&Convention,lokasi strategis,1.0575,namun sayang,-1.2801
+Patra Cirebon Hotel&Convention,bersih nyaman,0.9705,sekelas patra,-1.1653
+Patra Cirebon Hotel&Convention,patra cirebon,0.9703,sayang kolam,-1.1204
+Patra Cirebon Hotel&Convention,pelayanan ramah,0.7943,kurang bagus,-1.1173
+Patra Cirebon Hotel&Convention,gunung ciremai,0.7909,cita rasanya,-1.0616
+Patra Cirebon Hotel&Convention,pelayanan baik,0.7602,harga tidak,-1.0417
+Patra Cirebon Hotel&Convention,nyaman bersih,0.7598,tidak puas,-0.9942
+Patra Cirebon Hotel&Convention,bagus nyaman,0.727,ngga refill,-0.9917
+Patra Cirebon Hotel&Convention,makanannya enak,0.6845,mereka mengirim,-0.9456
+Patra Semarang Hotel&Convention,makanan enak,1.385,uang parkir,-1.3727
+Patra Semarang Hotel&Convention,luas bersih,1.2504,kurang nyaman,-1.2888
+Patra Semarang Hotel&Convention,salah satu,1.2493,bayar parkir,-1.2801
+Patra Semarang Hotel&Convention,nyaman bersih,1.2314,kurang bersih,-1.1091
+Patra Semarang Hotel&Convention,pelayanan ramah,1.1599,tidak ramah,-1.0619
+Patra Semarang Hotel&Convention,parkir luas,1.1582,loket parkir,-1.0368
+Patra Semarang Hotel&Convention,kolam renangnya,1.0994,sprei sarung,-0.9765
+Patra Semarang Hotel&Convention,tempat parkir,1.0598,kurang diperhatikan,-0.9651
+Patra Semarang Hotel&Convention,makanannya enak,1.0523,fasilitas banyak,-0.9579
+Patra Semarang Hotel&Convention,kolam renang,1.0466,tidak layak,-0.9504
+Sari Ater Kamboti,lokasi strategis,0.8998,kurang memuaskan,-1.5441
+Sari Ater Kamboti,fasilitas lengkap,0.8853,tidak berfungsi,-1.5439
+Sari Ater Kamboti,pelayanan ramah,0.8644,tidak apaapa,-1.4948
+Sari Ater Kamboti,luas nyaman,0.7994,tolong perbaiki,-1.366
+Sari Ater Kamboti,makanan enak,0.6836,gak nyaman,-1.2899
+Sari Ater Kamboti,bersih nyaman,0.6712,buruk tidak,-1.2282
+Sari Ater Kamboti,parkir luas,0.665,resepsionis kurang,-1.132
+Sari Ater Kamboti,tempat nyaman,0.6487,masih banyak,-1.1126
+Sari Ater Kamboti,banyak pilihan,0.6311,makanan aja,-1.0074
+Sari Ater Kamboti,kolam renang,0.6222,kurang enak,-0.92
+Sheraton Bandara,terima kasih,0.9725,kamarnya bau,-1.0207
+Sheraton Bandara,kolam renang,0.7524,satu jam,-0.8717
+Sheraton Bandara,staf ramah,0.6358,bau apek,-0.7638
+Sheraton Bandara,terbaik pernah,0.5539,mereka tidak,-0.7218
+Sheraton Bandara,tempat bagus,0.5164,mandi tidak,-0.681
+Sheraton Bandara,sheraton bandara,0.5021,terlalu jauh,-0.6544
+Sheraton Bandara,sheraton jakarta,0.5017,direnovasi sarapannya,-0.6477
+Sheraton Bandara,makanan enak,0.4689,tidak pernah,-0.6259
+Sheraton Bandara,tinggal sini,0.4544,tidak terlalu,-0.62
+Sheraton Bandara,soekarno hatta,0.4471,pesawat bandara,-0.6115
+Swissbel Balikpapan,makanan enak,1.2819,kurang menyenangkan,-1.2282
+Swissbel Balikpapan,pelayanan baik,1.1438,bau apek,-1.0821
+Swissbel Balikpapan,terima kasih,1.0742,jam siang,-1.0623
+Swissbel Balikpapan,pelayanannya ramah,1.0668,waktu check,-1.0176
+Swissbel Balikpapan,mbak maqda,1.0602,lama tidak,-0.9867
+Swissbel Balikpapan,mas juken,1.0555,kurang baik,-0.9345
+Swissbel Balikpapan,bersih nyaman,0.9877,mati lampu,-0.9292
+Swissbel Balikpapan,view laut,0.987,tempat duduk,-0.8871
+Swissbel Balikpapan,pelayanan ramah,0.9826,setengah jam,-0.8712
+Swissbel Balikpapan,pelayanannya baik,0.9079,tidak bersih,-0.8677
+Truntum Cihampelas,lokasi strategis,0.3151,permintaan maaf,-0.9542
+Truntum Cihampelas,staf ramah,0.2814,nginep disini,-0.778
+Truntum Cihampelas,makanan enak,0.2657,oke lah,-0.6162
+Truntum Cihampelas,menginap truntum,0.2523,air panas,-0.5997
+Truntum Cihampelas,welcome drink,0.2386,masih baru,-0.4197
+Truntum Cihampelas,kolam renang,0.2263,pembuangan air,-0.2629
+Truntum Cihampelas,staff ramah,0.2253,jam malam,-0.2629
+Truntum Cihampelas,menginap truntum cihampelas,0.2204,air dingin,-0.2547
+Truntum Cihampelas,terima kasih,0.1897,air mandi,-0.2272
+Truntum Cihampelas,semua staff,0.1818,saat checkout,-0.2272
+Truntum Kuta,pantai kuta,1.6038,tidak seperti,-1.5507
+Truntum Kuta,tempat bagus,1.3076,bahkan tidak,-1.4924
+Truntum Kuta,dekat pantai,1.3058,bau apek,-1.4857
+Truntum Kuta,menghadap pantai,1.2749,tidak ramah,-1.4057
+Truntum Kuta,terima kasih,1.244,tidak nyaman,-1.2509
+Truntum Kuta,langsung pantai,1.1884,tidak pernah,-1.1589
+Truntum Kuta,nginep disini,1.0942,hari pertama,-1.1566
+Truntum Kuta,dipinggir pantai,0.9554,sini lagi,-1.133
+Truntum Kuta,ramah membantu,0.941,tidak merekomendasikan,-1.1322
+Truntum Kuta,namun tidak,0.9138,tidak memberikan,-1.1247
+Truntum Padang,kota padang,1.3283,kurang nyaman,-1.319
+Truntum Padang,grand inna,1.2849,kurang ramah,-1.1403
+Truntum Padang,pusat kota,1.2027,tidak memuaskan,-1.1028
+Truntum Padang,pelayanan baik,1.0973,kurang baik,-1.0374
+Truntum Padang,makanannya enak,1.0169,tiap hari,-1.0088
+Truntum Padang,staff ramah,0.9294,makanan kurang,-0.9873
+Truntum Padang,hotelnya nyaman,0.9075,uang deposit,-0.9848
+Truntum Padang,sarapan pagi,0.9031,tidak enak,-0.9826
+Truntum Padang,kamarnya luas,0.8855,sinyal wifi,-0.969
+Truntum Padang,kolam renangnya,0.8599,aja ga,-0.9531
+Truntum Sanur,pantai kuta,1.5028,bahkan tidak,-1.4192
+Truntum Sanur,dekat pantai,1.3143,tidak ramah,-1.3305
+Truntum Sanur,tempat bagus,1.2424,tidak seperti,-1.171
+Truntum Sanur,terima kasih,1.2046,tidak nyaman,-1.1645
+Truntum Sanur,langsung pantai,1.0642,kurang ramah,-1.1605
+Truntum Sanur,menghadap pantai,1.0089,hari pertama,-1.0798
+Truntum Sanur,nginep disini,0.8686,sama tidak,-1.0766
+Truntum Sanur,ramah membantu,0.8666,tidak merekomendasikan,-1.0179
+Truntum Sanur,bersih nyaman,0.7624,tidak tahu,-0.9232
+Truntum Sanur,lokasi terbaik,0.7471,staf tidak,-0.9221
+Vasaka Hotel Jakarta,lokasi strategis,1.6808,parkiran sempit,-1.5957
+Vasaka Hotel Jakarta,terima kasih,1.5838,mobil sempit,-1.3337
+Vasaka Hotel Jakarta,makanannya enak,1.45,banyak nyamuk,-1.2092
+Vasaka Hotel Jakarta,makanan enak,1.3814,parkir valet,-1.1017
+Vasaka Hotel Jakarta,pelayanan baik,1.3171,sama apa,-1.0247
+Vasaka Hotel Jakarta,mas fahmi,1.2025,baik parkir,-1.0118
+Vasaka Hotel Jakarta,pelayanan bagus,1.1695,tidak tersedia,-0.9993
+Vasaka Hotel Jakarta,pelayanan ramah,0.9987,coklat sebagai,-0.9917
+Vasaka Hotel Jakarta,banyak pilihan,0.9631,akses jalan,-0.9716
+Vasaka Hotel Jakarta,kamarnya bersih,0.9484,satu hal,-0.9418
+Vasaka Maison Bandung,terima kasih,1.0766,pintu mandi,-1.3629
+Vasaka Maison Bandung,makanannya enak,1.0644,mereka tidak,-1.3522
+Vasaka Maison Bandung,staff ramah,0.8575,tidak menyenangkan,-1.0975
+Vasaka Maison Bandung,kota bandung,0.8437,bersih lokasi,-0.9887
+Vasaka Maison Bandung,lokasi strategis,0.8268,kamarnya sempit,-0.9719
+Vasaka Maison Bandung,pusat kota,0.8267,mobil jadi,-0.9618
+Vasaka Maison Bandung,alun alun,0.777,smoking area,-0.92
+Vasaka Maison Bandung,kolam renang,0.7238,parkir terbatas,-0.9028
+Vasaka Maison Bandung,secara keseluruhan,0.711,kurang memuaskan,-0.8953
+Vasaka Maison Bandung,kamarnya nyaman,0.6991,bagus tp,-0.8717
+Bali Beach Collection Heritage,pantai sanur,1.3994,tidak nyaman,-1.217
+Bali Beach Collection Heritage,dekat pantai,0.7631,sepeda motor,-1.0364
+Bali Beach Collection Heritage,kolam renangnya,0.6761,hanya cocok,-1.0303
+Bali Beach Collection Heritage,pinggir pantai,0.656,ga jelas,-1.019
+Bali Beach Collection Heritage,terima kasih,0.6156,para driver,-0.9485
+Bali Beach Collection Heritage,bersih nyaman,0.5848,lokasinya bagus,-0.9325
+Bali Beach Collection Heritage,matahari terbit,0.5827,menunggu lama,-0.9294
+Bali Beach Collection Heritage,layanan baik,0.5806,sedang pembangunan,-0.9287
+Bali Beach Collection Heritage,staf baik,0.5401,tidak bekerja,-0.8459
+Bali Beach Collection Heritage,akses pantai,0.535,keluarga punya,-0.8412
+Bali Beach Hotel&The Meru Resort,terima kasih,1.0004,menunggu lama,-1.1643
+Bali Beach Hotel&The Meru Resort,fasilitas lengkap,0.84,tidak sesuai,-1.0927
+Bali Beach Hotel&The Meru Resort,kembali lagi,0.8258,tidak nyaman,-1.0627
+Bali Beach Hotel&The Meru Resort,pertama kali,0.8257,tetapi tidak,-0.9632
+Bali Beach Hotel&The Meru Resort,tempat sempurna,0.8108,tidak ramah,-0.933
+Bali Beach Hotel&The Meru Resort,pengalaman luar,0.7928,stay meru,-0.8831
+Bali Beach Hotel&The Meru Resort,ramah membantu,0.7922,tidak menginap,-0.8459
+Bali Beach Hotel&The Meru Resort,meru sanur,0.7804,parkir motor,-0.8208
+Bali Beach Hotel&The Meru Resort,terbaik sanur,0.7482,baru masuk,-0.8066
+Bali Beach Hotel&The Meru Resort,banyak kegiatan,0.7227,terlalu banyak,-0.8002
+Brothers Babarsari Yogyakarta,harga terjangkau,0.7431,kamarnya sempit,-1.5298
+Brothers Babarsari Yogyakarta,lokasi strategis,0.7303,gak enak,-1.1858
+Brothers Babarsari Yogyakarta,hotelnya bersih,0.6368,pelayanan resepsionisnya,-1.14
+Brothers Babarsari Yogyakarta,harga murah,0.5561,kurang ramah,-1.101
+Brothers Babarsari Yogyakarta,tempatnya nyaman,0.5451,denda rb,-0.9675
+Brothers Babarsari Yogyakarta,tempat nyaman,0.5429,oke sih,-0.9435
+Brothers Babarsari Yogyakarta,kamarnya bersih,0.536,makan pagi,-0.8581
+Brothers Babarsari Yogyakarta,brothers inn,0.4888,bersih ukuran,-0.8368
+Brothers Babarsari Yogyakarta,menu sarapan,0.4562,sempit bahkan,-0.8249
+Brothers Babarsari Yogyakarta,atm bca,0.4457,kurang luas,-0.8209
+BW Premiere Bandung,lokasi strategis,1.8564,tidak sesuai,-1.4465
+BW Premiere Bandung,staff ramah,1.3822,kecil tidak,-1.1568
+BW Premiere Bandung,kolam renang,1.3733,parkir susah,-1.1202
+BW Premiere Bandung,terima kasih,1.1692,tempat parkir,-1.0965
+BW Premiere Bandung,pelayanan ramah,1.0988,tidak jujur,-1.0376
+BW Premiere Bandung,staf ramah,1.089,pelayanan buruk,-1.0125
+BW Premiere Bandung,kota bandung,1.0842,kamarnya kotor,-0.9796
+BW Premiere Bandung,nyaman bersih,1.053,pihak restonya,-0.905
+BW Premiere Bandung,lokasinya strategis,1.0414,pelayanan jelek,-0.9041
+BW Premiere Bandung,kamarnya luas,1.0364,jelek pelayanan,-0.9019
+Grand Anara Jakarta T3,grand anara,0.6555,mereka tidak,-1.1006
+Grand Anara Jakarta T3,terminal domestik,0.6369,tidak memperhatikan,-1.0401
+Grand Anara Jakarta T3,terima kasih,0.6096,air panas,-0.9472
+Grand Anara Jakarta T3,staf ramah,0.5789,resepsionis tidak,-0.8054
+Grand Anara Jakarta T3,makanannya enak,0.4795,jam malam,-0.7375
+Grand Anara Jakarta T3,ramah membantu,0.4513,kedap suara,-0.7074
+Grand Anara Jakarta T3,bersih wangi,0.4363,nginep sini,-0.7002
+Grand Anara Jakarta T3,pelayanan bagus,0.4312,mereka memiliki,-0.6087
+Grand Anara Jakarta T3,luas nyaman,0.4139,parkiran domestik,-0.5817
+Grand Anara Jakarta T3,staff ramah,0.4056,anara domestik,-0.5315
+Jivva Bali,tempat nyaman,0.4667,jika anda,-1.1237
+Jivva Bali,pantai lepang,0.4177,terlalu mahal,-1.0715
+Jivva Bali,tempat indah,0.4052,kentang goreng,-1.0339
+Jivva Bali,terima kasih,0.3863,ketika tiba,-0.7419
+Jivva Bali,beach club,0.3536,staf tidak,-0.716
+Jivva Bali,dekat pantai,0.3413,nasi goreng,-0.6939
+Jivva Bali,suara ombak,0.3225,kalau kamu,-0.6486
+Jivva Bali,tempat bagus,0.3006,overall bagus,-0.641
+Jivva Bali,pantai bagus,0.2798,kolam renangnya,-0.6278
+Jivva Bali,tempatnya bagus,0.2789,mendapatkan beberapa,-0.6253
+Merumatta Senggigi Lombok,makanannya enak,0.9267,banyak nyamuk,-1.3526
+Merumatta Senggigi Lombok,akses pantai,0.8396,buruk kamarnya,-1.2596
+Merumatta Senggigi Lombok,lokasi strategis,0.8129,layanan buruk,-1.1985
+Merumatta Senggigi Lombok,tidak terlalu,0.8078,kurang terawat,-1.1948
+Merumatta Senggigi Lombok,staf ramah,0.7849,pelayanannya buruk,-1.1539
+Merumatta Senggigi Lombok,matahari terbenam,0.7759,tetapi tidak,-1.1096
+Merumatta Senggigi Lombok,pantai senggigi,0.7664,beberapa kali,-1.1029
+Merumatta Senggigi Lombok,pemandangan laut,0.7528,hanya memiliki,-1.0606
+Merumatta Senggigi Lombok,pelayanan ramah,0.7498,sampai lokasi,-1.0046
+Merumatta Senggigi Lombok,langsung pantai,0.7492,pelayanan buruk,-1.0023
+Meruorah Labuan Bajo,labuan bajo,1.1629,mereka tidak,-1.3119
+Meruorah Labuan Bajo,pemandangan indah,1.1049,tidak dapat,-1.1093
+Meruorah Labuan Bajo,pemandangan bagus,0.9149,bukan bintang,-1.0328
+Meruorah Labuan Bajo,staf ramah,0.8789,tidak nyaman,-1.0033
+Meruorah Labuan Bajo,lokasi strategis,0.8524,staf tidak,-0.8922
+Meruorah Labuan Bajo,pemandangan luar,0.8145,mandi bau,-0.8288
+Meruorah Labuan Bajo,matahari terbenam,0.8013,anda tidak,-0.8047
+Meruorah Labuan Bajo,pusat kota,0.7961,tidak tidak,-0.7847
+Meruorah Labuan Bajo,pemandangan laut,0.7393,bukti suara,-0.7745
+Meruorah Labuan Bajo,terima kasih,0.6402,tidak mendapatkan,-0.7637
+Merusaka Nusa Dua,tempat indah,1.2636,pelayanan buruk,-1.5327
+Merusaka Nusa Dua,staf ramah,1.1508,tidak ramah,-1.4056
+Merusaka Nusa Dua,makanan enak,1.0972,tidak merekomendasikan,-1.3013
+Merusaka Nusa Dua,tidak sampai,1.0335,terburuk pernah,-1.2282
+Merusaka Nusa Dua,tempat bagus,1.0279,apa pun,-1.1896
+Merusaka Nusa Dua,semua orang,1.027,sebagian besar,-1.1706
+Merusaka Nusa Dua,banyak pilihan,1.0032,tidak seperti,-1.154
+Merusaka Nusa Dua,kolam pribadi,0.9539,bahkan tidak,-1.0885
+Merusaka Nusa Dua,setiap hari,0.9278,tidak dapat,-1.0719
+Merusaka Nusa Dua,staff ramah,0.9268,sama tidak,-1.0173
+Prama Sanur Beach,pantai sanur,1.3011,bukan tempat,-1.0503
+Prama Sanur Beach,private beach,1.2075,tempat tidur,-1.0064
+Prama Sanur Beach,fasilitas lengkap,1.1245,kurang ramah,-0.9891
+Prama Sanur Beach,makanan enak,1.0731,perlu renovasi,-0.9818
+Prama Sanur Beach,pelayanan baik,0.9927,kamarnya tua,-0.9188
+Prama Sanur Beach,pantai pribadi,0.959,area umum,-0.9104
+Prama Sanur Beach,lokasi strategis,0.8725,sama tidak,-0.8843
+Prama Sanur Beach,sanur beach,0.8581,tidak pernah,-0.8825
+Prama Sanur Beach,pantai bersih,0.8454,anda mendapatkan,-0.8611
+Prama Sanur Beach,kolam besar,0.8402,tidak mendapatkan,-0.8457
+Pullman Mandalika,kolam renang,1.0761,tidak tersedia,-1.0918
+Pullman Mandalika,makanan enak,0.5797,banyak tamu,-1.0128
+Pullman Mandalika,pengalaman luar,0.5737,staf tidak,-0.9813
+Pullman Mandalika,pelayanan baik,0.5168,lima bintang,-0.9583
+Pullman Mandalika,pullman mandalika,0.4396,tidak memiliki,-0.9102
+Pullman Mandalika,terima kasih,0.4359,tidak menyenangkan,-0.8254
+Pullman Mandalika,staff ramah,0.4237,apa kau,-0.7743
+Pullman Mandalika,menginap pullman,0.4023,ketika tiba,-0.7488
+Pullman Mandalika,baik membantu,0.3766,kartu kredit,-0.7238
+Pullman Mandalika,makanannya enak,0.3691,hal mengganggu,-0.7217
+Royal Krakatau Cilegon,tempat bagus,0.8389,malam hari,-1.4851
+Royal Krakatau Cilegon,kota cilegon,0.7171,tidak ramah,-1.359
+Royal Krakatau Cilegon,tempat nyaman,0.6028,kurang bagus,-1.1765
+Royal Krakatau Cilegon,nyaman bersih,0.5878,mungkin bangunan,-1.1495
+Royal Krakatau Cilegon,lapangan golf,0.5762,tidak dingin,-1.1099
+Royal Krakatau Cilegon,bersih nyaman,0.499,pas minta,-1.079
+Royal Krakatau Cilegon,pelayanan ramah,0.4955,minta pindah,-1.0228
+Royal Krakatau Cilegon,royal krakatau,0.4775,secara keseluruhan,-1.0135
+Royal Krakatau Cilegon,terima kasih,0.445,kepada petugas,-0.9839
+Royal Krakatau Cilegon,lokasi strategis,0.4152,padahal bukan,-0.9395
+The Patra Bali Resort&Villas,dekat bandara,1.2773,bukan bintang,-1.3884
+The Patra Bali Resort&Villas,patra bali,1.0317,mereka tidak,-1.2381
+The Patra Bali Resort&Villas,staf ramah,1.0077,tidak sopan,-1.1553
+The Patra Bali Resort&Villas,tempat bagus,0.9487,menginap sini,-1.1512
+The Patra Bali Resort&Villas,pelayanan ramah,0.9357,pengalaman buruk,-1.1411
+The Patra Bali Resort&Villas,kamarnya luas,0.8934,tidak ramah,-1.1139
+The Patra Bali Resort&Villas,luas bersih,0.8374,tidak merekomendasikan,-1.0839
+The Patra Bali Resort&Villas,nginep disini,0.8335,pelayanan security,-1.0128
+The Patra Bali Resort&Villas,ngurah rai,0.7697,tidak dapat,-1.0109
+The Patra Bali Resort&Villas,satusatunya hal,0.7549,tidak baik,-0.9918
+Wyndam Taman Sari,luas bersih,1.0114,membuat mandala,-1.1689
+Wyndam Taman Sari,fasilitas lengkap,0.9437,house keeping,-0.963
+Wyndam Taman Sari,staff ramah,0.8925,tidak tidur,-0.9592
+Wyndam Taman Sari,ingin bersantai,0.8064,dua kali,-0.9513
+Wyndam Taman Sari,pengalaman menginap,0.7828,tidak bekerja,-0.9395
+Wyndam Taman Sari,view pantai,0.7746,kotor tidak,-0.9267
+Wyndam Taman Sari,staffnya ramah,0.7349,terburuk pernah,-0.8991
+Wyndam Taman Sari,nyaman bersih,0.7237,tidak ramah,-0.8821
+Wyndam Taman Sari,ramah membantu,0.7091,tidak berfungsi,-0.8748
+Wyndam Taman Sari,membantu ramah,0.6967,kebersihannya buruk,-0.8477
+Yulia Gorontalo,stafnya ramah,0.4322,kurang variatif,-0.7216
+Yulia Gorontalo,bagus bersih,0.3955,fasilitas bagus,-0.5957
+Yulia Gorontalo,kamarnya luas,0.3857,sarapannya enak,-0.5805
+Yulia Gorontalo,bersih nyaman,0.2931,bagus nyaman,-0.57
+Yulia Gorontalo,staf ramah,0.2453,enak modern,-0.5274
+Yulia Gorontalo,makanannya enak,0.2401,hotelnya bagus,-0.3982
+Yulia Gorontalo,menu sarapan,0.233,jalan utama,0.057
+Yulia Gorontalo,kamarnya bagus,0.229,menjawab semua pertanyaan,0.0676
+Yulia Gorontalo,fasilitas lengkap,0.221,menjawab semua,0.0676
+Yulia Gorontalo,kamarnya bersih,0.2099,semua pertanyaan,0.0676
+Aloft Bali Kuta,pantai kuta,0.9762,mereka tidak,-0.916
+Aloft Bali Kuta,berjalan kaki,0.6525,kurang nyaman,-0.9037
+Aloft Bali Kuta,beach walk,0.6343,jadi kalau,-0.8868
+Aloft Bali Kuta,dekat pantai,0.6132,tamu lain,-0.821
+Aloft Bali Kuta,kolam renangnya,0.5369,saat check,-0.756
+Aloft Bali Kuta,ramah membantu,0.5271,staf membantu,-0.6917
+Aloft Bali Kuta,menginap aloft,0.5203,renang tetapi,-0.6613
+Aloft Bali Kuta,semua staf,0.5184,tidak yakin,-0.6187
+Aloft Bali Kuta,jalan kaki,0.4822,sakit selama,-0.5999
+Aloft Bali Kuta,stafnya ramah,0.461,anggota marriott,-0.5897
+Aloft Jakarta Wahid Hasyim,lokasi strategis,0.9864,tidak profesional,-1.4686
+Aloft Jakarta Wahid Hasyim,makanan enak,0.9497,mereka tidak,-1.4321
+Aloft Jakarta Wahid Hasyim,makanannya enak,0.8305,aloft jakarta,-1.1642
+Aloft Jakarta Wahid Hasyim,tempat nyaman,0.7676,warga negara,-0.9969
+Aloft Jakarta Wahid Hasyim,nyaman bersih,0.7647,kamarnya tidak,-0.988
+Aloft Jakarta Wahid Hasyim,tengah kota,0.7566,pelayanannya buruk,-0.983
+Aloft Jakarta Wahid Hasyim,pusat kota,0.725,kurang enak,-0.9802
+Aloft Jakarta Wahid Hasyim,pelayanan ramah,0.72,lokasinya bagus,-0.964
+Aloft Jakarta Wahid Hasyim,stafnya ramah,0.712,cma parkiran aja,-0.9585
+Aloft Jakarta Wahid Hasyim,kolam renang,0.6531,cma parkiran,-0.9585
+Aloft Seminyak Bali,terima kasih,0.7238,tidak sopan,-1.6391
+Aloft Seminyak Bali,stafnya ramah,0.6096,pelayanan buruk,-1.5877
+Aloft Seminyak Bali,tempat bagus,0.5464,jalan ramai,-0.8783
+Aloft Seminyak Bali,lokasi bagus,0.5053,rasanya seperti,-0.8623
+Aloft Seminyak Bali,pelayanannya luar,0.4692,tidak dapat,-0.8281
+Aloft Seminyak Bali,kolam renang,0.4598,sama tidak,-0.7819
+Aloft Seminyak Bali,pengalaman menginap,0.4359,menawarkan pemandangan,-0.7725
+Aloft Seminyak Bali,kamarnya bersih,0.4224,tidak mendapatkan,-0.7701
+Aloft Seminyak Bali,stafnya luar,0.3792,pantai stafnya,-0.769
+Aloft Seminyak Bali,atap bagus,0.3641,bernama kahuna,-0.7644
+A Loft South Jakarta,jakarta selatan,0.9052,parkir sempit,-1.9477
+A Loft South Jakarta,lokasi strategis,0.7972,kurang variatif,-1.5557
+A Loft South Jakarta,makanannya enak,0.7427,tidak ramah,-1.2446
+A Loft South Jakarta,stafnya ramah,0.6522,parkiran sempit,-1.1949
+A Loft South Jakarta,tb simatupang,0.5405,kurang ramah,-1.1109
+A Loft South Jakarta,makanan enak,0.5281,hari pertama,-1.0802
+A Loft South Jakarta,terima kasih,0.5266,hari kedua,-1.0508
+A Loft South Jakarta,kamarnya bersih,0.4999,kurang enak,-1.0254
+A Loft South Jakarta,secara keseluruhan,0.485,terlalu lama,-0.9667
+A Loft South Jakarta,pelayanan ramah,0.4827,tidak banyak,-0.9566
+Best Western Senayan-Jakarta,lokasi strategis,1.3459,mau turun,-1.3365
+Best Western Senayan-Jakarta,pelayanan ramah,1.0123,tempat tidurnya,-1.2505
+Best Western Senayan-Jakarta,bersih nyaman,0.8904,tidak ramah,-1.1968
+Best Western Senayan-Jakarta,tempatnya strategis,0.8787,orang pake,-1.1871
+Best Western Senayan-Jakarta,nyaman bersih,0.8472,sampai jam,-1.1572
+Best Western Senayan-Jakarta,tengah kota,0.847,tidak nyaman,-1.1524
+Best Western Senayan-Jakarta,tempat nyaman,0.8346,kurang nyaman,-1.131
+Best Western Senayan-Jakarta,pelayanan baik,0.8043,sayang ga,-0.9929
+Best Western Senayan-Jakarta,sarapan enak,0.7577,kurang bagus,-0.9834
+Best Western Senayan-Jakarta,cocok buat,0.7421,jika anda,-0.9009
+BW Kemayoran Hotel&Convention-Jakarta,makanan enak,1.2804,kurang bersih,-1.4368
+BW Kemayoran Hotel&Convention-Jakarta,staff ramah,1.2706,tidak berfungsi,-1.3843
+BW Kemayoran Hotel&Convention-Jakarta,dekat jiexpo,1.1969,tidak enak,-1.284
+BW Kemayoran Hotel&Convention-Jakarta,makanannya enak,1.0862,tidak bersih,-1.228
+BW Kemayoran Hotel&Convention-Jakarta,pelayanan ramah,1.0738,tdk digunakan,-1.1229
+BW Kemayoran Hotel&Convention-Jakarta,pelayanan baik,1.0341,beberapa peralatan,-1.0978
+BW Kemayoran Hotel&Convention-Jakarta,kamarnya bersih,1.0035,check jam,-1.0058
+BW Kemayoran Hotel&Convention-Jakarta,sarapannya enak,1.0015,terburuk pernah,-0.989
+BW Kemayoran Hotel&Convention-Jakarta,hotelnya nyaman,0.942,tidak bagus,-0.9858
+BW Kemayoran Hotel&Convention-Jakarta,fasilitas lengkap,0.9172,tidak pernah,-0.9635
+Fairfiledby Marriot Bali Kuta Sunset Road,pelayanan ramah,0.9414,kurang nyaman,-1.3398
+Fairfiledby Marriot Bali Kuta Sunset Road,bersih nyaman,0.7956,tidak tahu,-1.054
+Fairfiledby Marriot Bali Kuta Sunset Road,hotelnya bagus,0.7138,tidak sopan,-1.052
+Fairfiledby Marriot Bali Kuta Sunset Road,kamarnya bersih,0.618,hati hati,-1.0309
+Fairfiledby Marriot Bali Kuta Sunset Road,lokasi strategis,0.6152,sama tidak,-0.9857
+Fairfiledby Marriot Bali Kuta Sunset Road,fasilitas lengkap,0.6082,kurang bagus,-0.742
+Fairfiledby Marriot Bali Kuta Sunset Road,baik ramah,0.5928,kuta bali,-0.7261
+Fairfiledby Marriot Bali Kuta Sunset Road,bagus bersih,0.5492,membantu tamu,-0.7167
+Fairfiledby Marriot Bali Kuta Sunset Road,secara keseluruhan,0.5398,tetapi mereka,-0.7157
+Fairfiledby Marriot Bali Kuta Sunset Road,kolam renangnya,0.5388,jalan raya,-0.6577
+Fairfiledby Marriot Bali Legian,kolam renangnya,0.9069,tempat parkir,-1.2535
+Fairfiledby Marriot Bali Legian,terima kasih,0.7017,hari pertama,-0.9749
+Fairfiledby Marriot Bali Legian,staff ramah,0.5976,sarapan pagi,-0.9536
+Fairfiledby Marriot Bali Legian,kamarnya bersih,0.5806,jadi tidak,-0.934
+Fairfiledby Marriot Bali Legian,pelayanan baik,0.5539,masih banyak,-0.8968
+Fairfiledby Marriot Bali Legian,tidak terlalu,0.5476,terburuk pernah,-0.887
+Fairfiledby Marriot Bali Legian,luas bersih,0.5471,bagus pelayanan,-0.882
+Fairfiledby Marriot Bali Legian,makanannya enak,0.5353,tidak ingin,-0.8622
+Fairfiledby Marriot Bali Legian,hotelnya nyaman,0.4976,selama hari,-0.8167
+Fairfiledby Marriot Bali Legian,staf ramah,0.4686,orang lain,-0.8133
+Fairfiledby Marriot Bekasi,terima kasih,0.4957,petugas keamanan,-1.3561
+Fairfiledby Marriot Bekasi,pakuwon mall,0.3113,menjadi pengalaman,-0.7319
+Fairfiledby Marriot Bekasi,mall pakuwon,0.3025,saat keluar,-0.7252
+Fairfiledby Marriot Bekasi,pelayanan baik,0.2736,pengalaman luar,-0.648
+Fairfiledby Marriot Bekasi,pelayanan ramah,0.2598,restoran saat,-0.6252
+Fairfiledby Marriot Bekasi,pengalaman menginap,0.2594,terhadap tamu,-0.572
+Fairfiledby Marriot Bekasi,lokasinya strategis,0.1994,staf restoran,-0.5357
+Fairfiledby Marriot Bekasi,stafnya ramah,0.1979,proses checkin,-0.3176
+Fairfiledby Marriot Bekasi,lokasi strategis,0.1886,lapor polisi,-0.0822
+Fairfiledby Marriot Bekasi,kolam renang,0.1802,ambil cctv,-0.0822
+Fairfiledby Marriot Belitung,bersih nyaman,0.5627,kurang enak,-1.574
+Fairfiledby Marriot Belitung,salah satu,0.4883,kurang variatif,-1.3907
+Fairfiledby Marriot Belitung,pemandangan laut,0.4877,tdk nyaman,-1.1514
+Fairfiledby Marriot Belitung,makanannya enak,0.4779,tidak ad,-1.1452
+Fairfiledby Marriot Belitung,tanjung pandan,0.4549,pengalaman tidak,-0.9739
+Fairfiledby Marriot Belitung,dekat pantai,0.4201,rasanya kurang,-0.9473
+Fairfiledby Marriot Belitung,view laut,0.4032,makan siang,-0.8564
+Fairfiledby Marriot Belitung,nyaman bersih,0.3903,klo mau,-0.8411
+Fairfiledby Marriot Belitung,bagus nyaman,0.3842,sampai sana,-0.8202
+Fairfiledby Marriot Belitung,pemandangan pantai,0.3828,standar pelayanannya,-0.7956
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,terima kasih,0.6867,tolong perbaiki,-1.4313
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,dekat bandara,0.6393,harus kembali,-0.9305
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,kamarnya bersih,0.4318,anda harus,-0.8175
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,layanan antarjemput,0.3939,member marriott,-0.7763
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,ramah membantu,0.344,malam hari,-0.7625
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,menginap semalam,0.3423,harganya mahal,-0.72
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,makanannya enak,0.3308,fasilitas lengkap,-0.6896
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,soekarno hatta,0.3296,marriott bonvoy,-0.6772
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,staf ramah,0.3038,jika anda,-0.6451
+Fairfiledby Marriot Jakarta Soekarno Soekarno-Hatta Airport,bersih nyaman,0.2881,baru bersih,-0.6305
+Fairfiledby Marriot South Kuta Bali,stafnya ramah,0.7141,memberikan ulasan,-1.0776
+Fairfiledby Marriot South Kuta Bali,staf ramah,0.6759,kurang ramah,-1.0325
+Fairfiledby Marriot South Kuta Bali,bersih nyaman,0.636,baru modern,-1.0182
+Fairfiledby Marriot South Kuta Bali,tidak terlalu,0.6302,tamu lain,-1.0001
+Fairfiledby Marriot South Kuta Bali,kamarnya luas,0.6015,hanya satu,-0.9458
+Fairfiledby Marriot South Kuta Bali,bagus bersih,0.5968,kedap suara,-0.941
+Fairfiledby Marriot South Kuta Bali,terima kasih,0.5538,jam pagi,-0.9285
+Fairfiledby Marriot South Kuta Bali,stafnya luar,0.5454,bagus tetapi,-0.9204
+Fairfiledby Marriot South Kuta Bali,pelayanan baik,0.4966,tidak sedap,-0.8788
+Fairfiledby Marriot South Kuta Bali,bagus kolam,0.4656,lepas landas,-0.8332
+Fairfiledby Marriot Surabaya,kolam renang,1.3855,restoran kurang,-1.2711
+Fairfiledby Marriot Surabaya,fasilitas lengkap,1.191,sekelas bintang,-1.2068
+Fairfiledby Marriot Surabaya,kota surabaya,1.1175,tidak dingin,-1.133
+Fairfiledby Marriot Surabaya,banyak pilihan,1.0876,parkirnya harus,-1.1297
+Fairfiledby Marriot Surabaya,lokasi strategis,1.0264,harus valet,-1.0945
+Fairfiledby Marriot Surabaya,kamarnya bersih,1.0008,parkir buruk,-1.0865
+Fairfiledby Marriot Surabaya,lobby luas,0.9503,parkir valet,-1.0714
+Fairfiledby Marriot Surabaya,staf ramah,0.931,free parking,-1.0706
+Fairfiledby Marriot Surabaya,makanan enak,0.9226,orang lain,-1.0655
+Fairfiledby Marriot Surabaya,cocok buat,0.9022,hampir jam,-1.0507
+Harper Kuta-Bali,pelayanan ramah,1.4439,mereka tidak,-1.4073
+Harper Kuta-Bali,staff ramah,1.1272,staf tidak,-1.381
+Harper Kuta-Bali,makanan enak,1.0321,klub malam,-1.3026
+Harper Kuta-Bali,pelayanan bagus,0.9847,malam hari,-1.2442
+Harper Kuta-Bali,jalan kaki,0.9792,tidak sesuai,-1.065
+Harper Kuta-Bali,harper kuta,0.9384,jika anda,-1.0411
+Harper Kuta-Bali,pelayanan baik,0.8964,mereka menagih,-1.0188
+Harper Kuta-Bali,makanannya enak,0.8107,pelayanan kurang,-1.0134
+Harper Kuta-Bali,menginap disini,0.8002,tidak layak,-0.9393
+Harper Kuta-Bali,bersih nyaman,0.7683,minta tolong,-0.9375
+Harper Mangkubumi-Yogyakarta (1),makanannya enak,1.1999,tidak ramah,-1.4411
+Harper Mangkubumi-Yogyakarta (1),pelayanan ramah,1.1463,harus menunggu,-1.266
+Harper Mangkubumi-Yogyakarta (1),kak april,0.9905,kurang nyaman,-1.2001
+Harper Mangkubumi-Yogyakarta (1),pelayanan bagus,0.9729,check tgl,-1.1404
+Harper Mangkubumi-Yogyakarta (1),lokasi strategis,0.9508,kurang memuaskan,-1.0873
+Harper Mangkubumi-Yogyakarta (1),bersih nyaman,0.8835,tempatnya bersih,-1.0395
+Harper Mangkubumi-Yogyakarta (1),makanan enak,0.8535,waktu checkin,-0.9683
+Harper Mangkubumi-Yogyakarta (1),nyaman bersih,0.8042,lokasinya bagus,-0.968
+Harper Mangkubumi-Yogyakarta (1),pelayanan baik,0.7909,kamarnya kurang,-0.9537
+Harper Mangkubumi-Yogyakarta (1),pelayanan oke,0.7804,kurang ramah,-0.9352
+Harris Hotel&Conventions Kelapa Gading-Jakarta,pelayanan ramah,1.2409,tidak apaapa,-1.2489
+Harris Hotel&Conventions Kelapa Gading-Jakarta,mas latif,1.0936,baru kali,-1.0921
+Harris Hotel&Conventions Kelapa Gading-Jakarta,mbak fitri,0.9931,koper tas,-1.0483
+Harris Hotel&Conventions Kelapa Gading-Jakarta,staff ramah,0.9842,jam sore,-0.9954
+Harris Hotel&Conventions Kelapa Gading-Jakarta,mas taufik,0.9747,dpn hotelnya,-0.9734
+Harris Hotel&Conventions Kelapa Gading-Jakarta,nyaman bersih,0.9502,wifi tidak,-0.9734
+Harris Hotel&Conventions Kelapa Gading-Jakarta,kamarnya bersih,0.8903,pengalaman buruk,-0.8884
+Harris Hotel&Conventions Kelapa Gading-Jakarta,makanannya enak,0.8819,baru datang,-0.8421
+Harris Hotel&Conventions Kelapa Gading-Jakarta,mas nailul,0.8788,saat acara,-0.7955
+Harris Hotel&Conventions Kelapa Gading-Jakarta,terima kasih,0.8744,tidak enak,-0.7633
+Harris Suites FX Sudirman-Jakarta,makanan enak,1.6548,kurang ramah,-1.3696
+Harris Suites FX Sudirman-Jakarta,makanannya enak,1.0533,lama tidak,-1.3185
+Harris Suites FX Sudirman-Jakarta,nyaman bersih,1.0455,kurang nyaman,-1.2794
+Harris Suites FX Sudirman-Jakarta,best view,0.9496,kurang informatif,-1.1803
+Harris Suites FX Sudirman-Jakarta,staf ramah,0.9276,ac tidak,-1.1468
+Harris Suites FX Sudirman-Jakarta,mall fx,0.9019,tidak sesuai,-1.1244
+Harris Suites FX Sudirman-Jakarta,fx sudirman,0.8848,udah bagus,-1.1208
+Harris Suites FX Sudirman-Jakarta,dekat gbk,0.865,admin wa,-1.0996
+Harris Suites FX Sudirman-Jakarta,city view,0.8279,bau apek,-1.0859
+Harris Suites FX Sudirman-Jakarta,salah satu,0.8264,kurang baik,-1.0703
+Harris Suites Puri Mansion-Jakarta,fasilitas lengkap,1.3382,buruk tidak,-1.5263
+Harris Suites Puri Mansion-Jakarta,staff ramah,1.2532,pelayanan buruk,-1.4141
+Harris Suites Puri Mansion-Jakarta,kak el,1.2412,sekelas harris,-1.4122
+Harris Suites Puri Mansion-Jakarta,staf ramah,1.1157,kurang ramah,-1.3349
+Harris Suites Puri Mansion-Jakarta,bersih nyaman,1.0463,pelayanannya buruk,-1.2709
+Harris Suites Puri Mansion-Jakarta,pelayanannya ramah,1.0322,bikin pusing,-1.1716
+Harris Suites Puri Mansion-Jakarta,pelayanan ramah,1.024,management buruk,-1.1676
+Harris Suites Puri Mansion-Jakarta,makanan enak,0.9894,buka bersama,-1.0681
+Harris Suites Puri Mansion-Jakarta,lokasi strategis,0.9019,tidak direkomendasikan,-1.056
+Harris Suites Puri Mansion-Jakarta,nyaman bersih,0.8248,kartu akses,-1.0392
+Holiday Inn Express&Suites Banjarmasin,breakfast enak,0.3148,staf ramah,-0.9398
+Holiday Inn Express&Suites Banjarmasin,youtube netflix,0.3133,kolam renangnya,-0.6111
+Holiday Inn Express&Suites Banjarmasin,bagus bersih,0.3028,kolam renang,-0.5822
+Holiday Inn Express&Suites Banjarmasin,nginap disini,0.2916,kamarnya bersih,-0.5186
+Holiday Inn Express&Suites Banjarmasin,pelayanan ramah,0.2639,ramah membantu,-0.4717
+Holiday Inn Express&Suites Banjarmasin,lokasi strategis,0.2615,holiday inn,-0.2123
+Holiday Inn Express&Suites Banjarmasin,strategis dekat,0.2615,mba novi sama,0.0901
+Holiday Inn Express&Suites Banjarmasin,staff ramah,0.2543,sama mba santi,0.0901
+Holiday Inn Express&Suites Banjarmasin,enak variatif,0.2532,novi sama mba,0.0901
+Holiday Inn Express&Suites Banjarmasin,tempat parkir,0.2427,novi sama,0.0901
+Holiday Inn Express Bandung Braga,pelayanan ramah,1.5267,parkir mahal,-1.349
+Holiday Inn Express Bandung Braga,makanannya enak,1.3708,tidak ramah,-1.2227
+Holiday Inn Express Bandung Braga,makanan enak,1.2221,jam pagi,-1.1059
+Holiday Inn Express Bandung Braga,baik ramah,0.959,tidak sesuai,-1.0125
+Holiday Inn Express Bandung Braga,pelayanan baik,0.9063,kurang baik,-0.9927
+Holiday Inn Express Bandung Braga,menginap disini,0.902,sayang tidak,-0.9559
+Holiday Inn Express Bandung Braga,breakfast enak,0.889,tidak enak,-0.9362
+Holiday Inn Express Bandung Braga,hotelnya nyaman,0.855,agar tidak,-0.9129
+Holiday Inn Express Bandung Braga,staff ramah,0.846,meminta maaf,-0.907
+Holiday Inn Express Bandung Braga,pelayanan bagus,0.8434,mengalami hal,-0.9049
+Holiday Inn Express Baruna Bali,bersih nyaman,1.0699,bukan hanya,-1.5465
+Holiday Inn Express Baruna Bali,hotelnya bagus,0.9867,bintang lima,-1.5228
+Holiday Inn Express Baruna Bali,fasilitas lengkap,0.9177,menginap sini,-1.4498
+Holiday Inn Express Baruna Bali,lokasi strategis,0.8803,tidak pernah,-1.3619
+Holiday Inn Express Baruna Bali,pelayanan ramah,0.8562,tidak ramah,-1.2304
+Holiday Inn Express Baruna Bali,staf ramah,0.7426,kembali menginap,-1.2284
+Holiday Inn Express Baruna Bali,kamarnya nyaman,0.7342,sama tidak,-1.2273
+Holiday Inn Express Baruna Bali,makanan enak,0.7305,dia bahkan,-1.1969
+Holiday Inn Express Baruna Bali,kamarnya bersih,0.7215,tidak tempat,-1.1662
+Holiday Inn Express Baruna Bali,staff ramah,0.7146,bahkan tidak,-1.1541
+Holiday Inn Express Express Bali Sunset Road,lokasi strategis,0.6944,cek perbaiki,-0.8468
+Holiday Inn Express Express Bali Sunset Road,terima kasih,0.5405,kurang bagus,-0.7946
+Holiday Inn Express Express Bali Sunset Road,menginap sini,0.4815,tidak merekomendasikannya,-0.7616
+Holiday Inn Express Express Bali Sunset Road,sunset road,0.4009,waktu mandi,-0.7322
+Holiday Inn Express Express Bali Sunset Road,kolam renang,0.356,tidak banyak,-0.7075
+Holiday Inn Express Express Bali Sunset Road,pilihan makanan,0.3524,tetap tidak,-0.6161
+Holiday Inn Express Express Bali Sunset Road,bahkan mereka,0.3436,jalan utama,-0.5434
+Holiday Inn Express Express Bali Sunset Road,dekat supermarket,0.337,tidak tahu,-0.5114
+Holiday Inn Express Express Bali Sunset Road,kembali lagi,0.335,holiday inn,-0.4427
+Holiday Inn Express Express Bali Sunset Road,chef sandy,0.3323,kedap suara,-0.441
+Holiday Inn Express Jakarta International Expo,kamarnya bersih,1.0984,pelayanan buruk,-1.4134
+Holiday Inn Express Jakarta International Expo,pelayanan bagus,0.9851,ulasan baik,-1.3003
+Holiday Inn Express Jakarta International Expo,bersih nyaman,0.8879,tidak berfungsi,-1.2878
+Holiday Inn Express Jakarta International Expo,fasilitas lengkap,0.875,check lama,-1.2587
+Holiday Inn Express Jakarta International Expo,pelayanan baik,0.8708,bahasa inggris,-1.153
+Holiday Inn Express Jakarta International Expo,pelayanan ramah,0.8668,tak sedap,-1.1358
+Holiday Inn Express Jakarta International Expo,lokasi strategis,0.8372,kurang ramah,-1.025
+Holiday Inn Express Jakarta International Expo,jalan kaki,0.8327,ramai pengunjung,-0.9543
+Holiday Inn Express Jakarta International Expo,bersih pelayanan,0.7478,harus menunggu,-0.9292
+Holiday Inn Express Jakarta International Expo,makanan enak,0.7467,waktu sarapan,-0.9192
+Holiday Inn Express Jakarta Pluit City Gate,pelayanan ramah,1.1422,menginap sini,-1.2767
+Holiday Inn Express Jakarta Pluit City Gate,pelayanan baik,1.1417,ga respon,-1.2346
+Holiday Inn Express Jakarta Pluit City Gate,pelayanan bagus,1.11,tidak membantu,-1.2309
+Holiday Inn Express Jakarta Pluit City Gate,lokasi strategis,1.0463,tidak ramah,-1.1599
+Holiday Inn Express Jakarta Pluit City Gate,hotelnya bagus,0.9472,pelayanan buruk,-1.1142
+Holiday Inn Express Jakarta Pluit City Gate,atas mall,0.946,tidak enak,-1.0959
+Holiday Inn Express Jakarta Pluit City Gate,kamarnya bersih,0.8952,cara promo,-1.05
+Holiday Inn Express Jakarta Pluit City Gate,tempat nyaman,0.8812,tidak merekomendasikan,-1.0251
+Holiday Inn Express Jakarta Pluit City Gate,dekat mall,0.8767,sih bagus,-1.0066
+Holiday Inn Express Jakarta Pluit City Gate,mall emporium,0.8271,tempat tidurnya,-0.9834
+Holiday Inn Express Jakarta Wahidhasyim,lokasi strategis,1.5728,makanan kurang,-1.2228
+Holiday Inn Express Jakarta Wahidhasyim,tanah abang,1.1518,kurang luas,-1.1742
+Holiday Inn Express Jakarta Wahidhasyim,pelayanan ramah,1.0369,mereka tidak,-1.1104
+Holiday Inn Express Jakarta Wahidhasyim,staff ramah,0.9719,tidak membantu,-1.0786
+Holiday Inn Express Jakarta Wahidhasyim,kamarnya bersih,0.9677,oleh tamu,-1.0423
+Holiday Inn Express Jakarta Wahidhasyim,makanannya enak,0.9436,parkiran sempit,-1.0323
+Holiday Inn Express Jakarta Wahidhasyim,tengah kota,0.9306,terburuk pernah,-1.0251
+Holiday Inn Express Jakarta Wahidhasyim,bagus bersih,0.8579,buruk tidak,-1.0065
+Holiday Inn Express Jakarta Wahidhasyim,bersih nyaman,0.8296,demi tuhan,-0.9215
+Holiday Inn Express Jakarta Wahidhasyim,bagus nyaman,0.8013,ga ramah,-0.9042
+Holiday Inn Express Semarang Simpang Lima,makanan enak,1.3661,banyak semut,-1.1187
+Holiday Inn Express Semarang Simpang Lima,simpang lima,1.3598,kurang enak,-1.1051
+Holiday Inn Express Semarang Simpang Lima,staff ramah,1.2864,parkir sempit,-1.0072
+Holiday Inn Express Semarang Simpang Lima,tengah kota,1.1428,kurang ramah,-1.0007
+Holiday Inn Express Semarang Simpang Lima,lokasi strategis,1.1327,segera ganti,-0.9865
+Holiday Inn Express Semarang Simpang Lima,kamarnya bersih,1.1036,mandi basement,-0.9865
+Holiday Inn Express Semarang Simpang Lima,pelayanan ramah,1.0157,uang ketingalan,-0.9865
+Holiday Inn Express Semarang Simpang Lima,tempat strategis,0.9865,lama refill,-0.9658
+Holiday Inn Express Semarang Simpang Lima,kota semarang,0.9509,nginep sini,-0.9614
+Holiday Inn Express Semarang Simpang Lima,makanannya enak,0.9495,jam pagi,-0.9365
+Holiday Inn Express Surabaya Center Point,pelayanan ramah,1.0887,kurang ramah,-1.7044
+Holiday Inn Express Surabaya Center Point,pelayanan bagus,1.0208,kurang memuaskan,-1.4514
+Holiday Inn Express Surabaya Center Point,makanan enak,0.9602,kurang enak,-1.3023
+Holiday Inn Express Surabaya Center Point,breakfast enak,0.9029,kurang luas,-1.2413
+Holiday Inn Express Surabaya Center Point,terima kasih,0.8763,makanan kurang,-1.1642
+Holiday Inn Express Surabaya Center Point,pelayanannya ramah,0.8514,bilang tidak,-1.0202
+Holiday Inn Express Surabaya Center Point,enak pelayanan,0.8312,ac mati,-1.0154
+Holiday Inn Express Surabaya Center Point,pusat kota,0.8226,gak ramah,-0.9973
+Holiday Inn Express Surabaya Center Point,lokasi strategis,0.7838,tidak ramah,-0.9886
+Holiday Inn Express Surabaya Center Point,pelayanannya baik,0.7836,salah seorang,-0.9495
+Hotel Dafam Cilacap,kolam renang,1.0134,banyak asap,-1.4102
+Hotel Dafam Cilacap,pelayanan ramah,1.0101,kurang memuaskan,-1.3114
+Hotel Dafam Cilacap,makanan enak,0.9154,tidak berfungsi,-1.2733
+Hotel Dafam Cilacap,dafam cilacap,0.9027,ga jadi,-1.2218
+Hotel Dafam Cilacap,kamarnya nyaman,0.8792,saat masuk,-1.2002
+Hotel Dafam Cilacap,tempatnya nyaman,0.8705,kurang dingin,-1.1863
+Hotel Dafam Cilacap,tempat nyaman,0.8184,kurang nyaman,-1.1587
+Hotel Dafam Cilacap,kota cilacap,0.8051,diem aja,-1.1515
+Hotel Dafam Cilacap,makanannya enak,0.7663,buruk pelayanannya,-1.1515
+Hotel Dafam Cilacap,sarapan enak,0.7643,aja sih,-1.1454
+Hotel Dafam Enkedeli Thamrin-Jakarta,makanan enak,0.5865,kalau memang,-0.8511
+Hotel Dafam Enkedeli Thamrin-Jakarta,dekat sarinah,0.5543,ramah namun,-0.8374
+Hotel Dafam Enkedeli Thamrin-Jakarta,menginap disini,0.51,tidak nyaman,-0.8359
+Hotel Dafam Enkedeli Thamrin-Jakarta,tempat bagus,0.4317,bed ternyata,-0.8143
+Hotel Dafam Enkedeli Thamrin-Jakarta,pusat kota,0.4259,twin bed,-0.8067
+Hotel Dafam Enkedeli Thamrin-Jakarta,nyaman bersih,0.4157,mandi licin,-0.7751
+Hotel Dafam Enkedeli Thamrin-Jakarta,tempat strategis,0.4039,tempat tidur,-0.7673
+Hotel Dafam Enkedeli Thamrin-Jakarta,staff ramah,0.3817,lokasi jelas,-0.7638
+Hotel Dafam Enkedeli Thamrin-Jakarta,baru bersih,0.3542,tempat parkirnya,-0.7623
+Hotel Dafam Enkedeli Thamrin-Jakarta,tengah kota,0.3503,mandi berisik,-0.7282
+Hotel Dafam Fortuna Jember,pelayanan ramah,1.0787,parkir susah,-1.2534
+Hotel Dafam Fortuna Jember,kota jember,0.9916,naik turun,-1.1154
+Hotel Dafam Fortuna Jember,kolam renang,0.9789,nunggu lama,-1.102
+Hotel Dafam Fortuna Jember,fasilitas lengkap,0.9408,kurang nyaman,-1.0712
+Hotel Dafam Fortuna Jember,dekat kampus,0.9111,sarapan kurang,-0.9629
+Hotel Dafam Fortuna Jember,meotel jember,0.8469,tidak fresh,-0.9624
+Hotel Dafam Fortuna Jember,pelayanannya bagus,0.776,refill lama,-0.961
+Hotel Dafam Fortuna Jember,bersih nyaman,0.7488,bau apek,-0.9565
+Hotel Dafam Fortuna Jember,tempat nyaman,0.7347,lama sampe,-0.8931
+Hotel Dafam Fortuna Jember,makanannya enak,0.7125,tidak disediakan,-0.8838
+Hotel Dafam Fortuna Seturan-Yogyakarta,mini zoo,1.4506,ga nyaman,-1.2175
+Hotel Dafam Fortuna Seturan-Yogyakarta,dafam seturan,1.2741,baru kali,-1.1746
+Hotel Dafam Fortuna Seturan-Yogyakarta,pelayanan ramah,1.2018,pesan deluxe,-1.0896
+Hotel Dafam Fortuna Seturan-Yogyakarta,lokasi strategis,1.1563,kurang memuaskan,-1.0773
+Hotel Dafam Fortuna Seturan-Yogyakarta,banyak tempat,1.0617,terlalu kecil,-1.0493
+Hotel Dafam Fortuna Seturan-Yogyakarta,makanannya enak,1.0152,tidak sesuai,-1.0154
+Hotel Dafam Fortuna Seturan-Yogyakarta,harga terjangkau,0.9701,dua kali,-0.9652
+Hotel Dafam Fortuna Seturan-Yogyakarta,mba amanda,0.9581,bau pesing,-0.9445
+Hotel Dafam Fortuna Seturan-Yogyakarta,menginap disini,0.9417,harus menunggu,-0.8821
+Hotel Dafam Fortuna Seturan-Yogyakarta,breakfast enak,0.8971,sampai jam,-0.8792
+Hotel Dafam Linggau-Lubuk Linggau,bersih nyaman,1.092,tidak sesuai,-1.5785
+Hotel Dafam Linggau-Lubuk Linggau,nyaman bersih,1.0013,kurang enak,-1.537
+Hotel Dafam Linggau-Lubuk Linggau,lubuk linggau,0.903,msh baru,-1.5297
+Hotel Dafam Linggau-Lubuk Linggau,makanannya enak,0.7306,kurang memuaskan,-1.4553
+Hotel Dafam Linggau-Lubuk Linggau,staff ramah,0.7058,aja kurang,-1.4155
+Hotel Dafam Linggau-Lubuk Linggau,hotelnya nyaman,0.6903,room service,-1.2797
+Hotel Dafam Linggau-Lubuk Linggau,bagus bersih,0.6395,pintu balkon,-1.1944
+Hotel Dafam Linggau-Lubuk Linggau,kolam renangnya,0.6135,bagus tp,-1.1111
+Hotel Dafam Linggau-Lubuk Linggau,tempatnya nyaman,0.6028,sarapan kurang,-0.9858
+Hotel Dafam Linggau-Lubuk Linggau,view bagus,0.5851,fresh berbau apek,-0.9607
+Hotel Dafam Pacificcaesar-Surabaya,pelayanan ramah,0.6517,maaf ya,-1.3187
+Hotel Dafam Pacificcaesar-Surabaya,nyaman bersih,0.54,hampir jam,-1.1354
+Hotel Dafam Pacificcaesar-Surabaya,kamarnya bersih,0.5211,buat apa,-0.9901
+Hotel Dafam Pacificcaesar-Surabaya,makanannya enak,0.5102,tidak enak,-0.9541
+Hotel Dafam Pacificcaesar-Surabaya,staff ramah,0.4917,jauh aja,-0.8686
+Hotel Dafam Pacificcaesar-Surabaya,kamarnya luas,0.4848,resepsionis kurang,-0.7906
+Hotel Dafam Pacificcaesar-Surabaya,bersih nyaman,0.4383,pelayanan resepsionis kurang,-0.7906
+Hotel Dafam Pacificcaesar-Surabaya,mas iron,0.4268,pelayanan resepsionis,-0.7906
+Hotel Dafam Pacificcaesar-Surabaya,bersih rapi,0.4185,room service,-0.7085
+Hotel Dafam Pacificcaesar-Surabaya,surabaya timur,0.4166,saat mandi,-0.7075
+Hoteldafam Pekalongan,pelayanan ramah,1.1265,pelayanan kurang,-1.5568
+Hoteldafam Pekalongan,makanannya enak,1.0604,kurang ramah,-1.5414
+Hoteldafam Pekalongan,makanan enak,0.9848,ac berisik,-1.4449
+Hoteldafam Pekalongan,tengah kota,0.9796,tidak ramah,-1.3607
+Hoteldafam Pekalongan,fasilitas lengkap,0.9564,tidak bagus,-1.0201
+Hoteldafam Pekalongan,kolam renangnya,0.8156,perlu banyak,-0.9876
+Hoteldafam Pekalongan,bersih nyaman,0.8103,depan pintu,-0.9453
+Hoteldafam Pekalongan,ruang meeting,0.7813,terlalu banyak,-0.8933
+Hoteldafam Pekalongan,parkir luas,0.7795,tidak direkomendasikan,-0.8401
+Hoteldafam Pekalongan,nyaman bersih,0.7632,keran shower,-0.8264
+Hotel Dafam Pekanbaru,pelayanan ramah,1.345,tidak sesuai,-1.9388
+Hotel Dafam Pekanbaru,bersih nyaman,1.1891,tidak profesional,-1.7766
+Hotel Dafam Pekanbaru,nyaman bersih,1.0679,keamanan kurang,-1.6079
+Hotel Dafam Pekanbaru,lokasi strategis,0.9314,kurang bagus,-1.5362
+Hotel Dafam Pekanbaru,staff ramah,0.9146,bau apek,-1.3897
+Hotel Dafam Pekanbaru,pusat kota,0.8692,seperti tidak,-1.2406
+Hotel Dafam Pekanbaru,pelayanan bagus,0.8085,tidak tersedia,-1.2336
+Hotel Dafam Pekanbaru,tempat nyaman,0.7878,pelayanan buruk,-1.221
+Hotel Dafam Pekanbaru,bagus bersih,0.7715,twin bed,-1.2077
+Hotel Dafam Pekanbaru,makanan enak,0.7573,smoking room,-1.1852
+Hotel Dafam Rio Bandung,bersih nyaman,1.0979,wifi aja,-1.3483
+Hotel Dafam Rio Bandung,lokasi strategis,0.8974,free aja,-1.3394
+Hotel Dafam Rio Bandung,nyaman bersih,0.8748,sarapan kurang,-1.2882
+Hotel Dafam Rio Bandung,pelayanan ramah,0.7453,kecil kurang,-1.1753
+Hotel Dafam Rio Bandung,pelayanan baik,0.7134,kurang nyaman,-1.1366
+Hotel Dafam Rio Bandung,pusat kota,0.6428,cuman pegawai kurang,-1.034
+Hotel Dafam Rio Bandung,tengah kota,0.6149,cuman pegawai,-1.034
+Hotel Dafam Rio Bandung,kamarnya luas,0.6061,kurang bersih,-1.0228
+Hotel Dafam Rio Bandung,kemana mana,0.5876,kurang privasi,-0.9665
+Hotel Dafam Rio Bandung,bagus bersih,0.5864,bagus hotelnya,-0.9608
+"Hotel Dafam Savvoya-Seminyak,Bali",harga terjangkau,1.2112,kurang bersih,-2.2359
+"Hotel Dafam Savvoya-Seminyak,Bali",tempat bagus,0.9216,tidak terawat,-1.3696
+"Hotel Dafam Savvoya-Seminyak,Bali",lokasi strategis,0.8317,pelayanan buruk,-1.3026
+"Hotel Dafam Savvoya-Seminyak,Bali",tempat nyaman,0.817,sama tidak,-1.2381
+"Hotel Dafam Savvoya-Seminyak,Bali",hotelnya bagus,0.7699,terlalu dekat,-1.2128
+"Hotel Dafam Savvoya-Seminyak,Bali",sarapannya enak,0.7423,tidak ramah,-1.1443
+"Hotel Dafam Savvoya-Seminyak,Bali",dafam savvoya,0.6672,tidak sesuai,-1.0774
+"Hotel Dafam Savvoya-Seminyak,Bali",stafnya ramah,0.6395,tetapi tidak,-1.0203
+"Hotel Dafam Savvoya-Seminyak,Bali",dekat dg,0.5954,hotelnya jelek,-1.0063
+"Hotel Dafam Savvoya-Seminyak,Bali",staffnya ramah,0.5912,mereka tidak,-0.9579
+Hotel Dafam Semarang,pusat kota,1.4647,kurang bersih,-1.222
+Hotel Dafam Semarang,nyaman bersih,1.3706,orang lain,-1.0699
+Hotel Dafam Semarang,bersih nyaman,1.3666,bau rokok,-1.0646
+Hotel Dafam Semarang,kota semarang,1.3142,tidak nyaman,-1.0207
+Hotel Dafam Semarang,tempat nyaman,1.1214,ngga mau,-1.007
+Hotel Dafam Semarang,makanannya enak,1.0959,harus menunggu,-0.9758
+Hotel Dafam Semarang,pelayanan bagus,1.0856,aja padahal,-0.9491
+Hotel Dafam Semarang,lokasi strategis,1.0123,parkir sempit,-0.9308
+Hotel Dafam Semarang,menginap dafam,1.0101,insiden kebakaran,-0.8214
+Hotel Dafam Semarang,makanan enak,0.9672,mandi bau,-0.8199
+Ibis Style Bali Legian,dekat pantai,0.9598,ketinggalan jaman,-1.0921
+Ibis Style Bali Legian,lokasi strategis,0.9165,tidak terawat,-1.09
+Ibis Style Bali Legian,staff ramah,0.7815,mau pindah,-1.0111
+Ibis Style Bali Legian,terima kasih,0.7318,malam hari,-0.9853
+Ibis Style Bali Legian,berjalan kaki,0.7074,ac tidak,-0.9792
+Ibis Style Bali Legian,ramah membantu,0.6523,terawat baik,-0.9231
+Ibis Style Bali Legian,hotelnya bagus,0.6307,waktu lama,-0.9208
+Ibis Style Bali Legian,kamarnya luas,0.6272,lantai atas,-0.8903
+Ibis Style Bali Legian,kembali lagi,0.6211,mereka tidak,-0.8873
+Ibis Style Bali Legian,pelayanan ramah,0.6107,bau masakan,-0.8764
+Ibis Style Jakarta Tanah Abang (1),makanannya enak,1.4808,bahkan tidak,-1.1803
+Ibis Style Jakarta Tanah Abang (1),makanan enak,0.9854,menginap tidak,-1.0502
+Ibis Style Jakarta Tanah Abang (1),pelayanan ramah,0.9587,bau makanan,-1.0098
+Ibis Style Jakarta Tanah Abang (1),lokasi strategis,0.9497,kurang enak,-0.9788
+Ibis Style Jakarta Tanah Abang (1),tanah abang,0.9188,baik tidak,-0.9572
+Ibis Style Jakarta Tanah Abang (1),bersih nyaman,0.7965,stafnya ramah,-0.9163
+Ibis Style Jakarta Tanah Abang (1),mba salsa,0.7329,makan siang,-0.8598
+Ibis Style Jakarta Tanah Abang (1),staff ramah,0.6914,tp kurang,-0.8557
+Ibis Style Jakarta Tanah Abang (1),pelayanan bagus,0.6907,makanan lengkap,-0.8539
+Ibis Style Jakarta Tanah Abang (1),nyaman bersih,0.6862,tidak nyaman,-0.8131
+Ibis Styles Bali Denpasar,kota denpasar,1.355,mandi kotor,-1.4165
+Ibis Styles Bali Denpasar,lokasi strategis,1.2126,air panas,-1.1953
+Ibis Styles Bali Denpasar,tempat nyaman,1.136,breakfast kurang,-1.17
+Ibis Styles Bali Denpasar,tempatnya nyaman,1.07,banyak rusak,-1.0964
+Ibis Styles Bali Denpasar,nyaman bersih,0.9348,makanan kurang,-1.0841
+Ibis Styles Bali Denpasar,staff ramah,0.9206,kota sempit,-1.0538
+Ibis Styles Bali Denpasar,pelayanan bagus,0.9146,mereka tidak,-1.0275
+Ibis Styles Bali Denpasar,pelayanan ramah,0.9106,bau lembab,-0.9928
+Ibis Styles Bali Denpasar,harga terjangkau,0.8213,kurang variasi,-0.9789
+Ibis Styles Bali Denpasar,pusat kota,0.8201,terburuk tidak,-0.9435
+Ibis Styles Batam Nagoya,bersih nyaman,0.9661,tidak ramah,-1.9304
+Ibis Styles Batam Nagoya,pelayanan ramah,0.9413,kurang memuaskan,-1.9138
+Ibis Styles Batam Nagoya,tempat nyaman,0.8976,tolong ya,-1.3521
+Ibis Styles Batam Nagoya,makanan enak,0.8868,jika anda,-1.3271
+Ibis Styles Batam Nagoya,tempatnya nyaman,0.8423,kurang baik,-1.3111
+Ibis Styles Batam Nagoya,lokasi strategis,0.674,pelayanan kurang,-1.306
+Ibis Styles Batam Nagoya,nyaman bersih,0.6692,bau pengap,-1.2177
+Ibis Styles Batam Nagoya,hotelnya bagus,0.6572,dapet komisi,-1.2123
+Ibis Styles Batam Nagoya,salah satu,0.6359,mereka tidak,-1.1539
+Ibis Styles Batam Nagoya,kota batam,0.6351,gak nyaman,-1.1463
+Ibis Styles Bekasi Jatibening,makanan enak,1.4889,minggu lalu,-1.2309
+Ibis Styles Bekasi Jatibening,makanannya enak,1.2662,cuma pelayanan,-1.1613
+Ibis Styles Bekasi Jatibening,bersih nyaman,1.1182,bau rokok,-1.1178
+Ibis Styles Bekasi Jatibening,pelayanan baik,1.1092,baru kali,-1.0889
+Ibis Styles Bekasi Jatibening,kamarnya bersih,1.0291,kurang bagus,-1.0229
+Ibis Styles Bekasi Jatibening,kamarnya nyaman,0.8546,boleh dikunci,-1.0158
+Ibis Styles Bekasi Jatibening,pelayanan ramah,0.8026,kurang ramah,-0.98
+Ibis Styles Bekasi Jatibening,ramah ramah,0.7403,menunggu lama,-0.9543
+Ibis Styles Bekasi Jatibening,terima kasih,0.7202,pas mau,-0.9462
+Ibis Styles Bekasi Jatibening,baik ramah,0.6995,pelayanannya kurang,-0.9381
+Ibis Styles Bogor Pajajaran,makanannya enak,1.2845,mohon diperbaiki,-1.3194
+Ibis Styles Bogor Pajajaran,nyaman bersih,1.1946,setengah jam,-1.2283
+Ibis Styles Bogor Pajajaran,kebun raya,1.126,susah krn,-1.2095
+Ibis Styles Bogor Pajajaran,lokasi strategis,1.0393,tidak ramah,-1.0916
+Ibis Styles Bogor Pajajaran,terima kasih,0.9607,dulu baru,-1.0693
+Ibis Styles Bogor Pajajaran,kota bogor,0.951,kalian tidak,-1.039
+Ibis Styles Bogor Pajajaran,pelayanan ramah,0.9031,parkiran kurang,-1.0259
+Ibis Styles Bogor Pajajaran,pusat kota,0.7795,parkiran sempit,-1.0169
+Ibis Styles Bogor Pajajaran,bersih nyaman,0.7591,kurang enak,-1.0165
+Ibis Styles Bogor Pajajaran,pelayanannya ramah,0.7162,tamu lain,-0.9906
+Ibis Styles Bogor Raya,makanannya enak,1.1439,tidak nyaman,-2.1826
+Ibis Styles Bogor Raya,kids friendly,1.0981,tidak ramah,-1.3439
+Ibis Styles Bogor Raya,nyaman bersih,1.0348,sampai jam,-1.105
+Ibis Styles Bogor Raya,kamarnya bersih,1.0329,kurang ramah,-1.0083
+Ibis Styles Bogor Raya,mba patma,1.0192,ga enak,-1.0005
+Ibis Styles Bogor Raya,fasilitas lengkap,1.0162,sama tidak,-0.9952
+Ibis Styles Bogor Raya,makanan enak,0.9865,jam pagi,-0.9812
+Ibis Styles Bogor Raya,pelayanan baik,0.958,jauh dr,-0.9811
+Ibis Styles Bogor Raya,bersama keluarga,0.9164,tidak berfungsi,-0.9582
+Ibis Styles Bogor Raya,bogor raya,0.8967,sebelah terdengar,-0.9315
+Ibis Styles C Ikarang,makanan enak,1.2335,kurang enak,-1.5546
+Ibis Styles C Ikarang,bersih nyaman,1.225,terlalu sempit,-1.3502
+Ibis Styles C Ikarang,pelayanan ramah,1.1752,parkiran sempit,-1.3078
+Ibis Styles C Ikarang,terima kasih,0.9706,kurang tidak,-1.2725
+Ibis Styles C Ikarang,nyaman bersih,0.9148,tidak dingin,-1.2682
+Ibis Styles C Ikarang,kamarnya nyaman,0.8787,pengalaman buruk,-1.154
+Ibis Styles C Ikarang,kamarnya bersih,0.8462,ga nyaman,-1.13
+Ibis Styles C Ikarang,tempatnya nyaman,0.8372,ga bakal,-1.0297
+Ibis Styles C Ikarang,fasilitas lengkap,0.8193,cuci tangan,-0.9913
+Ibis Styles C Ikarang,kolam renangnya,0.8174,tempat tidur,-0.9838
+Ibis Styles Jakarta Airport,makanan enak,1.3652,nasi goreng,-1.5884
+Ibis Styles Jakarta Airport,makanannya enak,1.2245,tidak ramah,-1.5199
+Ibis Styles Jakarta Airport,shuttle bus,1.1807,terlalu lama,-1.2944
+Ibis Styles Jakarta Airport,staff ramah,1.0394,pengalaman buruk,-1.2925
+Ibis Styles Jakarta Airport,pelayanan bagus,0.9388,beberapa kali,-1.1899
+Ibis Styles Jakarta Airport,kamarnya bersih,0.9162,ac panas,-1.1596
+Ibis Styles Jakarta Airport,bersih wangi,0.8905,front office,-1.1495
+Ibis Styles Jakarta Airport,nyaman bersih,0.8506,tidak berfungsi,-1.1429
+Ibis Styles Jakarta Airport,pelayanan ramah,0.8471,tidak menginap,-1.1064
+Ibis Styles Jakarta Airport,ibis style,0.8242,tidak direkomendasikan,-1.0339
+Ibis Styles Jakarta Manggadua Square,staff ramah,1.5185,tidak ramah,-1.4008
+Ibis Styles Jakarta Manggadua Square,mangga dua,1.3221,tidak sedap,-1.3163
+Ibis Styles Jakarta Manggadua Square,fasilitas lengkap,1.2749,pelayanan buruk,-1.3143
+Ibis Styles Jakarta Manggadua Square,pelayanan ramah,1.2244,terlalu sempit,-1.2864
+Ibis Styles Jakarta Manggadua Square,pelayanannya ramah,1.2186,tidak sesuai,-1.1602
+Ibis Styles Jakarta Manggadua Square,kamarnya nyaman,1.1982,anda tidak,-1.1574
+Ibis Styles Jakarta Manggadua Square,lokasi strategis,1.1877,alarm kebakaran,-1.1307
+Ibis Styles Jakarta Manggadua Square,makanan enak,1.1026,jam pagi,-1.0509
+Ibis Styles Jakarta Manggadua Square,kamarnya bersih,1.0494,tidak bagus,-1.0386
+Ibis Styles Jakarta Manggadua Square,hotelnya bagus,1.0261,tidak cocok,-1.0257
+Ibis Styles Jakarta Simatupang,lokasi strategis,1.0366,beberapa kali,-1.3672
+Ibis Styles Jakarta Simatupang,makanannya enak,1.0187,kurang memuaskan,-1.3441
+Ibis Styles Jakarta Simatupang,bersih nyaman,0.9305,mereka tidak,-1.2825
+Ibis Styles Jakarta Simatupang,nyaman bersih,0.9268,tamu lain,-1.2233
+Ibis Styles Jakarta Simatupang,pelayanan ramah,0.8931,tempat parkir,-1.136
+Ibis Styles Jakarta Simatupang,makanan enak,0.8838,tidak nyaman,-1.1131
+Ibis Styles Jakarta Simatupang,staff ramah,0.8245,pun tidak,-0.9297
+Ibis Styles Jakarta Simatupang,kamarnya bersih,0.7433,pake kartu,-0.9012
+Ibis Styles Jakarta Simatupang,pelayanan bagus,0.6933,menelepon resepsionis,-0.9009
+Ibis Styles Jakarta Simatupang,terima kasih,0.6585,pengalaman buruk,-0.8265
+Ibis Styles Jakarta Sunter,makanannya enak,1.3953,pelayanan kurang,-1.4297
+Ibis Styles Jakarta Sunter,kolam renang,1.3266,kurang bagus,-1.3499
+Ibis Styles Jakarta Sunter,bersih nyaman,1.1686,kurang ramah,-1.2354
+Ibis Styles Jakarta Sunter,makanan enak,1.1615,ok cuma,-1.2133
+Ibis Styles Jakarta Sunter,pelayanan baik,1.1042,gak enak,-1.1676
+Ibis Styles Jakarta Sunter,nyaman bersih,1.0446,tidak sesuai,-1.123
+Ibis Styles Jakarta Sunter,staff ramah,1.0403,tidak pemandangan,-1.0616
+Ibis Styles Jakarta Sunter,ibis sunter,0.85,pelayanan buruk,-1.0062
+Ibis Styles Jakarta Sunter,tempat bagus,0.8283,ga enak,-0.9615
+Ibis Styles Jakarta Sunter,bagus nyaman,0.8003,mereka tidak,-0.9573
+Ibisstyles Malang,kolam renangnya,1.3235,kurang ramah,-1.5274
+Ibisstyles Malang,kota malang,1.2665,setengah jam,-1.1916
+Ibisstyles Malang,kolam renang,1.1707,bagus tempat,-1.1859
+Ibisstyles Malang,kamarnya bersih,1.1372,pelayanan kurang,-1.1846
+Ibisstyles Malang,pelayanan ramah,1.0403,mandi tidak,-1.1649
+Ibisstyles Malang,pusat kota,1.0119,kurang nyaman,-1.1588
+Ibisstyles Malang,tengah kota,0.9513,minta tolong,-1.1494
+Ibisstyles Malang,kalo mau,0.892,mobil lain,-1.095
+Ibisstyles Malang,staf ramah,0.8647,tidak punya,-1.0846
+Ibisstyles Malang,protokol kesehatan,0.8612,dingin padahal,-1.0367
+Ibis Styles Medan Pattimura,kamarnya bersih,1.2201,tidak ramah,-1.7055
+Ibis Styles Medan Pattimura,lokasi strategis,1.1861,tidak sesuai,-1.5174
+Ibis Styles Medan Pattimura,bersih nyaman,1.1762,terlalu sempit,-1.486
+Ibis Styles Medan Pattimura,kamarnya nyaman,1.0115,terbatas sempit,-1.1027
+Ibis Styles Medan Pattimura,makanan enak,1.0059,dibersihkan tidak,-1.0957
+Ibis Styles Medan Pattimura,kota medan,0.9811,bagus tp,-1.0326
+Ibis Styles Medan Pattimura,bagus nyaman,0.966,makanan tidak,-1.0173
+Ibis Styles Medan Pattimura,sarapan pagi,0.9532,parkir security,-1.0169
+Ibis Styles Medan Pattimura,pelayanan baik,0.914,kurang memadai,-1.0119
+Ibis Styles Medan Pattimura,ibis styles,0.8955,beberapa kali,-1.0015
+Ibis Styles Semarang S Impang Lima,makanan enak,0.9408,tidak ramah,-1.4853
+Ibis Styles Semarang S Impang Lima,kota semarang,0.9038,kedap suara,-1.2028
+Ibis Styles Semarang S Impang Lima,lokasi strategis,0.89,air minum,-1.1643
+Ibis Styles Semarang S Impang Lima,bersih nyaman,0.8586,kurang luas,-1.0351
+Ibis Styles Semarang S Impang Lima,nyaman bersih,0.8342,air putih,-0.9467
+Ibis Styles Semarang S Impang Lima,makanannya enak,0.794,padahal tamu,-0.9283
+Ibis Styles Semarang S Impang Lima,simpang lima,0.78,pelayanan kurang,-0.927
+Ibis Styles Semarang S Impang Lima,pelayanan bagus,0.7581,kurang dingin,-0.9245
+Ibis Styles Semarang S Impang Lima,pusat kota,0.7042,kali dapat,-0.9026
+Ibis Styles Semarang S Impang Lima,pelayanan baik,0.6876,kebijakan manajemen,-0.8937
+Ibis Styles Yogyakarta (1),kolam renang,1.5174,tidak nyaman,-1.4483
+Ibis Styles Yogyakarta (1),jalan kaki,1.2692,harga mahal,-1.4062
+Ibis Styles Yogyakarta (1),staff ramah,1.1547,jauh hari,-1.2933
+Ibis Styles Yogyakarta (1),pelayanan bagus,1.125,sama tidak,-1.2132
+Ibis Styles Yogyakarta (1),dekat malioboro,1.0855,tidak bersih,-1.2067
+Ibis Styles Yogyakarta (1),pelayanan ramah,1.0211,bau pesing,-1.1911
+Ibis Styles Yogyakarta (1),strategis dekat,1.0078,termasuk mahal,-1.1405
+Ibis Styles Yogyakarta (1),bersih nyaman,0.9949,jam baru,-1.0508
+Ibis Styles Yogyakarta (1),nyaman bersih,0.9902,gak ya,-1.0377
+Ibis Styles Yogyakarta (1),kolam renangnya,0.9344,mandi kotor,-1.0318
+Quest Hotel Balikpapan,lokasi strategis,1.4745,harus menunggu,-1.1639
+Quest Hotel Balikpapan,mba intan,1.3231,tidak ramah,-1.0484
+Quest Hotel Balikpapan,terima kasih,1.3003,mandi kurang,-0.9521
+Quest Hotel Balikpapan,mbak intan,1.0381,baik tp,-0.9435
+Quest Hotel Balikpapan,baik ramah,0.9668,malam tidak,-0.9345
+Quest Hotel Balikpapan,nyaman bersih,0.8931,kurang baik,-0.9188
+Quest Hotel Balikpapan,intan ramah,0.8767,pelayanan buruk,-0.8905
+Quest Hotel Balikpapan,ramah membantu,0.8664,jadi harus,-0.8481
+Quest Hotel Balikpapan,bersih nyaman,0.8182,bau rokok,-0.8401
+Quest Hotel Balikpapan,pelayanan bagus,0.7705,kurang enak,-0.8139
+Quest Hotel Semarang,pelayanan ramah,1.7142,pelayanan buruk,-1.5889
+Quest Hotel Semarang,table manner,1.427,tidak nyaman,-1.4191
+Quest Hotel Semarang,makanannya enak,1.3992,pelayanan kurang,-1.288
+Quest Hotel Semarang,makanan enak,1.2114,tidak ramah,-1.1916
+Quest Hotel Semarang,cooking class,1.2065,kurang ramah,-1.0591
+Quest Hotel Semarang,pelayanan bagus,1.1063,jam pagi,-0.9121
+Quest Hotel Semarang,pelayanan baik,1.0431,kamarnya kotor,-0.9095
+Quest Hotel Semarang,nyaman bersih,1.0251,koneksi internet,-0.9064
+Quest Hotel Semarang,pelayanan memuaskan,1.0185,pengalaman buruk,-0.8774
+Quest Hotel Semarang,staff ramah,0.9629,minta ganti,-0.8301
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",timur tengah,0.6148,belom siap,-1.2113
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",pelayanan baik,0.4384,segi pelayanan,-0.8158
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",makanan enak,0.4206,layanan ramah,-0.8102
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",terima kasih,0.3843,ok bgt,-0.7644
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",pelayanan ramah,0.3832,waktu kesini,-0.7601
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",bagus nyaman,0.3514,lokasi strategis,-0.7424
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",tempatnya nyaman,0.2877,hotelnya bagus,-0.6101
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",makanannya enak,0.2852,enak enak,-0.541
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",mba thia,0.2712,para staff,-0.3974
+"Alhambra Hotel&Convetion,BWS Ignature Collectionby Best Western-Tasikmalaya",bagus bersih,0.2698,saat malam,-0.3857
+Aston Bogor Hotel&Resort,aston bogor,1.3703,mereka tidak,-1.13
+Aston Bogor Hotel&Resort,makanannya enak,1.3609,bogor tidak,-1.103
+Aston Bogor Hotel&Resort,makanan enak,1.3138,makan malam,-1.0679
+Aston Bogor Hotel&Resort,pelayanan ramah,1.2982,bad experience,-1.0544
+Aston Bogor Hotel&Resort,pelayanan bagus,1.2768,kurang ramah,-1.0514
+Aston Bogor Hotel&Resort,enak enak,1.169,tidak baik,-1.049
+Aston Bogor Hotel&Resort,pelayanan baik,1.1674,baru kali,-1.0464
+Aston Bogor Hotel&Resort,staff ramah,1.1269,tidak memiliki,-1.0236
+Aston Bogor Hotel&Resort,fasilitas lengkap,1.0962,tidak begitu,-0.9742
+Aston Bogor Hotel&Resort,kamarnya nyaman,1.042,tamu lain,-0.9682
+Aston Cirebon Hotel&C Onvention Center,mini zoo,1.2624,tidak ramah,-1.6407
+Aston Cirebon Hotel&C Onvention Center,makanannya enak,1.2487,sekelas aston,-1.3971
+Aston Cirebon Hotel&C Onvention Center,makanan enak,1.194,kurang ramah,-1.3437
+Aston Cirebon Hotel&C Onvention Center,terima kasih,1.0497,tidak enak,-1.1938
+Aston Cirebon Hotel&C Onvention Center,kids friendly,1.0428,kurang menyenangkan,-1.1793
+Aston Cirebon Hotel&C Onvention Center,pelayanannya ramah,0.9605,agar sopan,-1.1777
+Aston Cirebon Hotel&C Onvention Center,pelayanan ramah,0.8824,tempat tidur,-1.1232
+Aston Cirebon Hotel&C Onvention Center,nyaman pelayanan,0.8704,sampai jam,-1.0807
+Aston Cirebon Hotel&C Onvention Center,bersama keluarga,0.8652,keamanan kurang,-1.0794
+Aston Cirebon Hotel&C Onvention Center,pelayanan baik,0.8562,ayam sambal,-1.0794
+Aston Tropicana Hotel-Bandung,pelayanan baik,1.5036,check jam,-1.6943
+Aston Tropicana Hotel-Bandung,pelayanan ramah,1.3231,kurang memuaskan,-1.6365
+Aston Tropicana Hotel-Bandung,lokasi strategis,1.2112,kurang bervariasi,-1.3827
+Aston Tropicana Hotel-Bandung,bersih nyaman,1.1916,terlalu tua,-1.3619
+Aston Tropicana Hotel-Bandung,nyaman bersih,1.115,tidak layak,-1.3407
+Aston Tropicana Hotel-Bandung,pelayanan bagus,1.0666,cuma sayang,-1.2689
+Aston Tropicana Hotel-Bandung,menginap disini,1.0537,tidak berfungsi,-1.257
+Aston Tropicana Hotel-Bandung,sarapannya enak,1.0121,kurang variatif,-1.2011
+Aston Tropicana Hotel-Bandung,staff ramah,0.9889,pengalaman buruk,-1.1985
+Aston Tropicana Hotel-Bandung,kamarnya bersih,0.9846,tidak ramah,-1.1831
+Best Western Batanggaring-Palangkaraya,lokasi strategis,0.8254,tidak ramah,-1.4424
+Best Western Batanggaring-Palangkaraya,nyaman bersih,0.8117,terlalu kecil,-1.2084
+Best Western Batanggaring-Palangkaraya,lokasinya strategis,0.7733,bau apek,-1.1792
+Best Western Batanggaring-Palangkaraya,bersih nyaman,0.7601,kamarnya bersih,-1.004
+Best Western Batanggaring-Palangkaraya,kamarnya kecil,0.6778,non smoking,-0.9695
+Best Western Batanggaring-Palangkaraya,tempat strategis,0.6617,cuma dapat,-0.9502
+Best Western Batanggaring-Palangkaraya,batang garing,0.6547,ga enak,-0.9489
+Best Western Batanggaring-Palangkaraya,makanannya enak,0.6452,pelayanan kurang,-0.9361
+Best Western Batanggaring-Palangkaraya,pelayanan bagus,0.6299,kurang maksimal,-0.9312
+Best Western Batanggaring-Palangkaraya,pelayanan baik,0.621,bertanggung jawab,-0.9206
+Best Western Kamala Jimbaran-bali,dekat gwk,0.8086,mereka tidak,-1.4473
+Best Western Kamala Jimbaran-bali,terima kasih,0.7146,kurang enak,-1.4285
+Best Western Kamala Jimbaran-bali,sarapannya enak,0.6184,ac panas,-1.3963
+Best Western Kamala Jimbaran-bali,kamarnya bersih,0.5929,tidak berfungsi,-1.1998
+Best Western Kamala Jimbaran-bali,menginap sini,0.5586,tidur nyenyak,-1.1845
+Best Western Kamala Jimbaran-bali,staf ramah,0.5533,ayam jantan,-0.9762
+Best Western Kamala Jimbaran-bali,pelayanan ramah,0.5518,bagus tetapi,-0.9545
+Best Western Kamala Jimbaran-bali,western kamala,0.5509,dua malam,-0.9187
+Best Western Kamala Jimbaran-bali,best western kamala,0.5509,diberitahu bahwa,-0.9178
+Best Western Kamala Jimbaran-bali,tempat nyaman,0.5234,suara ayam,-0.9158
+Best Western Mangga Dua Hotel&Residence-Jakarta,mangga dua,1.4223,check jam,-1.6109
+Best Western Mangga Dua Hotel&Residence-Jakarta,makanan enak,1.3333,tidak nyaman,-1.5266
+Best Western Mangga Dua Hotel&Residence-Jakarta,bersih nyaman,1.2862,kurang nyaman,-1.4197
+Best Western Mangga Dua Hotel&Residence-Jakarta,chef kalimi,1.1505,banyak rusak,-1.3458
+Best Western Mangga Dua Hotel&Residence-Jakarta,makanannya enak,1.1102,lift lama,-1.3283
+Best Western Mangga Dua Hotel&Residence-Jakarta,staff ramah,1.099,tempat tidur,-1.3135
+Best Western Mangga Dua Hotel&Residence-Jakarta,pelayanan ramah,1.0919,inap malam,-1.2179
+Best Western Mangga Dua Hotel&Residence-Jakarta,pelayanan bagus,1.0691,pelayanan buruk,-1.207
+Best Western Mangga Dua Hotel&Residence-Jakarta,nyaman bersih,1.0036,parkir sempit,-1.1773
+Best Western Mangga Dua Hotel&Residence-Jakarta,lokasi strategis,0.9332,mau pakai,-1.1097
+Best Western Papilio Hotel-Surabaya,makanan enak,1.4325,pelayanan ok,-1.3789
+Best Western Papilio Hotel-Surabaya,pelayanan ramah,1.3843,check jam,-1.2061
+Best Western Papilio Hotel-Surabaya,lokasi strategis,1.2376,tidak bersih,-1.1175
+Best Western Papilio Hotel-Surabaya,nyaman bersih,1.2254,kurang bersih,-1.1146
+Best Western Papilio Hotel-Surabaya,kolam renangnya,1.1499,lift apartemen,-1.1145
+Best Western Papilio Hotel-Surabaya,kota surabaya,1.145,exhaust mandi,-1.1
+Best Western Papilio Hotel-Surabaya,tempat makan,1.0972,kalo sewa,-1.0578
+Best Western Papilio Hotel-Surabaya,luas bersih,1.019,tidak worth,-1.0515
+Best Western Papilio Hotel-Surabaya,western papilio,0.9462,cleaning service,-1.043
+Best Western Papilio Hotel-Surabaya,harga terjangkau,0.9401,tidak sopan,-1.0417
+Best Western Premier La Grande Hotel-Bandung,lokasi strategis,2.118,parkir sempit,-1.0708
+Best Western Premier La Grande Hotel-Bandung,pelayanan ramah,1.6564,kurang baik,-0.9444
+Best Western Premier La Grande Hotel-Bandung,lokasinya strategis,1.226,best wetern,-0.9395
+Best Western Premier La Grande Hotel-Bandung,staff ramah,1.217,parkirnya sempit,-0.9257
+Best Western Premier La Grande Hotel-Bandung,bersih nyaman,1.1891,mau keluar,-0.9051
+Best Western Premier La Grande Hotel-Bandung,kamarnya bersih,1.1174,pas mau,-0.8894
+Best Western Premier La Grande Hotel-Bandung,luas bersih,1.0499,oleh petugas,-0.8813
+Best Western Premier La Grande Hotel-Bandung,kolam renangnya,1.0388,strategis seberang,-0.8636
+Best Western Premier La Grande Hotel-Bandung,kota bandung,0.9538,sarapan pagi,-0.8498
+Best Western Premier La Grande Hotel-Bandung,makanannya enak,0.9437,menunggu jam,-0.8431
+Best Western Resort Kuta-Bali,bersih nyaman,1.0972,layanan tidak,-1.3138
+Best Western Resort Kuta-Bali,staf ramah,0.9533,kurang bagus,-1.2596
+Best Western Resort Kuta-Bali,tempat nyaman,0.9257,ac gak,-1.2254
+Best Western Resort Kuta-Bali,pelayanan baik,0.9019,mandi bau,-1.1958
+Best Western Resort Kuta-Bali,lokasi strategis,0.8966,staf penerimaan,-1.0926
+Best Western Resort Kuta-Bali,staff ramah,0.8835,mandi lantai,-1.0799
+Best Western Resort Kuta-Bali,pelayanannya bagus,0.822,lantai kotor,-1.0226
+Best Western Resort Kuta-Bali,nyaman bersih,0.8204,kurang bersih,-1.0171
+Best Western Resort Kuta-Bali,harga terjangkau,0.8098,tidak handuk,-1.0009
+Best Western Resort Kuta-Bali,sarapannya enak,0.7572,tidak dingin,-0.9846
+Courtyard Bali Nusa Dua Resort,pelayanan ramah,0.9175,tidak ramah,-2.1594
+Courtyard Bali Nusa Dua Resort,kolam renangnya,0.8676,mereka tidak,-1.6649
+Courtyard Bali Nusa Dua Resort,makanannya enak,0.863,pertama kali,-1.3374
+Courtyard Bali Nusa Dua Resort,pelayanan baik,0.8029,tidak banyak,-1.2601
+Courtyard Bali Nusa Dua Resort,tempat nyaman,0.7811,tidak nyaman,-1.2517
+Courtyard Bali Nusa Dua Resort,mereka memiliki,0.6391,jauh pantai,-1.1478
+Courtyard Bali Nusa Dua Resort,berjalan kaki,0.6263,kotor banyak,-1.1132
+Courtyard Bali Nusa Dua Resort,makanan enak,0.625,tamu lain,-1.0058
+Courtyard Bali Nusa Dua Resort,kamarnya luas,0.6113,tidak pantai,-0.9625
+Courtyard Bali Nusa Dua Resort,setiap jam,0.5916,properti marriott,-0.9594
+Courtyard Bali Seminyak Resort,dekat pantai,1.2683,keesokan harinya,-1.1789
+Courtyard Bali Seminyak Resort,kolam renangnya,1.026,tidak yakin,-1.1218
+Courtyard Bali Seminyak Resort,tempat nyaman,0.9223,dua kali,-1.1047
+Courtyard Bali Seminyak Resort,lokasi strategis,0.8675,tidak layak,-1.0746
+Courtyard Bali Seminyak Resort,staf ramah,0.8629,gak parkir,-1.0689
+Courtyard Bali Seminyak Resort,berjalan kaki,0.8522,late check,-1.0689
+Courtyard Bali Seminyak Resort,staff ramah,0.796,berkunjung aja,-1.0689
+Courtyard Bali Seminyak Resort,bersih nyaman,0.7813,check jam,-1.0689
+Courtyard Bali Seminyak Resort,bagus nyaman,0.7413,tidak cocok,-1.0537
+Courtyard Bali Seminyak Resort,kamarnya bersih,0.7391,saat checkin,-0.9912
+Courtyard Bandung Dago,pak yayat,1.5585,tidak ramah,-1.3771
+Courtyard Bandung Dago,makanannya enak,1.463,sarapan aja,-1.3717
+Courtyard Bandung Dago,terima kasih,1.2973,kurang responsif,-1.2076
+Courtyard Bandung Dago,pelayanannya ramah,1.1427,tidak petugas,-1.1762
+Courtyard Bandung Dago,kota bandung,1.1389,mandi tidak,-1.0645
+Courtyard Bandung Dago,pelayanan bagus,1.0751,lama bgt,-1.0591
+Courtyard Bandung Dago,pelayanan ramah,1.0652,baik hanya,-1.0178
+Courtyard Bandung Dago,nyaman bersih,1.0202,lama nunggu,-0.9816
+Courtyard Bandung Dago,pelayanannya bagus,0.938,terburuk pernah,-0.9413
+Courtyard Bandung Dago,baik ramah,0.9139,ruangan tidak,-0.9242
+Crowne Plaza Bandung,makanan enak,1.596,driver online,-1.3099
+Crowne Plaza Bandung,pelayanan ramah,1.2183,harus buka,-1.2158
+Crowne Plaza Bandung,pelayanan bagus,1.1671,tidak ramah,-1.1654
+Crowne Plaza Bandung,pelayanan baik,1.157,layanan buruk,-1.1115
+Crowne Plaza Bandung,staff ramah,1.137,ga boleh,-1.0006
+Crowne Plaza Bandung,baik ramah,1.122,depan lobby,-0.9559
+Crowne Plaza Bandung,makanannya enak,1.1,tidak nyaman,-0.9213
+Crowne Plaza Bandung,menginap disini,1.0408,remote tv,-0.9166
+Crowne Plaza Bandung,terima kasih,0.9434,pinggir jalan,-0.91
+Crowne Plaza Bandung,sarapan enak,0.938,harus menunggu,-0.8706
+Crowne Plaza Labuan Bajo,pelayanan baik,0.1802,antarjemput gratis,0.0483
+Crowne Plaza Labuan Bajo,crowne plaza,0.1077,antarjemput gratis pusat,0.0483
+Crowne Plaza Labuan Bajo,layanan antarjemput,0.1051,baru dibangun,0.0483
+Crowne Plaza Labuan Bajo,pusat kota,0.1022,gratis pusat kota,0.0483
+Crowne Plaza Labuan Bajo,masa inap,0.102,gratis pusat,0.0483
+Crowne Plaza Labuan Bajo,tak terlupakan,0.0996,antarjemput bandara,0.0512
+Crowne Plaza Labuan Bajo,pengalaman luar,0.0994,tempat lain,0.0526
+Crowne Plaza Labuan Bajo,semua staf,0.0989,tidak ingin,0.0526
+Crowne Plaza Labuan Bajo,kolam renang,0.0983,penjemputan bandara,0.0552
+Crowne Plaza Labuan Bajo,secara keseluruhan,0.0867,staf ramah,0.064
+"Four Pointsby Sheraton Bali,Seminyak",kolam renangnya,0.929,mereka tidak,-1.4573
+"Four Pointsby Sheraton Bali,Seminyak",tempat bagus,0.8723,pengalaman buruk,-1.1692
+"Four Pointsby Sheraton Bali,Seminyak",jika anda,0.8588,tidak bagus,-1.1078
+"Four Pointsby Sheraton Bali,Seminyak",terima kasih,0.7855,tidak berfungsi,-1.0568
+"Four Pointsby Sheraton Bali,Seminyak",pelayanan ramah,0.7788,bagus tetapi,-1.0521
+"Four Pointsby Sheraton Bali,Seminyak",pelayanannya bagus,0.7682,pukul masih,-1.0516
+"Four Pointsby Sheraton Bali,Seminyak",staf ramah,0.7642,staf tidak,-1.0457
+"Four Pointsby Sheraton Bali,Seminyak",bagus staf,0.7447,mengatakan bahwa,-0.9485
+"Four Pointsby Sheraton Bali,Seminyak",sarapan prasmanannya,0.6775,hari pertama,-0.9473
+"Four Pointsby Sheraton Bali,Seminyak",tidak terlalu,0.6365,musik keras,-0.9115
+"Four Pointsby Sheraton Bali,Ungasan",view bagus,1.0049,ac rusak,-1.3378
+"Four Pointsby Sheraton Bali,Ungasan",kolam renangnya,0.8468,handuk tidak,-1.2772
+"Four Pointsby Sheraton Bali,Ungasan",pemandangan indah,0.8452,kurang terawat,-1.2439
+"Four Pointsby Sheraton Bali,Ungasan",kolam renang,0.7844,kurang bersih,-1.2114
+"Four Pointsby Sheraton Bali,Ungasan",tempat menginap,0.7585,baik tetapi,-1.1853
+"Four Pointsby Sheraton Bali,Ungasan",terima kasih,0.7257,terburuk pernah,-1.1532
+"Four Pointsby Sheraton Bali,Ungasan",makanan enak,0.715,tidak berfungsi,-1.1295
+"Four Pointsby Sheraton Bali,Ungasan",four points,0.702,harus minta,-1.1173
+"Four Pointsby Sheraton Bali,Ungasan",pelayanan ramah,0.6994,mereka tidak,-1.0925
+"Four Pointsby Sheraton Bali,Ungasan",sarapannya lezat,0.6524,ga enak,-1.0667
+Four Pointsby Sheraton Balikpapan,pelayanan ramah,1.0539,tidak nyaman,-1.9225
+Four Pointsby Sheraton Balikpapan,dekat bandara,1.0139,staff tidak,-1.5961
+Four Pointsby Sheraton Balikpapan,nyaman bersih,0.8931,tidak ramah,-1.5961
+Four Pointsby Sheraton Balikpapan,makanannya enak,0.7941,hari tidak,-1.3358
+Four Pointsby Sheraton Balikpapan,tempat nyaman,0.7703,kau ya,-1.2438
+Four Pointsby Sheraton Balikpapan,luas bersih,0.7607,baik namun,-1.1373
+Four Pointsby Sheraton Balikpapan,bagus nyaman,0.6858,enak satusatunya,-1.0991
+Four Pointsby Sheraton Balikpapan,deket bandara,0.6793,tempat makan,-1.0439
+Four Pointsby Sheraton Balikpapan,bersih nyaman,0.67,kurang nyaman,-1.0145
+Four Pointsby Sheraton Balikpapan,kamarnya luas,0.6576,nginep sini,-1.0139
+Four Pointsby Sheraton Bandung,lokasi strategis,1.7438,parkir tidak,-1.4382
+Four Pointsby Sheraton Bandung,tengah kota,1.1862,kurang baik,-1.3698
+Four Pointsby Sheraton Bandung,pelayanan ramah,1.0128,lama perlu,-1.3533
+Four Pointsby Sheraton Bandung,staff ramah,1.012,jalan menuju,-1.3381
+Four Pointsby Sheraton Bandung,lokasinya strategis,1.0045,perlu perbaikan,-1.1883
+Four Pointsby Sheraton Bandung,pelayanan baik,0.9916,seperti sheraton,-1.1809
+Four Pointsby Sheraton Bandung,kota bandung,0.8719,susah harus,-1.1633
+Four Pointsby Sheraton Bandung,ruang meeting,0.8642,bawa anak,-1.161
+Four Pointsby Sheraton Bandung,mas leo,0.8028,seharusnya mereka,-1.1471
+Four Pointsby Sheraton Bandung,tempat strategis,0.7905,pelayanan hotelnya,-1.102
+Four Pointsby Sheraton Batam,terima kasih,0.7261,tidak ramah,-1.1935
+Four Pointsby Sheraton Batam,pusat perbelanjaan,0.5253,kolam renang,-0.9431
+Four Pointsby Sheraton Batam,lokasi strategis,0.4946,menu sarapan,-0.9294
+Four Pointsby Sheraton Batam,stafnya ramah,0.4934,malam hari,-0.9159
+Four Pointsby Sheraton Batam,kota batam,0.4866,kurang enak,-0.897
+Four Pointsby Sheraton Batam,pelayanan bagus,0.4563,makanannya kurang,-0.8369
+Four Pointsby Sheraton Batam,dekat pasar,0.3899,dekat pusat,-0.7561
+Four Pointsby Sheraton Batam,selama menginap,0.3876,terburuk pernah,-0.7465
+Four Pointsby Sheraton Batam,strategis dekat,0.3572,sebagai anggota,-0.7447
+Four Pointsby Sheraton Batam,four points batam,0.3533,datang tidak,-0.697
+Four Pointsby Sheraton Bekasi,kolam renang,0.2273,utk tamu,-0.9648
+Four Pointsby Sheraton Bekasi,four points,0.2035,utk menginap,-0.9648
+Four Pointsby Sheraton Bekasi,terima kasih,0.2016,makanannya enak,-0.7318
+Four Pointsby Sheraton Bekasi,makanan enak,0.1764,menginap four,-0.4157
+Four Pointsby Sheraton Bekasi,staff ramah,0.1684,masih baru,-0.3981
+Four Pointsby Sheraton Bekasi,lokasi strategis,0.1617,perlu banyak,-0.3853
+Four Pointsby Sheraton Bekasi,semua staffnya,0.1461,four point,-0.3523
+Four Pointsby Sheraton Bekasi,menginap disini,0.1435,semua stafnya ramah,0.0234
+Four Pointsby Sheraton Bekasi,kota bekasi,0.139,secara keseluruhan,0.0234
+Four Pointsby Sheraton Bekasi,meeting room,0.1276,semua stafnya,0.0234
+Four Pointsby Sheraton Bintan,terima kasih,0.7182,tidak pernah,-0.9904
+Four Pointsby Sheraton Bintan,stafnya ramah,0.6093,bahkan tidak,-0.9729
+Four Pointsby Sheraton Bintan,four points,0.5788,tidak merekomendasikan,-0.9049
+Four Pointsby Sheraton Bintan,penuh perhatian,0.5751,terburuk pernah,-0.8259
+Four Pointsby Sheraton Bintan,terminal feri,0.5577,tidak dibersihkan,-0.8186
+Four Pointsby Sheraton Bintan,semua staf,0.4915,mereka tidak,-0.8023
+Four Pointsby Sheraton Bintan,tempat menginap,0.4766,kepada mereka,-0.7867
+Four Pointsby Sheraton Bintan,tak terlupakan,0.472,tidak dapat,-0.7831
+Four Pointsby Sheraton Bintan,kembali lagi,0.4377,malam tidak,-0.7827
+Four Pointsby Sheraton Bintan,pasti kembali,0.4136,tidak kembali,-0.7693
+Four Pointsby Sheraton Jakarta,makanannya enak,1.4092,kurang nyaman,-1.8208
+Four Pointsby Sheraton Jakarta,makanan enak,1.0016,kurang enak,-1.4588
+Four Pointsby Sheraton Jakarta,terima kasih,0.9937,sempit muter,-1.3333
+Four Pointsby Sheraton Jakarta,lokasinya strategis,0.9595,tempat parkir,-1.2865
+Four Pointsby Sheraton Jakarta,lokasi strategis,0.9279,tidak ramah,-1.25
+Four Pointsby Sheraton Jakarta,banyak pilihan,0.8888,mereka tidak,-1.2385
+Four Pointsby Sheraton Jakarta,kota jakarta,0.8566,pertama kalinya,-1.0801
+Four Pointsby Sheraton Jakarta,pusat perbelanjaan,0.7608,dekat transjakarta,-1.0525
+Four Pointsby Sheraton Jakarta,jalan thamrin,0.7461,cuekinmentang ojok,-1.0525
+Four Pointsby Sheraton Jakarta,nyaman bersih,0.7411,ramah hanya,-1.0205
+Four Pointsby Sheraton Makassar,terima kasih,1.7509,harus bayar,-1.2539
+Four Pointsby Sheraton Makassar,kota makassar,1.463,kurang bagus,-1.2521
+Four Pointsby Sheraton Makassar,pelayanan ramah,1.3843,tidak nyaman,-1.2287
+Four Pointsby Sheraton Makassar,pelayanan bagus,1.2324,lama tidak,-1.1999
+Four Pointsby Sheraton Makassar,makanan enak,1.2062,jelek pelayanan,-1.184
+Four Pointsby Sheraton Makassar,parkir luas,1.1544,bau rokok,-1.1678
+Four Pointsby Sheraton Makassar,mas arlen,1.0707,handuk tidak,-1.1547
+Four Pointsby Sheraton Makassar,pelayanan baik,1.0525,tidak layak,-1.0844
+Four Pointsby Sheraton Makassar,pelayanannya baik,1.0387,kurang ramah,-1.0677
+Four Pointsby Sheraton Makassar,tengah kota,1.0224,jam malam,-1.0583
+Four Pointsby Sheraton Manado,kota manado,1.1659,layanan buruk,-1.4557
+Four Pointsby Sheraton Manado,fasilitas lengkap,0.8982,air panas,-1.4529
+Four Pointsby Sheraton Manado,pelayanan ramah,0.8662,tidak sopan,-1.4318
+Four Pointsby Sheraton Manado,pusat kota,0.8647,mereka tidak,-1.329
+Four Pointsby Sheraton Manado,view bagus,0.8631,menghargai tamu,-1.3194
+Four Pointsby Sheraton Manado,tempat nyaman,0.7971,tidak ramah,-1.2998
+Four Pointsby Sheraton Manado,pelayanan memuaskan,0.7959,air mandi,-1.257
+Four Pointsby Sheraton Manado,bersih nyaman,0.7725,kurang profesional,-1.2454
+Four Pointsby Sheraton Manado,lokasi strategis,0.7451,tidak begitu,-1.2305
+Four Pointsby Sheraton Manado,manado town,0.7384,lada hitam,-1.2116
+Four Pointsby Sheraton Medan,kota medan,1.3713,tidak ramah,-2.2498
+Four Pointsby Sheraton Medan,lokasi strategis,1.1774,kurang enak,-1.4936
+Four Pointsby Sheraton Medan,makanan enak,1.1165,kurang memuaskan,-1.4829
+Four Pointsby Sheraton Medan,pelayanan bagus,1.0946,nunggu lama,-1.3838
+Four Pointsby Sheraton Medan,hotelnya nyaman,1.0326,pelayanan kurang,-1.3149
+Four Pointsby Sheraton Medan,bagus nyaman,0.9906,hanya satu,-1.1824
+Four Pointsby Sheraton Medan,banyak pilihan,0.9804,harus menunggu,-1.1782
+Four Pointsby Sheraton Medan,hotelnya bersih,0.8831,bagus tetapi,-1.1575
+Four Pointsby Sheraton Medan,bersih nyaman,0.8805,tidak tahu,-1.1512
+Four Pointsby Sheraton Medan,tempatnya nyaman,0.8608,layanan buruk,-1.1105
+Four Pointsby Sheraton Pontianak,tidak terlalu,0.4253,kesan pertama,-0.9259
+Four Pointsby Sheraton Pontianak,lokasi strategis,0.3746,kamarnya bagus,-0.3414
+Four Pointsby Sheraton Pontianak,nyaman dekat,0.3362,saat menginap,-0.314
+Four Pointsby Sheraton Pontianak,pelayanannya ramah,0.3306,kolam renang,0.1214
+Four Pointsby Sheraton Pontianak,dekat bandara,0.2849,dekat bandara,0.2849
+Four Pointsby Sheraton Pontianak,kolam renang,0.1214,pelayanannya ramah,0.3306
+Four Pointsby Sheraton Pontianak,saat menginap,-0.314,nyaman dekat,0.3362
+Four Pointsby Sheraton Pontianak,kamarnya bagus,-0.3414,lokasi strategis,0.3746
+Four Pointsby Sheraton Pontianak,kesan pertama,-0.9259,tidak terlalu,0.4253
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",pelayanan ramah,1.0453,tidak nyaman,-1.9562
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",nyaman bersih,0.8657,sama tidak,-1.8502
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",staff ramah,0.8269,jam ready,-1.5864
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",lokasi strategis,0.7723,tidak tersedia,-1.4116
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",terima kasih,0.7586,beberapa kali,-1.3223
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",hotelnya bagus,0.7528,tinggal sini,-1.2926
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",pelayanan baik,0.7433,makan malam,-1.262
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",bersih nyaman,0.6947,kali tinggal,-1.2279
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",fasilitas lengkap,0.684,bau rokok,-1.1468
+"Four Pointsby Sheraton Surabaya,Pakuwon Indah",pelayanan bagus,0.6802,tengah malam,-1.1307
+Four Pointsby Sheraton Surabaya,tunjungan plaza,1.387,pelayanan kurang,-1.465
+Four Pointsby Sheraton Surabaya,lokasi strategis,1.351,kurang bagus,-1.4376
+Four Pointsby Sheraton Surabaya,staff ramah,1.1163,dua orang,-1.3805
+Four Pointsby Sheraton Surabaya,pelayanannya ramah,0.9287,tidak ramah,-1.2237
+Four Pointsby Sheraton Surabaya,makanannya enak,0.9248,bagus pelayanan,-1.2236
+Four Pointsby Sheraton Surabaya,tengah kota,0.8572,tanggung jawab,-1.1493
+Four Pointsby Sheraton Surabaya,staf ramah,0.8504,proses pembayaran,-1.1458
+Four Pointsby Sheraton Surabaya,sarapan enak,0.845,dana anda,-1.1343
+Four Pointsby Sheraton Surabaya,pusat kota,0.8318,bersih bagus,-1.1328
+Four Pointsby Sheraton Surabaya,dekat mall,0.7966,kalo langsung,-1.0909
+FOXHARRIS Hotel City Center-bandung,pusat kota,1.3474,kurang bersih,-1.3132
+FOXHARRIS Hotel City Center-bandung,kolam renang,1.3344,house keeping,-1.2389
+FOXHARRIS Hotel City Center-bandung,makanan enak,1.3272,mandi mampet,-1.1976
+FOXHARRIS Hotel City Center-bandung,makanannya enak,1.2902,gak sesuai,-1.1851
+FOXHARRIS Hotel City Center-bandung,pelayanan bagus,1.1462,tidak seperti,-1.1571
+FOXHARRIS Hotel City Center-bandung,terima kasih,1.1434,tanggung jawab,-1.1006
+FOXHARRIS Hotel City Center-bandung,tengah kota,0.9825,menginap disini,-1.023
+FOXHARRIS Hotel City Center-bandung,pelayanannya ramah,0.9451,kurang baik,-1.0161
+FOXHARRIS Hotel City Center-bandung,nyaman bersih,0.9038,karpet kotor,-1.007
+FOXHARRIS Hotel City Center-bandung,tempatnya nyaman,0.8604,bau rokok,-0.9984
+FOXHARRIS Lite Hotel-Jakarta,masih baru,0.3792,kutu kasur,-1.4422
+FOXHARRIS Lite Hotel-Jakarta,ramah membantu,0.3535,berisik suara,-1.2735
+FOXHARRIS Lite Hotel-Jakarta,bersih nyaman,0.3341,non smoking,-0.9421
+FOXHARRIS Lite Hotel-Jakarta,staff ramah,0.3264,tamu lain,-0.9367
+FOXHARRIS Lite Hotel-Jakarta,layanan baik,0.2664,pengering rambut,-0.759
+FOXHARRIS Lite Hotel-Jakarta,ramah ramah,0.2651,bersih pelayanan,-0.7421
+FOXHARRIS Lite Hotel-Jakarta,bersih wangi,0.2533,dia membantu,-0.7041
+FOXHARRIS Lite Hotel-Jakarta,smart tv,0.253,nginap disini,-0.6933
+FOXHARRIS Lite Hotel-Jakarta,tempat parkir,0.2447,buat staycation,-0.6904
+FOXHARRIS Lite Hotel-Jakarta,makanan enak,0.2411,overall bagus,-0.6505
+Grand Dafam Braga-Bandung,sarapannya enak,0.9559,pas check,-1.8178
+Grand Dafam Braga-Bandung,makanannya enak,0.9193,kurang bagus,-1.7564
+Grand Dafam Braga-Bandung,mba tasya,0.8382,tidak menyenangkan,-1.2052
+Grand Dafam Braga-Bandung,enak enak,0.8167,tidak sesuai,-1.1884
+Grand Dafam Braga-Bandung,pelayanan ramah,0.7725,tidak terawat,-1.1477
+Grand Dafam Braga-Bandung,terima kasih,0.7209,model lama,-1.1246
+Grand Dafam Braga-Bandung,menu sarapan,0.6887,pintu masuk,-0.9648
+Grand Dafam Braga-Bandung,lokasi bagus,0.6345,bau rokok,-0.9265
+Grand Dafam Braga-Bandung,pelayanan baik,0.6215,lihat review,-0.8897
+Grand Dafam Braga-Bandung,pelayanannya ramah,0.6162,katanya sarapan,-0.8897
+Grand Dafam Signature International Airport Yogyakarta,mas nanang,0.7093,jam jam,-1.5122
+Grand Dafam Signature International Airport Yogyakarta,hotelnya bagus,0.6928,kali menginap,-1.4306
+Grand Dafam Signature International Airport Yogyakarta,pelayanan ramah,0.6425,kurang bervariasi,-1.3098
+Grand Dafam Signature International Airport Yogyakarta,terima kasih,0.6212,jam baru,-1.2418
+Grand Dafam Signature International Airport Yogyakarta,staf ramah,0.6093,dia tidak,-1.1645
+Grand Dafam Signature International Airport Yogyakarta,kamarnya bagus,0.5757,jauh kota,-1.1634
+Grand Dafam Signature International Airport Yogyakarta,bersih nyaman,0.5741,datang sini,-1.1494
+Grand Dafam Signature International Airport Yogyakarta,nginep disini,0.5645,minta maaf,-0.9959
+Grand Dafam Signature International Airport Yogyakarta,bagus nyaman,0.5417,salah satu,-0.9898
+Grand Dafam Signature International Airport Yogyakarta,masih baru,0.5214,bersih luas,-0.9812
+Grand Dafam Surabaya,makanan enak,1.4246,tidak ramah,-1.8253
+Grand Dafam Surabaya,terima kasih,1.3873,makanan tidak,-1.3135
+Grand Dafam Surabaya,nyaman bersih,1.0433,tidak profesional,-1.268
+Grand Dafam Surabaya,pak eko,1.03,baru kali,-1.2068
+Grand Dafam Surabaya,lokasi strategis,0.9645,tidak sesuai,-1.1525
+Grand Dafam Surabaya,pelayanannya ramah,0.9013,wifi tidak,-1.1375
+Grand Dafam Surabaya,pelayanan ramah,0.8485,kirim barang,-1.1211
+Grand Dafam Surabaya,bagus bersih,0.8114,pelayanan kurang,-1.0697
+Grand Dafam Surabaya,morazen surabaya,0.8068,tidak dapat,-1.0299
+Grand Dafam Surabaya,tempat tidur,0.7707,suara speaker,-1.0167
+Grand Mercure Bandung,pelayanan bagus,1.1759,tidak nyaman,-1.5176
+Grand Mercure Bandung,pelayanan ramah,1.12,tidak sesuai,-1.443
+Grand Mercure Bandung,pelayanan baik,1.0742,pengalaman terburuk,-1.1847
+Grand Mercure Bandung,makanan enak,0.9873,mereka tidak,-1.1543
+Grand Mercure Bandung,enak pelayanan,0.8746,proses checkin,-1.1325
+Grand Mercure Bandung,staff ramah,0.8567,tempat tidur,-1.0747
+Grand Mercure Bandung,banyak pilihan,0.8533,pelayanan buruk,-0.9983
+Grand Mercure Bandung,sarapan enak,0.8149,tidak sopan,-0.9821
+Grand Mercure Bandung,ramah membantu,0.7822,bintang tidak,-0.9743
+Grand Mercure Bandung,fasilitas lengkap,0.7769,anak kecil,-0.9444
+Harris Hotel&Convention Festival Citylink Bandung,kolam renang,1.3142,terlalu kecil,-1.3283
+Harris Hotel&Convention Festival Citylink Bandung,terima kasih,1.1135,tidak ramah,-1.2517
+Harris Hotel&Convention Festival Citylink Bandung,lokasi strategis,1.0978,pelayanan ok,-1.158
+Harris Hotel&Convention Festival Citylink Bandung,bersih nyaman,1.0594,pindah lift,-1.1286
+Harris Hotel&Convention Festival Citylink Bandung,kota bandung,0.9903,layanan buruk,-1.1284
+Harris Hotel&Convention Festival Citylink Bandung,pelayanan ramah,0.9899,orang lain,-1.1249
+Harris Hotel&Convention Festival Citylink Bandung,pusat perbelanjaan,0.9897,kurang ramah,-1.1213
+Harris Hotel&Convention Festival Citylink Bandung,tidak terlalu,0.9341,tidak nyaman,-1.0781
+Harris Hotel&Convention Festival Citylink Bandung,tempat strategis,0.9301,baru kali,-1.0497
+Harris Hotel&Convention Festival Citylink Bandung,sama mall,0.929,gak bsa,-1.025
+Harris Vertu Hotel Harmoni-Jakarta,vertu harmoni,1.3633,tidak ramah,-1.424
+Harris Vertu Hotel Harmoni-Jakarta,terima kasih,1.2669,tidak nyaman,-1.1318
+Harris Vertu Hotel Harmoni-Jakarta,makanannya enak,1.2554,minta maaf,-1.0146
+Harris Vertu Hotel Harmoni-Jakarta,pelayanan baik,1.2304,pelayanan buruk,-1.0073
+Harris Vertu Hotel Harmoni-Jakarta,staff ramah,1.2294,mandi tidak,-0.9908
+Harris Vertu Hotel Harmoni-Jakarta,makanan enak,1.1924,mereka tidak,-0.9445
+Harris Vertu Hotel Harmoni-Jakarta,mba yati,1.1643,harus menunggu,-0.8321
+Harris Vertu Hotel Harmoni-Jakarta,ching ching,1.1579,bau rokok,-0.8076
+Harris Vertu Hotel Harmoni-Jakarta,kamarnya bersih,1.1535,kurang baik,-0.7587
+Harris Vertu Hotel Harmoni-Jakarta,bersih nyaman,1.1189,mesin kopi,-0.7348
+Holiday Inn Bali Sanur,dekat pantai,0.8492,tetapi tidak,-1.1746
+Holiday Inn Bali Sanur,tidak terlalu,0.6492,petugas keamanan,-1.1209
+Holiday Inn Bali Sanur,terima kasih,0.5079,menginap sana,-0.8832
+Holiday Inn Bali Sanur,kamarnya bersih,0.4356,hanya ingin,-0.8672
+Holiday Inn Bali Sanur,ramah membantu,0.423,sofa bednya,-0.8285
+Holiday Inn Bali Sanur,sarapannya enak,0.4152,luar jendela,-0.8247
+Holiday Inn Bali Sanur,terbaik sanur,0.3799,ramah tetapi,-0.7789
+Holiday Inn Bali Sanur,lokasi bagus,0.3785,anda harus,-0.7488
+Holiday Inn Bali Sanur,tidak banyak,0.3777,satu hal,-0.7249
+Holiday Inn Bali Sanur,kolam renang atapnya,0.3726,menginap dua,-0.7197
+Holiday Inn Bandung Pasteur,pelayanan ramah,1.5336,parkir mahal,-1.3444
+Holiday Inn Bandung Pasteur,makanannya enak,1.4201,tidak ramah,-1.2063
+Holiday Inn Bandung Pasteur,makanan enak,1.1748,jam pagi,-1.1452
+Holiday Inn Bandung Pasteur,hotelnya bagus,1.0998,tidak sesuai,-1.0898
+Holiday Inn Bandung Pasteur,lokasi strategis,1.0168,sayang tidak,-1.0673
+Holiday Inn Bandung Pasteur,pelayanan baik,1.0055,mengalami hal,-0.9644
+Holiday Inn Bandung Pasteur,menginap disini,0.9762,tidak nyaman,-0.8898
+Holiday Inn Bandung Pasteur,baik ramah,0.9632,agar tidak,-0.8483
+Holiday Inn Bandung Pasteur,kamarnya nyaman,0.9264,baik lagi,-0.7725
+Holiday Inn Bandung Pasteur,breakfast enak,0.9164,makanan tidak,-0.7717
+Holiday Inn Cikarang Jababeka,makanan enak,1.1563,kurang ramah,-1.7821
+Holiday Inn Cikarang Jababeka,fasilitas lengkap,0.9256,kurang bagus,-1.6047
+Holiday Inn Cikarang Jababeka,kawasan industri,0.9222,hari minggu,-1.5485
+Holiday Inn Cikarang Jababeka,tempat nyaman,0.9134,tidak nyaman,-1.4265
+Holiday Inn Cikarang Jababeka,kolam renang,0.9068,berada basement,-1.3747
+Holiday Inn Cikarang Jababeka,bagus nyaman,0.8643,ga tau,-1.3359
+Holiday Inn Cikarang Jababeka,makanannya enak,0.8236,tidak sopan,-1.3009
+Holiday Inn Cikarang Jababeka,pelayanan bagus,0.8146,kurang nyaman,-1.2612
+Holiday Inn Cikarang Jababeka,kolam renangnya,0.7789,makan malam,-1.255
+Holiday Inn Cikarang Jababeka,bersih nyaman,0.7466,cocok dilidah,-1.2117
+Holiday Inn Resort Batam,kamarnya luas,0.6503,kurang baik,-1.2584
+Holiday Inn Resort Batam,stafnya ramah,0.6074,tidak nyaman,-1.1348
+Holiday Inn Resort Batam,makanannya enak,0.4099,bak mandi,-0.8442
+Holiday Inn Resort Batam,layanan antarjemput,0.4032,pihak manajemen,-0.8196
+Holiday Inn Resort Batam,bersama keluarga,0.3832,fasilitas dasar,-0.7495
+Holiday Inn Resort Batam,pelayanan bagus,0.3811,memasuki bau,-0.6876
+Holiday Inn Resort Batam,bersih nyaman,0.3648,air panasnya,-0.6858
+Holiday Inn Resort Batam,pengalaman menginap,0.3217,ketika anda,-0.6649
+Holiday Inn Resort Batam,kembali lagi,0.3136,masa pandemi,-0.6578
+Holiday Inn Resort Batam,ruang permainan,0.3099,tetapi tidak,-0.5914
+Holiday Inn Resort Bintan Lagoi Beach,terima kasih,0.4742,layanan pelanggan,-0.909
+Holiday Inn Resort Bintan Lagoi Beach,semua staf,0.389,dekat pantai,-0.733
+Holiday Inn Resort Bintan Lagoi Beach,kolam renang,0.3187,makan siang,-0.7184
+Holiday Inn Resort Bintan Lagoi Beach,pasti kembali,0.2996,baru bagus,-0.7113
+Holiday Inn Resort Bintan Lagoi Beach,pak lagoi,0.2909,makan siang restoran,-0.6932
+Holiday Inn Resort Bintan Lagoi Beach,ramah membantu,0.2343,makanan aktivitas,-0.5197
+Holiday Inn Resort Bintan Lagoi Beach,pengalaman luar,0.2303,tidak tahu,-0.5169
+Holiday Inn Resort Bintan Lagoi Beach,tempat bagus,0.227,memberikan terbaik,-0.4819
+Holiday Inn Resort Bintan Lagoi Beach,penuh perhatian,0.2176,ramah anak,-0.4182
+Holiday Inn Resort Bintan Lagoi Beach,semua orang,0.2158,tidak memiliki,-0.4133
+Hotel Indigo Bali Seminyak Beach,dekat pantai,1.1155,mereka tidak,-1.6125
+Hotel Indigo Bali Seminyak Beach,pelayanan ramah,1.0576,tolong security,-1.3396
+Hotel Indigo Bali Seminyak Beach,staff ramah,1.0022,kurang jelas,-1.2995
+Hotel Indigo Bali Seminyak Beach,fasilitas lengkap,0.9218,tidak dapat,-1.1605
+Hotel Indigo Bali Seminyak Beach,bersih nyaman,0.7621,tidak sepadan,-1.1323
+Hotel Indigo Bali Seminyak Beach,staf ramah,0.6722,tidak tahu,-1.0955
+Hotel Indigo Bali Seminyak Beach,makanannya enak,0.6713,star resort,-1.0882
+Hotel Indigo Bali Seminyak Beach,lokasi strategis,0.6598,kurang enak,-1.0855
+Hotel Indigo Bali Seminyak Beach,bagus nyaman,0.6331,check jam,-1.0512
+Hotel Indigo Bali Seminyak Beach,akses pantai,0.6181,atribut ojol,-1.0361
+Hotel Indigo Bandung Dago Pakar,kids club,0.8626,ga enak,-1.7057
+Hotel Indigo Bandung Dago Pakar,pemandangan indah,0.7932,beberapa pengalaman,-1.3267
+Hotel Indigo Bandung Dago Pakar,kolam renang,0.7353,buruk tidak,-1.3066
+Hotel Indigo Bandung Dago Pakar,dago pakar,0.7294,tidak ramah,-1.1796
+Hotel Indigo Bandung Dago Pakar,pelayanan baik,0.7098,depan lobby,-1.1606
+Hotel Indigo Bandung Dago Pakar,terbaik bandung,0.6949,waiting list,-1.152
+Hotel Indigo Bandung Dago Pakar,kolam renangnya,0.6946,outdoor breakfast,-1.1456
+Hotel Indigo Bandung Dago Pakar,makanannya enak,0.6934,bertanggung jawab,-1.1219
+Hotel Indigo Bandung Dago Pakar,staff ramah,0.6448,bagus cuma,-1.1139
+Hotel Indigo Bandung Dago Pakar,enak semua,0.6042,tinggal indigo,-1.0957
+"Maison Aurelia-Sanur,Bali",berjalan kaki,0.4927,mereka tidak,-1.2791
+"Maison Aurelia-Sanur,Bali",tempat bagus,0.4786,kau butuhkan,-1.0055
+"Maison Aurelia-Sanur,Bali",lokasi bagus,0.3382,semuanya bagus,-0.923
+"Maison Aurelia-Sanur,Bali",setiap hari,0.3361,rasanya tidak,-0.9084
+"Maison Aurelia-Sanur,Bali",luas bersih,0.3276,bahkan tidak,-0.8576
+"Maison Aurelia-Sanur,Bali",maison aurelia,0.3134,mengatakan bahwa,-0.8517
+"Maison Aurelia-Sanur,Bali",tidur nyaman,0.3068,sarapan terbatas,-0.8451
+"Maison Aurelia-Sanur,Bali",kecil tidak,0.2865,memiliki kulkas,-0.7808
+"Maison Aurelia-Sanur,Bali",terima kasih,0.2834,lokasinya bagus,-0.7682
+"Maison Aurelia-Sanur,Bali",menit berjalan,0.2771,tidak tidak,-0.7645
+Mercure Bandung City Centre,terima kasih,1.4394,menunggu menit,-1.3583
+Mercure Bandung City Centre,makanannya enak,1.144,tempat parkir,-1.2372
+Mercure Bandung City Centre,bersih nyaman,1.1316,susah hubungi,-1.2305
+Mercure Bandung City Centre,lokasinya strategis,1.0594,pintu mandi,-1.2239
+Mercure Bandung City Centre,lokasi strategis,1.0522,tidak peduli,-1.2098
+Mercure Bandung City Centre,banyak pilihan,1.0226,tidak memadai,-1.175
+Mercure Bandung City Centre,ramah ramah,0.9367,tidak nyaman,-1.1454
+Mercure Bandung City Centre,view bagus,0.8813,tidak menyenangkan,-0.9947
+Mercure Bandung City Centre,enak enak,0.8748,tempat sampah,-0.9812
+Mercure Bandung City Centre,makanan enak,0.8612,double bed,-0.976
+Mercure Berau,mercure berau,0.6488,jam siang,-0.7935
+Mercure Berau,tempat makan,0.5217,sampai jam,-0.7226
+Mercure Berau,rapi bersih,0.4789,terlalu lama,-0.6676
+Mercure Berau,tempat bagus,0.4789,menginap namun,-0.6676
+Mercure Berau,kamarnya bersih,0.4789,jam check,-0.5261
+Mercure Berau,sarapan enak,0.3976,check jam,-0.5261
+Mercure Berau,lokasi strategis,0.377,alasan siap,-0.5107
+Mercure Berau,terima kasih,0.3507,baru buka,-0.3926
+Mercure Berau,staf ramah,0.2937,pun tidak,-0.2852
+Mercure Berau,pengalaman menginap menyenangkan,0.2828,menginap malam,-0.2819
+Mercure Jakarta Cikini,makanannya enak,1.4018,terlalu kecil,-1.2972
+Mercure Jakarta Cikini,staff ramah,1.0434,tidak ramah,-1.2809
+Mercure Jakarta Cikini,lokasi strategis,1.0333,kamarnya kecil,-1.2781
+Mercure Jakarta Cikini,terima kasih,0.9968,kurang memuaskan,-1.1909
+Mercure Jakarta Cikini,pelayanan bagus,0.946,tidak menggunakan,-1.1523
+Mercure Jakarta Cikini,pelayanan ramah,0.9361,pelayanan kurang,-1.1503
+Mercure Jakarta Cikini,kamarnya bersih,0.9282,makanannya kurang,-1.1415
+Mercure Jakarta Cikini,tempat strategis,0.9026,tidak enak,-1.0444
+Mercure Jakarta Cikini,nyaman bersih,0.8899,tidak bersih,-1.0357
+Mercure Jakarta Cikini,bersih nyaman,0.865,tidak lengkap,-1.0096
+Mercure Jakarta Sabang,mercure sabang,1.573,parkir susah,-1.469
+Mercure Jakarta Sabang,terima kasih,1.3002,tidak ramah,-1.4068
+Mercure Jakarta Sabang,makanannya enak,1.2666,tidak nyaman,-1.3314
+Mercure Jakarta Sabang,pusat kota,1.1359,kurang baik,-1.1871
+Mercure Jakarta Sabang,lokasi strategis,1.1296,pelayanan kurang,-1.1781
+Mercure Jakarta Sabang,lokasinya strategis,0.9313,tidak layak,-1.1123
+Mercure Jakarta Sabang,ruang meeting,0.8789,mereka tidak,-1.1039
+Mercure Jakarta Sabang,bagus bersih,0.862,ruang rapat,-0.9495
+Mercure Jakarta Sabang,layanan baik,0.8278,hanya orang,-0.9148
+Mercure Jakarta Sabang,tidak terlalu,0.8252,harus bayar,-0.8968
+Mercure Jakarta Simatupang,makanannya enak,1.7518,makanan tidak,-1.2733
+Mercure Jakarta Simatupang,makanan enak,1.6831,tidak bekerja,-1.222
+Mercure Jakarta Simatupang,pelayanan baik,1.4529,tidak layak,-1.1825
+Mercure Jakarta Simatupang,pelayanan ramah,1.2957,pengalaman buruk,-1.0822
+Mercure Jakarta Simatupang,mas dandi,1.1378,malah ga,-1.0661
+Mercure Jakarta Simatupang,staf ramah,1.0672,lalu lintas,-1.045
+Mercure Jakarta Simatupang,pelayanan bagus,1.0588,sekelas mercure,-1.0398
+Mercure Jakarta Simatupang,nyaman bersih,0.9838,kurang ramah,-1.0072
+Mercure Jakarta Simatupang,sarapan pagi,0.98,kurang nyaman,-0.935
+Mercure Jakarta Simatupang,baik ramah,0.9741,tidak stabil,-0.8874
+Mercure Madiun,makanan enak,0.7372,tidak nyaman,-1.7896
+Mercure Madiun,bersih nyaman,0.5982,sekelas mercure,-1.3766
+Mercure Madiun,nyaman bersih,0.5767,hari tdk,-1.0022
+Mercure Madiun,makanannya enak,0.5549,awal check,-0.9432
+Mercure Madiun,pelayanan ramah,0.4927,krna lg,-0.9109
+Mercure Madiun,terima kasih,0.4792,namun tidak,-0.9069
+Mercure Madiun,staff ramah,0.415,pas mau,-0.8157
+Mercure Madiun,tengah kota,0.4137,tidak begitu,-0.7958
+Mercure Madiun,pusat kota,0.3946,bintang tidak,-0.7863
+Mercure Madiun,kota madiun,0.3894,bersih good,-0.784
+Mercure Pangkalan Bun,terima kasih,0.6157,tolong dong,-1.4744
+Mercure Pangkalan Bun,pangkalan bun,0.6085,tidak dapat,-1.2643
+Mercure Pangkalan Bun,pelayanan ramah,0.5238,jika anda,-1.2472
+Mercure Pangkalan Bun,bersih nyaman,0.4561,orang lain,-1.1759
+Mercure Pangkalan Bun,makanan enak,0.4511,entah bagaimana,-1.0236
+Mercure Pangkalan Bun,baik ramah,0.4442,makanan layanan,-0.9964
+Mercure Pangkalan Bun,tempat tidur,0.4081,menyelesaikan semua,-0.9286
+Mercure Pangkalan Bun,pelayanan bagus,0.3949,kurang ramah,-0.8707
+Mercure Pangkalan Bun,ramah membantu,0.3596,sesuai standar,-0.8234
+Mercure Pangkalan Bun,mercure pangkalan,0.3572,pertama kali,-0.8106
+Mercure Pontianak City Centre,lokasi strategis,1.413,taxi online,-1.5225
+Mercure Pontianak City Centre,pelayanan bagus,1.2548,variasi makanan,-1.2061
+Mercure Pontianak City Centre,pelayanan ramah,1.2492,layanan buruk,-1.2043
+Mercure Pontianak City Centre,makanan enak,1.096,memiliki bau,-1.1783
+Mercure Pontianak City Centre,pelayanan baik,1.0686,terutama ketika,-1.1567
+Mercure Pontianak City Centre,terima kasih,1.0655,tidak sesuai,-1.1329
+Mercure Pontianak City Centre,makanannya enak,1.0032,sebagai member,-1.1151
+Mercure Pontianak City Centre,pelayanan memuaskan,0.927,pelayanan sedikit,-1.1062
+Mercure Pontianak City Centre,kolam renang,0.8994,pintu mandi,-1.0674
+Mercure Pontianak City Centre,baik ramah,0.8796,kamarnya bau,-1.0322
+Mercure Samarinda,makanan enak,1.1825,kurang ramah,-1.7879
+Mercure Samarinda,mercure samarinda,0.9839,tolong perbaiki,-1.3443
+Mercure Samarinda,tengah kota,0.8625,kurang menyenangkan,-1.2467
+Mercure Samarinda,pelayanan bagus,0.8545,buruk amat,-1.2058
+Mercure Samarinda,pelayanan ramah,0.8441,kurang nyaman,-1.203
+Mercure Samarinda,tempat bagus,0.7378,tidak ramah,-1.186
+Mercure Samarinda,sungai mahakam,0.7214,sampai jam,-1.0981
+Mercure Samarinda,banyak pilihan,0.6782,tidak dibersihkan,-1.0359
+Mercure Samarinda,terbaik samarinda,0.6611,pintu masuk,-0.9816
+Mercure Samarinda,kamarnya bersih,0.6243,mengatakan bahwa,-0.9448
+Novotelbangka-Hotel&Convention Centre,pelayanan baik,0.7739,kurang ramah,-1.9583
+Novotelbangka-Hotel&Convention Centre,tempat bagus,0.7527,kurang enak,-1.6131
+Novotelbangka-Hotel&Convention Centre,pulau bangka,0.7219,terlalu jauh,-1.4484
+Novotelbangka-Hotel&Convention Centre,makanannya enak,0.7111,kurang bersih,-1.3775
+Novotelbangka-Hotel&Convention Centre,terbaik bangka,0.6868,sedikit kurang,-1.2876
+Novotelbangka-Hotel&Convention Centre,hotelnya bagus,0.6221,sarapan kurang,-1.1239
+Novotelbangka-Hotel&Convention Centre,pelayanan ramah,0.5878,bagus cuma,-1.0505
+Novotelbangka-Hotel&Convention Centre,pangkal pinang,0.5865,wifi tidak,-1.0088
+Novotelbangka-Hotel&Convention Centre,kamarnya bersih,0.5851,pakaian renang,-1.0077
+Novotelbangka-Hotel&Convention Centre,bagus bersih,0.5637,bagus tinggal,-1.0013
+Novotel Banjarmasin Airport,makanan enak,1.4555,kurang bersih,-1.6609
+Novotel Banjarmasin Airport,pelayanan baik,1.3867,hampir jam,-1.5879
+Novotel Banjarmasin Airport,terima kasih,1.2271,tidak ramah,-1.1962
+Novotel Banjarmasin Airport,dekat bandara,1.0647,tidak dibersihkan,-1.1396
+Novotel Banjarmasin Airport,pelayanan ramah,1.0549,sekelas novotel,-1.123
+Novotel Banjarmasin Airport,pelayanan bagus,1.0469,datang jam,-1.0239
+Novotel Banjarmasin Airport,makanannya enak,1.0052,tidak bagus,-0.9958
+Novotel Banjarmasin Airport,menginap novotel,0.9763,ruangan bau,-0.9788
+Novotel Banjarmasin Airport,bersama keluarga,0.9456,sofa kotor,-0.953
+Novotel Banjarmasin Airport,pelayanannya bagus,0.9281,tempat sampah,-0.944
+Novotel Jakarta Cikini,makanannya enak,1.4625,parkir sempit,-1.5431
+Novotel Jakarta Cikini,breakfast enak,1.4179,parkir susah,-1.3834
+Novotel Jakarta Cikini,makanan enak,1.4039,parkirnya sempit,-1.3483
+Novotel Jakarta Cikini,mba indah,1.1848,tidak pernah,-1.32
+Novotel Jakarta Cikini,terima kasih,1.1592,parkiran sempit,-1.2985
+Novotel Jakarta Cikini,pelayanan bagus,1.1472,tidak sopan,-1.2427
+Novotel Jakarta Cikini,makan siang,0.9783,tidak bekerja,-1.1269
+Novotel Jakarta Cikini,pelayanan baik,0.9516,satu jam,-0.9941
+Novotel Jakarta Cikini,pelayanan ramah,0.9439,tidak ramah,-0.9613
+Novotel Jakarta Cikini,ramah membantu,0.9231,lagi makan,-0.9165
+Novotel Jakarta Mangga Dua Square,pelayanan ramah,1.3899,tidak cocok,-1.4075
+Novotel Jakarta Mangga Dua Square,terima kasih,1.3484,pengalaman buruk,-1.3072
+Novotel Jakarta Mangga Dua Square,staff ramah,1.2286,pelayanan buruk,-1.2593
+Novotel Jakarta Mangga Dua Square,pelayanan bagus,1.2065,tidak profesional,-1.241
+Novotel Jakarta Mangga Dua Square,fasilitas lengkap,1.1766,terburuk pernah,-1.1488
+Novotel Jakarta Mangga Dua Square,kamarnya bersih,1.1578,aja ga,-1.1337
+Novotel Jakarta Mangga Dua Square,bersih nyaman,1.0747,ac tidak,-1.0592
+Novotel Jakarta Mangga Dua Square,kamarnya nyaman,1.053,tp ga,-1.0334
+Novotel Jakarta Mangga Dua Square,reception ramah,1.0202,mereka tidak,-1.0285
+Novotel Jakarta Mangga Dua Square,lokasi strategis,1.0164,tidak merekomendasikan,-1.0249
+Novotel Pontianak Convention Centre,pelayanan ramah,1.2711,kurang nyaman,-1.7903
+Novotel Pontianak Convention Centre,makanan enak,0.9369,kurang ramah,-1.7034
+Novotel Pontianak Convention Centre,harga terjangkau,0.9366,tidak memuaskan,-1.531
+Novotel Pontianak Convention Centre,parkir luas,0.9051,kurang bersih,-1.3822
+Novotel Pontianak Convention Centre,makanannya enak,0.8303,tidak ramah,-1.2624
+Novotel Pontianak Convention Centre,pelayanan bagus,0.7679,bagus cuman,-1.1466
+Novotel Pontianak Convention Centre,tempat nyaman,0.7382,pelayanan tidak,-1.1408
+Novotel Pontianak Convention Centre,tengah kota,0.732,kurang memuaskan,-1.1347
+Novotel Pontianak Convention Centre,parkiran luas,0.6844,tidak berfungsi,-1.0957
+Novotel Pontianak Convention Centre,baik ramah,0.6735,turun mobil,-1.082
+Novotel Solo,pelayanan baik,1.3581,kurang enak,-1.5545
+Novotel Solo,pelayanannya ramah,1.0868,jam sore,-1.479
+Novotel Solo,kota solo,1.0787,apa terjadi,-1.1765
+Novotel Solo,kolam renang,1.0769,seperti tidak,-1.1579
+Novotel Solo,pelayanan ramah,1.0538,tidak masuk,-1.107
+Novotel Solo,pelayanan bagus,1.0181,dibawah satu,-1.0551
+Novotel Solo,makanan enak,0.9335,sekelas novotel,-1.0285
+Novotel Solo,secara keseluruhan,0.8682,pakaian kotor,-1.0127
+Novotel Solo,pelayanannya baik,0.8326,tidak baik,-0.991
+Novotel Solo,bagus lokasi,0.8324,bersih tidak,-0.9819
+Novotel Suites Yogyakarta Maliioboro,mall malioboro,0.9732,tidak nyaman,-1.386
+Novotel Suites Yogyakarta Maliioboro,makanannya enak,0.9729,kurang ramah,-1.281
+Novotel Suites Yogyakarta Maliioboro,lokasi strategis,0.9648,ruangan lain,-1.2311
+Novotel Suites Yogyakarta Maliioboro,staf ramah,0.9524,pengalaman buruk,-1.1932
+Novotel Suites Yogyakarta Maliioboro,terima kasih,0.9356,setelah malam,-1.1743
+Novotel Suites Yogyakarta Maliioboro,luas bersih,0.9298,lagi ya,-1.0798
+Novotel Suites Yogyakarta Maliioboro,banyak pilihan,0.8554,mengatakan bahwa,-1.0667
+Novotel Suites Yogyakarta Maliioboro,lokasi bagus,0.8081,house keeping,-1.0064
+Novotel Suites Yogyakarta Maliioboro,jalan malioboro,0.7994,bintang rasa,-0.9962
+Novotel Suites Yogyakarta Maliioboro,lokasinya strategis,0.7961,mengatakan kepada,-0.9869
+Tamarind-Nusa Lembongan Bali,nusa lembongan,0.5235,sama tidak,-1.0826
+Tamarind-Nusa Lembongan Bali,terima kasih,0.454,mereka mengatakan,-0.8731
+Tamarind-Nusa Lembongan Bali,tamarind resort,0.3669,tidak dapat,-0.864
+Tamarind-Nusa Lembongan Bali,stafnya ramah,0.3299,benarbenar menunjukkan,-0.7062
+Tamarind-Nusa Lembongan Bali,tinggal sini,0.3201,staf khusus,-0.6928
+Tamarind-Nusa Lembongan Bali,tempat bagus,0.296,anda harus,-0.6529
+Tamarind-Nusa Lembongan Bali,semua staf,0.2917,tidak punya,-0.6446
+Tamarind-Nusa Lembongan Bali,pemandangan indah,0.2773,hijau dll,-0.634
+Tamarind-Nusa Lembongan Bali,pemandangan luar,0.2445,kembali tempat,-0.6208
+Tamarind-Nusa Lembongan Bali,bagus staf,0.2371,tidak memiliki,-0.609
+The Alana,pelayanan baik,1.5038,tidak ramah,-1.3133
+The Alana,lokasi strategis,1.4536,mandi bau,-1.1976
+The Alana,pelayanan ramah,1.4457,tempat tidur,-1.1692
+The Alana,mba dewi,1.3637,naik turun,-1.1553
+The Alana,terima kasih,1.2958,pelayanan lama,-1.1311
+The Alana,pelayanan bagus,1.19,jam pagi,-1.0906
+The Alana,anggur jawa,1.1769,tidak sopan,-1.0633
+The Alana,makanannya enak,1.1755,ga sesuai,-1.0497
+The Alana,makanan enak,1.1502,tidak tahu,-1.0442
+The Alana,kak ika,1.1094,pelayanan kurang,-1.005
+Voco Bali Seminyak,kolam renang,0.5503,tidak tersedia,-0.9507
+Voco Bali Seminyak,terima kasih,0.506,selama seminggu,-0.8353
+Voco Bali Seminyak,staf ramah,0.4833,pilihan baik,-0.609
+Voco Bali Seminyak,tidak banyak,0.3767,penjaga keamanan,-0.5341
+Voco Bali Seminyak,bagus lokasi,0.3752,tidak pernah,-0.5151
+Voco Bali Seminyak,tinggal sini,0.361,salah satu,-0.4363
+Voco Bali Seminyak,voco bali,0.341,terlalu banyak,-0.4151
+Voco Bali Seminyak,baik dianjurkan,0.3257,memiliki pengalaman,-0.3754
+Voco Bali Seminyak,tinggal voco,0.3227,kunci tidak,-0.3738
+Voco Bali Seminyak,lokasi strategis,0.3208,masih terasa,-0.3641
+YELLO Hotelharmoni-Jakarta,terima kasih,1.5948,pelayanan buruk,-1.434
+YELLO Hotelharmoni-Jakarta,makanannya enak,1.3636,tidak ramah,-1.1026
+YELLO Hotelharmoni-Jakarta,mba siska,1.2543,tidak menyediakan,-1.0332
+YELLO Hotelharmoni-Jakarta,kamarnya bersih,1.2502,cuma buat,-0.9448
+YELLO Hotelharmoni-Jakarta,staff ramah,1.2234,tidak mau,-0.9425
+YELLO Hotelharmoni-Jakarta,bang choirul,1.2153,tidak nyaman,-0.9307
+YELLO Hotelharmoni-Jakarta,pelayanan ramah,1.1912,ruang merokok,-0.9214
+YELLO Hotelharmoni-Jakarta,hotelnya bagus,1.1551,mereka tidak,-0.9163
+YELLO Hotelharmoni-Jakarta,mas choirul,1.0992,pelayanannya buruk,-0.8651
+YELLO Hotelharmoni-Jakarta,makanan enak,1.0988,jam siang,-0.8468
+YELLO Hotel Paskal-Bandung,tempat bagus,1.0542,tidak bagus,-1.5868
+YELLO Hotel Paskal-Bandung,mall paskal,0.9859,kamarnya sempit,-1.3438
+YELLO Hotel Paskal-Bandung,lokasi strategis,0.9316,room tidak,-1.2942
+YELLO Hotel Paskal-Bandung,hotelnya bagus,0.8422,tidak ramah,-1.2462
+YELLO Hotel Paskal-Bandung,pelayanan ramah,0.8378,sering menginap,-1.1993
+YELLO Hotel Paskal-Bandung,bersih nyaman,0.8004,tp tetap,-1.1688
+YELLO Hotel Paskal-Bandung,banyak pilihan,0.7706,nonton tv,-1.1608
+YELLO Hotel Paskal-Bandung,kota bandung,0.7212,khusus tamu,-1.0964
+YELLO Hotel Paskal-Bandung,mall jadi,0.7139,tp pelayanan,-1.0884
+YELLO Hotel Paskal-Bandung,makanan enak,0.7055,kurang kedap,-1.0196
+Batam Marriot Hotel Habour Bay,terima kasih,0.8095,pernah masuk,-1.2641
+Batam Marriot Hotel Habour Bay,terminal ferry,0.7124,hampir menit,-0.9993
+Batam Marriot Hotel Habour Bay,staf ramah,0.6404,waktu lama,-0.9948
+Batam Marriot Hotel Habour Bay,terbaik batam,0.5821,menginap malam,-0.8399
+Batam Marriot Hotel Habour Bay,makanan enak,0.5466,orang lain,-0.8329
+Batam Marriot Hotel Habour Bay,matahari terbenam,0.5301,tidak nyaman,-0.8273
+Batam Marriot Hotel Habour Bay,harbour bay,0.5164,secara umum,-0.796
+Batam Marriot Hotel Habour Bay,tinggal sini,0.507,malam hari,-0.7949
+Batam Marriot Hotel Habour Bay,kota batam,0.4628,mereka tidak,-0.768
+Batam Marriot Hotel Habour Bay,lokasi bagus,0.4442,pencuci mulut,-0.7548
+Best Western Premier Panbil-Batam,terima kasih,1.1493,tidak ramah,-1.5378
+Best Western Premier Panbil-Batam,layanan baik,0.9737,tidak sopan,-1.5204
+Best Western Premier Panbil-Batam,makanan enak,0.798,pengalaman buruk,-1.2869
+Best Western Premier Panbil-Batam,pelayanan baik,0.7784,online tidak,-1.122
+Best Western Premier Panbil-Batam,salah satu,0.7048,air galon,-0.9736
+Best Western Premier Panbil-Batam,hotelnya bagus,0.6802,tidak pernah,-0.9211
+Best Western Premier Panbil-Batam,mini bar,0.6393,naik motor,-0.8537
+Best Western Premier Panbil-Batam,staf ramah,0.6063,tidak banyak,-0.8375
+Best Western Premier Panbil-Batam,kolam renang,0.6044,kurang ramah,-0.8314
+Best Western Premier Panbil-Batam,tidur nyaman,0.6,tidak nyaman,-0.8193
+Grand Aston City Hall-Medan,grand cityhall,1.7726,tidak ramah,-1.1674
+Grand Aston City Hall-Medan,pelayanannya ramah,1.3367,terlalu lama,-1.1525
+Grand Aston City Hall-Medan,kamarnya bagus,1.1027,jam pagi,-1.1202
+Grand Aston City Hall-Medan,semua staf,1.0224,kurang ramah,-1.0995
+Grand Aston City Hall-Medan,pusat kota,1.0183,pelayanan kurang,-1.0806
+Grand Aston City Hall-Medan,staf ramah,1.013,tidak berfungsi,-0.9304
+Grand Aston City Hall-Medan,enak semua,0.9661,sampai jam,-0.9282
+Grand Aston City Hall-Medan,pertama kali,0.9581,tidak bagus,-0.8954
+Grand Aston City Hall-Medan,stafnya ramah,0.9472,kurang bersih,-0.8394
+Grand Aston City Hall-Medan,ji long,0.8709,pelayanannya buruk,-0.8081
+Inter Continental Bali Resort-Bali,terima kasih,0.8992,mereka tidak,-0.9458
+Inter Continental Bali Resort-Bali,staf luar,0.8158,kunjung datang,-0.7848
+Inter Continental Bali Resort-Bali,pengalaman luar,0.7064,tidak menerima,-0.7463
+Inter Continental Bali Resort-Bali,tinggal sini,0.6655,tamu luar,-0.6822
+Inter Continental Bali Resort-Bali,penuh perhatian,0.6387,pengalaman buruk,-0.6074
+Inter Continental Bali Resort-Bali,kolam renang,0.6096,terburuk pernah,-0.5855
+Inter Continental Bali Resort-Bali,makan siang,0.5934,buruk terutama,-0.5772
+Inter Continental Bali Resort-Bali,pantai indah,0.5905,pernah menginap,-0.556
+Inter Continental Bali Resort-Bali,makanan luar,0.542,terlalu mahal,-0.5421
+Inter Continental Bali Resort-Bali,dayu eka,0.5165,tidak berfungsi,-0.5131
+Inter Continental Bali Sanur Resort-Bali (1),terima kasih,0.8691,tidak pernah,-0.9531
+Inter Continental Bali Sanur Resort-Bali (1),lokasi bagus,0.7221,saat malam,-0.939
+Inter Continental Bali Sanur Resort-Bali (1),layanan baik,0.6745,tidak tersedia,-0.8657
+Inter Continental Bali Sanur Resort-Bali (1),tepi pantai,0.655,hari pertama,-0.8645
+Inter Continental Bali Sanur Resort-Bali (1),balkon besar,0.615,dua kali,-0.836
+Inter Continental Bali Sanur Resort-Bali (1),pemandangan indah,0.5194,tidak begitu,-0.8063
+Inter Continental Bali Sanur Resort-Bali (1),sanur bali,0.4939,tidak sesuai,-0.787
+Inter Continental Bali Sanur Resort-Bali (1),staf bagus,0.479,pengalaman tidak,-0.7813
+Inter Continental Bali Sanur Resort-Bali (1),tepat pantai,0.4771,sampai jam,-0.7453
+Inter Continental Bali Sanur Resort-Bali (1),makanan baik,0.473,tidak dapat,-0.7325
+Inter Continental Dago Pakar-Bandung,staf ramah,1.268,bintang lima,-1.1207
+Inter Continental Dago Pakar-Bandung,terima kasih,1.2428,mereka tidak,-0.9663
+Inter Continental Dago Pakar-Bandung,makanan enak,1.2228,ramah sama,-0.9539
+Inter Continental Dago Pakar-Bandung,ramah ramah,0.9308,sekelas bintang,-0.9158
+Inter Continental Dago Pakar-Bandung,fasilitas lengkap,0.9283,jam sore,-0.9151
+Inter Continental Dago Pakar-Bandung,bagus pemandangan,0.9034,mandinya bau,-0.8951
+Inter Continental Dago Pakar-Bandung,enak semua,0.8861,tidak ramah,-0.8807
+Inter Continental Dago Pakar-Bandung,kota bandung,0.8623,pengalaman buruk,-0.8723
+Inter Continental Dago Pakar-Bandung,pengalaman terbaik,0.826,pelayanan resepsionis,-0.8584
+Inter Continental Dago Pakar-Bandung,pelayanan ramah,0.821,tahu bagaimana,-0.8067
+Inter Continental Jakarta Pondok Indah-Jakarta,kolam renang,1.0822,tempat parkir,-1.5312
+Inter Continental Jakarta Pondok Indah-Jakarta,staf ramah,1.0263,tidak ramah,-1.3753
+Inter Continental Jakarta Pondok Indah-Jakarta,tinggal sini,0.995,pimpinan security,-1.2862
+Inter Continental Jakarta Pondok Indah-Jakarta,sugar spice,0.9177,kurang ramah,-1.0501
+Inter Continental Jakarta Pondok Indah-Jakarta,makanan enak,0.8433,susah sinyal,-1.0129
+Inter Continental Jakarta Pondok Indah-Jakarta,pondok indah,0.8315,room service,-0.914
+Inter Continental Jakarta Pondok Indah-Jakarta,fasilitas lengkap,0.7984,parkir motor,-0.9104
+Inter Continental Jakarta Pondok Indah-Jakarta,mas rizal,0.7498,pelayanannya buruk,-0.8754
+Inter Continental Jakarta Pondok Indah-Jakarta,jakarta selatan,0.7167,ga nyaman,-0.8732
+Inter Continental Jakarta Pondok Indah-Jakarta,terima kasih,0.711,beberapa orang,-0.8622
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,kolam renang,1.0757,tempat parkir,-1.512
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,tinggal sini,1.0595,tidak ramah,-1.4069
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,staf ramah,1.0112,pimpinan security,-1.314
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,sugar spice,0.9493,kurang ramah,-1.0537
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,jakarta selatan,0.8325,susah sinyal,-1.0233
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,pondok indah,0.8222,ga nyaman,-0.945
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,makanan enak,0.8201,parkir motor,-0.9407
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,fasilitas lengkap,0.7917,pelayanannya buruk,-0.8839
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,mas rizal,0.7491,room service,-0.8656
+Inter Continental Residence Jakarta Pondok Indah-Jakarta,terima kasih,0.7366,parkiran basement,-0.8563
+JW Marriot Hotel Jakarta,pelayanan ramah,1.3309,tempat parkir,-1.3027
+JW Marriot Hotel Jakarta,lokasi strategis,1.3039,mereka tidak,-1.237
+JW Marriot Hotel Jakarta,tempat bagus,1.1628,tidak ramah,-1.2053
+JW Marriot Hotel Jakarta,fasilitas lengkap,1.1499,tidak bagus,-1.1099
+JW Marriot Hotel Jakarta,tempat nyaman,1.0787,ukuran bintang,-1.0764
+JW Marriot Hotel Jakarta,pelayanan baik,1.0689,tidak dapat,-0.957
+JW Marriot Hotel Jakarta,bersih nyaman,0.9867,kualitas makanan,-0.9557
+JW Marriot Hotel Jakarta,terima kasih,0.9177,apa pun,-0.9017
+JW Marriot Hotel Jakarta,hotelnya bagus,0.8507,tidak enak,-0.8902
+JW Marriot Hotel Jakarta,menginap disini,0.8471,tidak nyaman,-0.8417
+JW Marriot Hotel Surabaya,terima kasih,1.3533,tidak nyaman,-1.426
+JW Marriot Hotel Surabaya,lokasi strategis,1.198,tempat parkir,-1.2273
+JW Marriot Hotel Surabaya,kolam renang,1.1816,mereka tidak,-1.0358
+JW Marriot Hotel Surabaya,staff ramah,1.1095,tidak ramah,-0.9887
+JW Marriot Hotel Surabaya,banyak pilihan,0.9818,tidak sama,-0.9676
+JW Marriot Hotel Surabaya,bersih nyaman,0.9604,para tamu,-0.9659
+JW Marriot Hotel Surabaya,makanan enak,0.9044,pengalaman buruk,-0.9314
+JW Marriot Hotel Surabaya,tunjungan plaza,0.8826,tidak memperhatikan,-0.8591
+JW Marriot Hotel Surabaya,parkir luas,0.8311,tidak pernah,-0.845
+JW Marriot Hotel Surabaya,bagus bersih,0.8275,tidak tahu,-0.8307
+JW Marriot Medan,kota medan,1.34,pelayanan buruk,-1.2047
+JW Marriot Medan,makanan enak,1.2974,pelayanannya buruk,-1.0054
+JW Marriot Medan,kamarnya nyaman,1.2089,menginap jw marriott,-0.969
+JW Marriot Medan,terbaik medan,1.1677,layanan buruk,-0.9371
+JW Marriot Medan,bersih nyaman,1.1466,tidak ramah,-0.9205
+JW Marriot Medan,kembali lagi,1.103,kurang nyaman,-0.9018
+JW Marriot Medan,menginap disini,1.0845,pintu masuk,-0.8974
+JW Marriot Medan,jika anda,1.0056,sampe jam,-0.8912
+JW Marriot Medan,layanan baik,0.9906,fasilitas tidak,-0.8911
+JW Marriot Medan,terima kasih,0.9895,tidak nyaman,-0.8881
+Movenpick Hoteljakarta City Centre,makanannya enak,1.1155,tidak sesuai,-1.3833
+Movenpick Hoteljakarta City Centre,terima kasih,1.0765,makanan kurang,-1.3589
+Movenpick Hoteljakarta City Centre,lokasi strategis,0.8937,tempat parkir,-1.166
+Movenpick Hoteljakarta City Centre,makanan enak,0.8458,kurang dingin,-1.1438
+Movenpick Hoteljakarta City Centre,staf ramah,0.7377,tanggal november,-0.9505
+Movenpick Hoteljakarta City Centre,pelayanan ramah,0.6772,air mineral,-0.9058
+Movenpick Hoteljakarta City Centre,bersih nyaman,0.6712,hal sama,-0.7261
+Movenpick Hoteljakarta City Centre,pusat kota,0.6696,tidak profesional,-0.7087
+Movenpick Hoteljakarta City Centre,staff ramah,0.6493,lokasinya tidak,-0.6466
+Movenpick Hoteljakarta City Centre,salah satu,0.6199,luar nyaman,-0.6402
+Pullman Bali Legian Beach (1),terima kasih,1.582,tidak ramah,-1.3157
+Pullman Bali Legian Beach (1),ramah membantu,1.1825,kurang bersih,-1.1772
+Pullman Bali Legian Beach (1),layanan luar,0.891,tidak berfungsi,-1.0884
+Pullman Bali Legian Beach (1),lokasi bagus,0.8712,tidak nyaman,-1.0621
+Pullman Bali Legian Beach (1),makanan enak,0.7982,pelayanan buruk,-1.023
+Pullman Bali Legian Beach (1),layanan terbaik,0.7977,tidak terawat,-1.0212
+Pullman Bali Legian Beach (1),staff ramah,0.7919,tidak sesuai,-0.9167
+Pullman Bali Legian Beach (1),selama malam,0.7892,tidak direkomendasikan,-0.9099
+Pullman Bali Legian Beach (1),tinggal pullman,0.7798,mereka tidak,-0.8704
+Pullman Bali Legian Beach (1),datang sini,0.7775,tidak kembali,-0.8562
+Pullman Bandung Grand Central,gedung sate,1.1292,tidak menyenangkan,-1.3366
+Pullman Bandung Grand Central,staff ramah,0.9878,tidak ramah,-1.3035
+Pullman Bandung Grand Central,terima kasih,0.9469,harus menunggu,-1.169
+Pullman Bandung Grand Central,mba naisya,0.8871,pengalaman buruk,-1.048
+Pullman Bandung Grand Central,makanannya enak,0.8687,buruk tidak,-1.0265
+Pullman Bandung Grand Central,kids club,0.8482,terburuk pernah,-1.0013
+Pullman Bandung Grand Central,makanan enak,0.836,pelayanan buruk,-0.99
+Pullman Bandung Grand Central,hotelnya bagus,0.8146,makan malam,-0.9752
+Pullman Bandung Grand Central,terimakasih mas,0.8081,tidak sopan,-0.966
+Pullman Bandung Grand Central,layanan baik,0.8046,lain kali,-0.9636
+Pullman Jakarta Central Park,terima kasih,1.2238,tidak nyaman,-1.2895
+Pullman Jakarta Central Park,lokasi strategis,0.4791,ga jelas,-1.1633
+Pullman Jakarta Central Park,makanan enak,0.4105,lalu lintas,-1.0644
+Pullman Jakarta Central Park,tinggal sini,0.3601,tempat tidur,-1.0574
+Pullman Jakarta Central Park,staf ramah,0.3442,orang lain,-1.0333
+Pullman Jakarta Central Park,banyak pilihan,0.3343,tolong cek,-1.0192
+Pullman Jakarta Central Park,bersih nyaman,0.3214,tempat duduk,-0.9974
+Pullman Jakarta Central Park,layanan baik,0.3147,jam sore,-0.9376
+Pullman Jakarta Central Park,mas devano,0.3066,memang tidak,-0.8772
+Pullman Jakarta Central Park,ramah membantu,0.2981,menginap malam,-0.8028
+Pullman Jakarta Indonesia Thamrin CBD,pak pur,1.6499,tidak ramah,-1.3309
+Pullman Jakarta Indonesia Thamrin CBD,lokasi strategis,1.1081,tidak berfungsi,-1.2282
+Pullman Jakarta Indonesia Thamrin CBD,makanannya enak,0.9979,membutuhkan banyak,-1.074
+Pullman Jakarta Indonesia Thamrin CBD,pelayanannya ramah,0.8675,mereka tidak,-1.0373
+Pullman Jakarta Indonesia Thamrin CBD,layanan baik,0.867,lama datang,-0.8591
+Pullman Jakarta Indonesia Thamrin CBD,ramah baik,0.8609,proses checkin,-0.8426
+Pullman Jakarta Indonesia Thamrin CBD,pelayanan baik,0.8532,tp tdk,-0.8183
+Pullman Jakarta Indonesia Thamrin CBD,ramah membantu,0.8382,apa pun,-0.8138
+Pullman Jakarta Indonesia Thamrin CBD,pak cahyo,0.8348,kurang bagus,-0.791
+Pullman Jakarta Indonesia Thamrin CBD,pelayanan ramah,0.8223,tempat parkir,-0.7517
+Pullman Lombok Merujani Mandalika Beach Resort,kolam renang,1.0906,tidak tersedia,-1.0789
+Pullman Lombok Merujani Mandalika Beach Resort,makanan enak,0.6057,lima bintang,-0.94
+Pullman Lombok Merujani Mandalika Beach Resort,pengalaman luar,0.5841,apa kau,-0.9116
+Pullman Lombok Merujani Mandalika Beach Resort,pelayanan baik,0.5541,makan siang,-0.8144
+Pullman Lombok Merujani Mandalika Beach Resort,terima kasih,0.4745,kartu kredit,-0.7839
+Pullman Lombok Merujani Mandalika Beach Resort,pullman mandalika,0.4468,para staf,-0.7763
+Pullman Lombok Merujani Mandalika Beach Resort,staff ramah,0.4404,tidak menyenangkan,-0.7703
+Pullman Lombok Merujani Mandalika Beach Resort,menginap pullman,0.4163,ketika tiba,-0.7701
+Pullman Lombok Merujani Mandalika Beach Resort,kuta lombok,0.3796,bahasa inggris,-0.743
+Pullman Lombok Merujani Mandalika Beach Resort,makanannya enak,0.378,hal mengganggu,-0.7046
+Raffles Jakarta,raffles jakarta,1.1997,tidak ramah,-1.2786
+Raffles Jakarta,terima kasih,1.0252,mahal makanan,-0.9209
+Raffles Jakarta,staf ramah,1.0219,hanya orang,-0.9131
+Raffles Jakarta,lokasi strategis,1.0184,pinggir jalan,-0.9087
+Raffles Jakarta,makanannya enak,0.9456,sekelas raffles,-0.8976
+Raffles Jakarta,makan malam,0.8507,sama tidak,-0.8453
+Raffles Jakarta,layanan luar,0.8158,tidak tidur,-0.8174
+Raffles Jakarta,pelayanan baik,0.7869,utk orang,-0.81
+Raffles Jakarta,ruangan luas,0.7803,parkir buat,-0.8031
+Raffles Jakarta,hotelnya bagus,0.7649,hampir jam,-0.7764
+Rafflessbali (1),raffles bali,0.3334,sebagai tamu,-0.949
+Rafflessbali (1),harus mencoba,0.2564,properti pribadi,-0.854
+Rafflessbali (1),tak terlupakan,0.2272,mereka memeriksa,-0.8218
+Rafflessbali (1),kolam renang,0.2237,pengalaman tidak,-0.7792
+Rafflessbali (1),pemandangan bagus,0.2067,tahun depan,-0.7775
+Rafflessbali (1),terima kasih,0.189,pengalaman menjadi,-0.7745
+Rafflessbali (1),tinggal raffles,0.1883,tidak dapat,-0.7744
+Rafflessbali (1),tempat luar,0.1733,oleh staf,-0.7348
+Rafflessbali (1),tidak pernah,0.1651,mereka bahkan,-0.6325
+Rafflessbali (1),tempat indah,0.1616,tidak melakukan,-0.6199
+Sheraton Grand Jakarta Gandaria City Hotel,makanan enak,1.2842,tidak ramah,-1.076
+Sheraton Grand Jakarta Gandaria City Hotel,gandaria city,1.1318,tidak apaapa,-1.0677
+Sheraton Grand Jakarta Gandaria City Hotel,lokasi strategis,1.1167,apa pun,-0.9562
+Sheraton Grand Jakarta Gandaria City Hotel,terima kasih,1.1089,menginap sini,-0.9119
+Sheraton Grand Jakarta Gandaria City Hotel,kolam renang,0.9617,cari parkir,-0.9068
+Sheraton Grand Jakarta Gandaria City Hotel,makanannya enak,0.9385,masih banyak,-0.8791
+Sheraton Grand Jakarta Gandaria City Hotel,mall gandaria,0.8958,anda tidak,-0.8787
+Sheraton Grand Jakarta Gandaria City Hotel,fasilitas lengkap,0.8832,tidak sesuai,-0.8754
+Sheraton Grand Jakarta Gandaria City Hotel,tempat tidur,0.8332,buruk tidak,-0.8593
+Sheraton Grand Jakarta Gandaria City Hotel,tinggal sini,0.7945,gelas kotor,-0.8097
+Sofitel Bali Nusa Dua Beach Resort,terima kasih,1.2419,bahkan tidak,-1.3733
+Sofitel Bali Nusa Dua Beach Resort,penuh perhatian,1.0883,tidak ramah,-1.1334
+Sofitel Bali Nusa Dua Beach Resort,semua staf,1.0089,mereka tidak,-1.0999
+Sofitel Bali Nusa Dua Beach Resort,tinggal sofitel,0.9691,hari terakhir,-1.0991
+Sofitel Bali Nusa Dua Beach Resort,banyak pilihan,0.929,pengalaman buruk,-1.0427
+Sofitel Bali Nusa Dua Beach Resort,memiliki waktu,0.9123,kurang ramah,-0.9593
+Sofitel Bali Nusa Dua Beach Resort,tempat indah,0.9082,tidak memiliki,-0.9193
+Sofitel Bali Nusa Dua Beach Resort,staf ramah,0.89,tidak seperti,-0.9024
+Sofitel Bali Nusa Dua Beach Resort,ulang tahun,0.8824,resor bintang,-0.9005
+Sofitel Bali Nusa Dua Beach Resort,membuat merasa,0.8752,tidak sopan,-0.8988
+Swissotel Jakarta PIK Avenue,tempat bagus,0.9559,parkir mobil,-1.0632
+Swissotel Jakarta PIK Avenue,makanannya enak,0.9077,beberapa kali,-1.0221
+Swissotel Jakarta PIK Avenue,staff ramah,0.8868,kotor tidak,-1.0023
+Swissotel Jakarta PIK Avenue,makanan enak,0.886,saat check,-0.9983
+Swissotel Jakarta PIK Avenue,bersih nyaman,0.8562,jam sore,-0.9745
+Swissotel Jakarta PIK Avenue,lokasi strategis,0.8389,kurang ramah,-0.9139
+Swissotel Jakarta PIK Avenue,fasilitas lengkap,0.8216,ocean view,-0.8726
+Swissotel Jakarta PIK Avenue,swissotel pik,0.8039,pelayanan buruk,-0.8669
+Swissotel Jakarta PIK Avenue,staf ramah,0.7825,kurang baik,-0.8495
+Swissotel Jakarta PIK Avenue,pik avenue,0.7551,tidak baik,-0.8215
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",makanannya enak,1.09,parkir motor,-1.0396
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",salah satu,0.9173,tetapi tidak,-1.0241
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",kota jakarta,0.7963,kurang ramah,-1.0162
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",terasa seperti,0.7921,tidak bekerja,-1.0073
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",gaya kolonial,0.7189,tidak layak,-0.859
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",pusat kota,0.6946,tidak berfungsi,-0.8349
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",kolam renang,0.6653,terawat baik,-0.8279
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",makan malam,0.6596,susah parkir,-0.822
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",makanan enak,0.6518,bahkan tidak,-0.7686
+"The Hermitage A Tribute Portfolio Hotel,Jakarta",makanan lezat,0.6517,dua juta,-0.7637
+The St.Regis Jakarta,terima kasih,1.2615,tidak ramah,-1.7548
+The St.Regis Jakarta,layanan baik,0.8085,bahkan tidak,-1.1545
+The St.Regis Jakarta,kolam renang,0.7903,terlalu ribet,-1.0787
+The St.Regis Jakarta,layanan luar,0.7774,toilet parkiran,-1.0476
+The St.Regis Jakarta,staff ramah,0.7587,kurang baik,-0.9215
+The St.Regis Jakarta,terbaik jakarta,0.7342,buat para,-0.899
+The St.Regis Jakarta,satu terbaik,0.6808,vendor merasa,-0.884
+The St.Regis Jakarta,tinggal sini,0.6506,mereka tidak,-0.8702
+The St.Regis Jakarta,st regis,0.6371,membawa mobil,-0.8659
+The St.Regis Jakarta,tempat tidur,0.6315,ga boleh,-0.8645
+The Westin Jakarta,fasilitas lengkap,1.2691,tidak ramah,-1.3038
+The Westin Jakarta,westin jakarta,1.1793,buruk tidak,-0.9359
+The Westin Jakarta,kota jakarta,1.0438,pelayanan buruk,-0.8355
+The Westin Jakarta,makanan enak,1.0232,satu hal,-0.8178
+The Westin Jakarta,pemandangan kota,1.0099,mereka tidak,-0.7813
+The Westin Jakarta,staf ramah,1.0073,front desk,-0.7727
+The Westin Jakarta,lokasi strategis,0.9048,kurang sopan,-0.7683
+The Westin Jakarta,salah satu,0.8679,kurang ramah,-0.7389
+The Westin Jakarta,layanan baik,0.8229,tempat parkir,-0.7064
+The Westin Jakarta,rasa makanannya,0.7929,terlalu banyak,-0.6875
+Westin Batam,pemandangan bagus,0.365,anda harus,-0.6881
+Westin Batam,tempat indah,0.2926,memiliki banyak,-0.545
+Westin Batam,westin nirup,0.2532,anda tidak,-0.31
+Westin Batam,bagus pulau,0.2016,tidak dapat,-0.2626
+Westin Batam,perjalanan feri,0.1959,jadi jika anda,-0.2495
+Westin Batam,makanan tidak,0.1953,jadi jika,-0.2495
+Westin Batam,beberapa bagian,0.1942,jika anda,-0.1816
+Westin Batam,nirup island,0.1932,banyak tempat,-0.1313
+Westin Batam,mendapatkan banyak,0.1839,memiliki banyak tempat,-0.1313
+Westin Batam,seluruh tim,0.1815,tidak memiliki,-0.1091
