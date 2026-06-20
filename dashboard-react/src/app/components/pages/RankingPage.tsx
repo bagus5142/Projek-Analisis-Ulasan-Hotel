@@ -5,6 +5,7 @@ import { useFilter } from "../../context/FilterContext";
 import { bubbleData, rankHotels, scopeHotels } from "../../lib/aggregate";
 import { ChartCard } from "../charts/ChartCard";
 import { BubbleScatter } from "../charts/BubbleScatter";
+import { InsightBox } from "../charts/InsightBox";
 import { Badge } from "../ui/badge";
 import {
   Table,
@@ -29,6 +30,18 @@ export function RankingPage() {
   const scoped = useMemo(() => scopeHotels(hotels, { ...filter, kategori: "SEMUA" }), [hotels, filter]);
   const rows = useMemo(() => rankHotels(scoped), [scoped]);
   const bubbles = useMemo(() => bubbleData(scoped), [scoped]);
+
+  const rankInsight = useMemo(() => {
+    if (!rows.length) return "";
+    const top = rows[0];
+    const bot = rows[rows.length - 1];
+    return `"${top.nama}" meraih posisi puncak dengan ${top.pctPos}% skor sentimen positif, menetapkan standar keunggulan operasional. Sebaliknya, "${bot.nama}" di posisi terbawah memerlukan audit mendesak, terutama pada keluhan kritis terkait "${bot.aspekTerlemah}".`;
+  }, [rows]);
+
+  const bubbleInsight = useMemo(() => {
+    if (!bubbles.length) return "";
+    return `Kuadran kanan atas merepresentasikan performa 'Leaders' (rating & sentimen tinggi). Portofolio properti yang terpuruk di kuadran kiri bawah ('Laggards') membawa beban reputasi tinggi yang memengaruhi persepsi pelanggan secara agregat.`;
+  }, [bubbles]);
 
   return (
     <div className="flex flex-col gap-6">
@@ -74,10 +87,12 @@ export function RankingPage() {
             ))}
           </TableBody>
         </Table>
+        <InsightBox text={rankInsight} />
       </ChartCard>
 
       <ChartCard title="Positioning Hotel" description="% Positif vs Rating · ukuran titik = jumlah ulasan · garis = rata-rata (4 kuadran)">
         <BubbleScatter data={bubbles} />
+        <InsightBox text={bubbleInsight} />
       </ChartCard>
     </div>
   );

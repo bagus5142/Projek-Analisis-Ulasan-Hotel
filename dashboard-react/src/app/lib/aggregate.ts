@@ -230,7 +230,8 @@ export function bubbleData(hotels: HotelAgg[]): BubblePoint[] {
 
 export interface TrendPoint {
   bulan: string;
-  pctPos: number;
+  pctPos: number | null;
+  pctNeg: number | null;
   volPos: number;
   volNeg: number;
 }
@@ -247,13 +248,55 @@ export function monthlyTrend(hotels: HotelAgg[], f: Filter): TrendPoint[] {
       volPos += p.volPos;
       volNeg += p.volNeg;
     }
+    const total = volPos + volNeg;
     out.push({
       bulan,
-      pctPos: +((volPos / (volPos + volNeg || 1)) * 100).toFixed(1),
+      pctPos: total ? +((volPos / total) * 100).toFixed(1) : null,
+      pctNeg: total ? +((volNeg / total) * 100).toFixed(1) : null,
       volPos,
       volNeg,
     });
   });
+  return out;
+}
+
+export interface DailyTrendPoint {
+  bulan: string; // we use 'bulan' as the key to be compatible with existing charts that expect 'bulan' as XAxis
+  pctPos: number | null;
+  pctNeg: number | null;
+  volPos: number;
+  volNeg: number;
+}
+
+export function dailyTrend(hotels: HotelAgg[]): DailyTrendPoint[] {
+  // We don't filter daily by the "periode" slider since the slider is in months
+  // We just aggregate across all selected hotels for all available dates
+  const dateMap = new Map<string, { volPos: number; volNeg: number }>();
+  
+  for (const h of hotels) {
+    if (!h.trenHarian) continue;
+    for (const d of h.trenHarian) {
+      const curr = dateMap.get(d.tanggal) ?? { volPos: 0, volNeg: 0 };
+      curr.volPos += d.volPos;
+      curr.volNeg += d.volNeg;
+      dateMap.set(d.tanggal, curr);
+    }
+  }
+  
+  const out: DailyTrendPoint[] = [];
+  // Sort dates chronologically
+  const dates = Array.from(dateMap.keys()).sort();
+  for (const tanggal of dates) {
+    const data = dateMap.get(tanggal)!;
+    const total = data.volPos + data.volNeg;
+    out.push({
+      bulan: tanggal, // output as 'bulan' for chart compatibility
+      pctPos: total ? +((data.volPos / total) * 100).toFixed(1) : null,
+      pctNeg: total ? +((data.volNeg / total) * 100).toFixed(1) : null,
+      volPos: data.volPos,
+      volNeg: data.volNeg,
+    });
+  }
   return out;
 }
 
@@ -284,9 +327,11 @@ export function yearlyTrend(hotels: HotelAgg[], f: Filter): TrendPoint[] {
   
   const out: TrendPoint[] = [];
   for (const [tahun, data] of yearMap.entries()) {
+    const total = data.volPos + data.volNeg;
     out.push({
       bulan: tahun,
-      pctPos: +((data.volPos / (data.volPos + data.volNeg || 1)) * 100).toFixed(1),
+      pctPos: total ? +((data.volPos / total) * 100).toFixed(1) : null,
+      pctNeg: total ? +((data.volNeg / total) * 100).toFixed(1) : null,
       volPos: data.volPos,
       volNeg: data.volNeg,
     });

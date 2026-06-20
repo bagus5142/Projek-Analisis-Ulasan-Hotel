@@ -6,6 +6,7 @@ import { byStar, metrics, ratingDistribution, scopeHotels } from "../../lib/aggr
 import { ChartCard } from "../charts/ChartCard";
 import { StarGroupedBar } from "../charts/StarGroupedBar";
 import { RatingHistogram } from "../charts/RatingHistogram";
+import { InsightBox } from "../charts/InsightBox";
 import { Card } from "../ui/card";
 
 export function PerBintangPage() {
@@ -28,6 +29,33 @@ export function PerBintangPage() {
     [scoped, filter],
   );
 
+  const starInsight = useMemo(() => {
+    if (!star.length) return "";
+    let bestStar = "";
+    let highestScore = 0;
+    let bumnWin = false;
+    star.forEach(s => {
+      const max = Math.max(s.BUMN, s.KOMPETITOR);
+      if (max > highestScore) { 
+        highestScore = max; 
+        bestStar = s.bintang; 
+        bumnWin = s.BUMN >= s.KOMPETITOR;
+      }
+    });
+    return `Ekspektasi kualitas layanan tertinggi terpenuhi pada segmen Bintang ${bestStar} (skor puncak ${highestScore}% oleh ${bumnWin ? 'BUMN' : 'Kompetitor'}). Tren ini menegaskan bahwa penambahan kelas bintang harus diikuti dengan peningkatan standar layanan yang proporsional.`;
+  }, [star]);
+
+  const ratingInsight = useMemo(() => {
+    if (!ratings.length) return "";
+    let bumn5 = ratings.find(r => r.rating === "5★")?.BUMN || 0;
+    let komp5 = ratings.find(r => r.rating === "5★")?.KOMPETITOR || 0;
+    if (bumn5 >= komp5) {
+      return `BUMN memimpin dalam mendulang rating 5-bintang sempurna (${bumn5.toLocaleString("id-ID")} ulasan), membuktikan kemampuan eksekusi layanan yang melampaui ekspektasi ("Wow Factor") dibandingkan kompetitor.`;
+    } else {
+      return `Kompetitor mendominasi perolehan rating 5-bintang absolut (${komp5.toLocaleString("id-ID")} ulasan), mengindikasikan mereka lebih mahir menciptakan pengalaman berkesan ("Wow Factor") yang mendorong loyalitas merek.`;
+    }
+  }, [ratings]);
+
   return (
     <div className="flex flex-col gap-6">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
@@ -49,10 +77,12 @@ export function PerBintangPage() {
 
       <ChartCard title="Sentimen Positif per Kelas Bintang" description="BUMN vs Kompetitor pada tiap tingkat bintang">
         <StarGroupedBar data={star} />
+        <InsightBox text={starInsight} />
       </ChartCard>
 
       <ChartCard title="Distribusi Rating" description="Sebaran rating 1–5 bintang, BUMN vs Kompetitor">
         <RatingHistogram data={ratings} />
+        <InsightBox text={ratingInsight} />
       </ChartCard>
     </div>
   );

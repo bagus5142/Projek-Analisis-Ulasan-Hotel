@@ -12,7 +12,15 @@ export interface AspectScore {
 }
 
 export interface MonthlyPoint {
-  bulan: string;
+  bulan: string; // "Jan 2024"
+  pctPos: number;
+  volPos: number;
+  volNeg: number;
+  volNeu: number;
+}
+
+export interface DailyPoint {
+  tanggal: string; // "2024-01-15"
   pctPos: number;
   volPos: number;
   volNeg: number;
@@ -34,6 +42,7 @@ export interface HotelAgg {
   frasaPos: Phrase[];
   frasaNeg: Phrase[];
   trenBulanan: MonthlyPoint[];
+  trenHarian?: DailyPoint[];
 }
 
 export type DataSource = "mock" | "uploaded";

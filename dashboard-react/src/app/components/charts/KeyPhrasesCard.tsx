@@ -15,7 +15,7 @@ function Column({ phrases, kind }: { phrases: Phrase[]; kind: "pos" | "neg" }) {
         className="mb-2 uppercase"
         style={{ fontSize: 11, letterSpacing: "0.04em", fontWeight: 600, color: isPos ? COLORS.pos : COLORS.neg }}
       >
-        {isPos ? "Kekuatan" : "Kelemahan"}
+        {isPos ? "Top 5 Kelebihan" : "Top 5 Kekurangan"}
       </div>
       <div className="flex flex-col gap-1.5">
         {phrases.length === 0 && <span className="text-muted-foreground" style={{ fontSize: 12 }}>—</span>}
@@ -26,9 +26,6 @@ function Column({ phrases, kind }: { phrases: Phrase[]; kind: "pos" | "neg" }) {
             style={{ background: isPos ? COLORS.posSoft : COLORS.negSoft, fontSize: 13 }}
           >
             <span className="truncate">{p.phrase}</span>
-            <span className="text-muted-foreground ml-2 shrink-0 tabular-nums" style={{ fontSize: 12 }}>
-              {p.bobot.toFixed(2)}
-            </span>
           </div>
         ))}
       </div>

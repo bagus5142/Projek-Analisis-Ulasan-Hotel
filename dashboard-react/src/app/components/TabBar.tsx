@@ -1,10 +1,11 @@
 export const PAGES = [
   { key: "ringkasan", label: "Ringkasan" },
-  { key: "perbandingan", label: "Perbandingan" },
+  { key: "perbandingan", label: "BUMN vs KOMPETITOR" },
+  { key: "adu", label: "Bandingkan Hotel" },
   { key: "bintang", label: "Per Bintang" },
   { key: "peringkat", label: "Peringkat" },
-  { key: "detail", label: "Detail Hotel" },
   { key: "tren", label: "Tren" },
+  { key: "data", label: "Data Mentah" },
 ] as const;
 
 export type PageKey = (typeof PAGES)[number]["key"];

@@ -2,10 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import Papa from 'papaparse';
 
-const REVIEWS_FILE = path.resolve('../../data/AI_Structured_Final.csv');
-const PHRASES_FILE = path.resolve('../../data/AI_Structured_Keywords.csv');
+const REVIEWS_FILE = path.resolve('../data/AI_Structured_Final.csv');
+const PHRASES_FILE = path.resolve('../data/AI_Structured_Keywords.csv');
 const OUT_FILE = path.resolve('./src/app/data/hotels.json');
 const CONSTANTS_FILE = path.resolve('./src/app/data/constants.ts');
+const REVIEWS_LITE_FILE = path.resolve('./public/reviews_lite.json');
 
 const ASPECTS = [
   "Kebersihan", "Kualitas Kamar", "Fasilitas Hotel", "Makanan & Minuman",
@@ -112,9 +113,24 @@ async function run() {
     }
   });
   
-  const sortedMonths = Array.from(monthSet).sort();
+  const uniqueMonths = Array.from(monthSet).sort();
+  const sortedMonths = [];
+  if (uniqueMonths.length > 0) {
+    let [currYear, currMonth] = uniqueMonths[0].split('-').map(Number);
+    const [endYear, endMonth] = uniqueMonths[uniqueMonths.length - 1].split('-').map(Number);
+    
+    while (currYear < endYear || (currYear === endYear && currMonth <= endMonth)) {
+      const ym = `${currYear}-${String(currMonth).padStart(2, '0')}`;
+      sortedMonths.push(ym);
+      currMonth++;
+      if (currMonth > 12) {
+        currMonth = 1;
+        currYear++;
+      }
+    }
+  }
   const MONTHS = sortedMonths.map(formatMonth);
-  console.log(`Found ${MONTHS.length} unique months from ${sortedMonths[0]} to ${sortedMonths[sortedMonths.length-1]}`);
+  console.log(`Found ${uniqueMonths.length} unique months, expanded to ${MONTHS.length} months from ${sortedMonths[0]} to ${sortedMonths[sortedMonths.length-1]}`);
 
   // Update constants.ts with dynamic MONTHS
   let constContent = fs.readFileSync(CONSTANTS_FILE, 'utf-8');
@@ -126,6 +142,7 @@ async function run() {
   console.log("Updated constants.ts");
 
   // Second pass: aggregate data
+  const rawReviews = [];
   Papa.parse(rcsv, {
     header: true,
     skipEmptyLines: true,
@@ -143,7 +160,7 @@ async function run() {
           bintang: normStar(get(row, ["Bintang", "bintang"])),
           total: 0, pos: 0, neg: 0, neu: 0,
           ratingSum: 0, ratingDist: [0, 0, 0, 0, 0],
-          aspek: emptyAspek(), monthly: {},
+          aspek: emptyAspek(), monthly: {}, daily: {},
         };
         accs.set(nama, acc);
       }
@@ -173,6 +190,27 @@ async function run() {
           m[sent]++;
           acc.monthly[mi] = m;
         }
+        
+        // Daily
+        if (rt.length >= 10) {
+          const yyyymmdd = rt.substring(0, 10);
+          const d = acc.daily[yyyymmdd] ?? { pos: 0, neg: 0, neu: 0 };
+          d[sent]++;
+          acc.daily[yyyymmdd] = d;
+        }
+      }
+      
+      if (rawReviews.length < 10000) {
+        rawReviews.push({
+          "Review Time": rt,
+          Rating: get(row, ["Rating", "rating"]),
+          "Review Text": get(row, ["Review Text", "review_text", "text"]),
+          "Nama Hotel": nama,
+          Kategori: acc.kategori,
+          Bintang: acc.bintang,
+          AI_Sentiment: get(row, ["AI_Sentiment", "AISentiment", "sentiment"]),
+          AI_Primary_Theme: primary ?? "",
+        });
       }
     },
     complete: () => {
@@ -188,6 +226,16 @@ async function run() {
             volPos: m.pos,
             volNeg: m.neg,
             volNeu: m.neu,
+          };
+        });
+        const trenHarian = Object.keys(acc.daily).sort().map(tanggal => {
+          const d = acc.daily[tanggal];
+          return {
+            tanggal,
+            pctPos: +((d.pos / (d.pos + d.neg || 1)) * 100).toFixed(1),
+            volPos: d.pos,
+            volNeg: d.neg,
+            volNeu: d.neu,
           };
         });
         const ph = phraseMap.get(acc.nama);
@@ -206,10 +254,13 @@ async function run() {
           frasaPos: ph?.pos ?? [],
           frasaNeg: ph?.neg ?? [],
           trenBulanan,
+          trenHarian,
         });
       }
       fs.writeFileSync(OUT_FILE, JSON.stringify(hotels, null, 2));
       console.log(`Generated ${OUT_FILE} with ${hotels.length} hotels.`);
+      fs.writeFileSync(REVIEWS_LITE_FILE, JSON.stringify(rawReviews, null, 2));
+      console.log(`Generated ${REVIEWS_LITE_FILE} with ${rawReviews.length} raw reviews.`);
     }
   });
 }

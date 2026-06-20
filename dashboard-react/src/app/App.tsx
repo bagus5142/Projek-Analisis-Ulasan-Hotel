@@ -7,10 +7,11 @@ import { TabBar, type PageKey } from "./components/TabBar";
 import { UploadDialog } from "./components/UploadDialog";
 import { OverviewPage } from "./components/pages/OverviewPage";
 import { ComparisonPage } from "./components/pages/ComparisonPage";
+import { AduHotelPage } from "./components/pages/AduHotelPage";
 import { PerBintangPage } from "./components/pages/PerBintangPage";
 import { RankingPage } from "./components/pages/RankingPage";
-import { HotelDetailPage } from "./components/pages/HotelDetailPage";
 import { TrendsPage } from "./components/pages/TrendsPage";
+import { RawDataPage } from "./components/pages/RawDataPage";
 import { Button } from "./components/ui/button";
 import { Badge } from "./components/ui/badge";
 
@@ -20,14 +21,16 @@ function PageContent({ page }: { page: PageKey }) {
       return <OverviewPage />;
     case "perbandingan":
       return <ComparisonPage />;
+    case "adu":
+      return <AduHotelPage />;
     case "bintang":
       return <PerBintangPage />;
     case "peringkat":
       return <RankingPage />;
-    case "detail":
-      return <HotelDetailPage />;
     case "tren":
       return <TrendsPage />;
+    case "data":
+      return <RawDataPage />;
   }
 }
 
@@ -39,7 +42,7 @@ function Shell() {
   return (
     <div className="min-h-screen bg-background">
       <header className="bg-card sticky top-0 z-30 border-b">
-        <div className="mx-auto flex max-w-[1280px] items-center justify-between gap-4 px-5 py-3">
+        <div className="mx-auto flex w-full items-center justify-between gap-4 px-6 py-3 lg:px-10">
           <div className="flex items-center gap-2.5">
             <div className="bg-primary flex size-8 items-center justify-center rounded-md">
               <Database className="size-4 text-primary-foreground" />
@@ -60,7 +63,7 @@ function Shell() {
         </div>
       </header>
 
-      <div className="mx-auto flex max-w-[1280px] flex-col gap-6 px-5 py-6 lg:flex-row">
+      <div className="mx-auto flex w-full flex-col gap-6 px-6 py-6 lg:flex-row lg:px-10">
         <FilterSidebar />
         <main className="min-w-0 flex-1">
           <div className="mb-6">
